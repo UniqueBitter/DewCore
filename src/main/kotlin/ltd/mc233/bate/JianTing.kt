@@ -14,7 +14,10 @@ object JianTing {
         Triple(1366, 77, 13),   // 妖
         Triple(1366, 77, 70)    // 战神
     )
+
+    // 玩家冷却记录 - 防止重复触发
     private val playerCooldown = mutableMapOf<String, Long>()
+
     //玩家踩踏tabanCoords里面的踏板取消事件
     @SubscribeEvent
     fun zhiyexuanze(event: PlayerInteractEvent) {
@@ -25,6 +28,18 @@ object JianTing {
         //事件玩家
         val player = event.player
 
+        // ✨ 冷却检查 - 防止刷屏
+        val playerUUID = player.uniqueId.toString()  // 获取玩家唯一ID
+        val currentTime = System.currentTimeMillis() // 获取当前时间（毫秒）
+        val cooldownTime = 5000L  // 冷却时间：5秒（5000毫秒）
+
+        // 检查玩家是否在冷却期内
+        playerCooldown[playerUUID]?.let { lastTriggerTime ->
+            if (currentTime - lastTriggerTime < cooldownTime) {
+                // 还在冷却期内，直接返回不处理
+                return
+            }
+        }
 
         //踩踏的方块对象
         val block = event.clickedBlock ?: return
@@ -39,6 +54,9 @@ object JianTing {
             // forEachIndexed 可以同时获取索引(index)和值(x,y,z)
             tabanCoords.forEachIndexed { index, (x, y, z) ->
                 if (location.blockX == x && location.blockY == y && location.blockZ == z) {
+                    // ✨ 记录触发时间 - 开始5秒冷却计时
+                    playerCooldown[playerUUID] = currentTime
+
                     player.sendMessage("§a现在还不行哦~")
                     event.isCancelled = true
                     return
