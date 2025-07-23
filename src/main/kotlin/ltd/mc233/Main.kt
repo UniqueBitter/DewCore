@@ -4,7 +4,7 @@ import org.bukkit.Bukkit
 import taboolib.common.platform.Plugin
 
 
-object DewCore : Plugin() {
+object Main : Plugin() {
     val console = Bukkit.getConsoleSender()
     val onlinePlayer = Bukkit.getOnlinePlayers()
     val plugin = this

@@ -1,5 +1,8 @@
 package ltd.mc233.bate
 
+import ltd.mc233.util.Execute
+import ltd.mc233.util.PlayerGet.job
+import ltd.mc233.util.PlayerGet.race
 import org.bukkit.Material
 import org.bukkit.event.block.Action
 import org.bukkit.event.player.PlayerInteractEvent
@@ -13,7 +16,6 @@ object JianTing {
         Triple(1277, 77, 105),  // 仙3
         Triple(1366, 77, 70),   // 战4
         Triple(1282, 78, -8),   // 人5
-
     )
 
     // 玩家冷却记录 - 防止重复触发
@@ -38,7 +40,6 @@ object JianTing {
         playerCooldown[playerUUID]?.let { lastTriggerTime ->
             if (currentTime - lastTriggerTime < cooldownTime) {
                 // 还在冷却期内，直接返回不处理
-                event.isCancelled = true
                 return
             }
         }
@@ -58,7 +59,31 @@ object JianTing {
                 if (location.blockX == x && location.blockY == y && location.blockZ == z) {
                     // ✨ 记录触发时间 - 开始5秒冷却计时
                     playerCooldown[playerUUID] = currentTime
-                    player.sendMessage("§a现在还不行哦~")
+
+                    // ✨ 根据踏板索引执行不同命令
+                    when (index) {
+                        0 -> {
+                            Execute.command(player, "say 我选择了神族!")
+                            player.race = Race.SHEN
+                        }
+                        1 -> {
+                            Execute.command(player, "say 我选择了妖族!")
+                            player.race = Race.YAO
+                        }
+                        2 -> {
+                            Execute.command(player, "say 我选择了仙族!")
+                            player.race = Race.XIAN
+                        }
+                        3 -> {
+                            Execute.command(player, "say 我选择了战神族!")
+                            player.race = Race.ZHAN
+                        }
+                        4 -> {
+                            Execute.command(player, "say 我选择了人族!")
+                            player.race = Race.REN
+                        }
+                    }
+
                     event.isCancelled = true
                     return
                 }
