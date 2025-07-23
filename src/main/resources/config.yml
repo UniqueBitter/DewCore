@@ -1,0 +1,31 @@
+大白菜特供插件！
+
+取消了数据包的右键检测，可以直接将要执行的函数写进nbt里
+比如想要在下蹲的时候执行函数，就在nbt里写上 right_sneakfun:"函数"
+举例:输入 give @s apple{right_sneakfun:"dbc:aaa"} 后，你就能获得一个下蹲时右键可以执行dbc:aaa函数的苹果啦
+函数总共有7种，分别是left_fun,left_sneakfun,right_fun,right_sneakfun,shoot_fun,shoot_sneakfun,effect_fun
+作用分别是左键执行，左键下蹲执行，右键执行，右键下蹲执行，射的时候执行，蹲下射的时候执行。不是色色的射！是射箭的射！用弩也算射哦
+effect_fun是专门给丹药设置的函数,使用方法同上。如果用了此函数，就代表该物品是消耗品。
+
+另外，还有5种冷却可以设置。分别是给普通武器的right_cool,left_cool和给弓箭武器的shoot_cool,shoot_sneakcool,effect_cool
+单位是tick，用来定义这个函数的冷却时间。比如说"right_cool:100",就是右键执行函数冷却100tick后（shift右键和普通右键都算）才能继续使用。
+shoot_cool就是正常射箭的时候执行函数的冷却时间，shoot_sneakcool就是下蹲射箭的时候执行函数的冷却时间。
+
+当然，如果你拆包的话会发现我的武器tag里根本没有写要执行的函数和冷却时间。要说为什么？因为我把武器技能直接写进插件里了。
+毕竟是自己做的东西，就不用数据包了
+
+如果要给装备添加属性，则直接写到tag里。记得先写属性的对应uuid，格式是"att_uuid:xxx"。
+属性总共分为max_health,speed,armor,armor_toughness,attack,knockback六种。
+其中max_health,attack两个属性需要自己定义属性类型，比如"max_health_type:add","max_health:5"就是加5滴血。
+属性类型有add，multiply和multiply_base三种，speed默认是multiply_base,剩下三个默认是add。
+
+除此之外，怪物的默认掉落经验值设为了0，在Tags中输入"exp:xx"即可设置掉落的经验值。
+如某生物的Tags是["panling","monster","exp:5"]，那么它的经验掉落就是5。
+你说如果写两个exp标签会怎么样？谁知道呢，反正不会炸服
+
+如果要做刷怪笼，啊别激动别激动，我没做放置刷怪笼的接口。虽然要做的话也不是不行，但坐标的话很容易发生偏差，如果手动定义又跟原版没什么区别了，所以就不搞了。
+那这一段是做什么的？现在不需要pos函数了，也就是那个if tag=east,if tag=zombie来找召唤什么怪的函数。
+在刷怪笼里和之前一样，写上要刷的怪标签，比如["east","zombie"]。然后再从monsters文件夹里新建一个east，再写一个zombie函数，就能直接执行了。
+比如说我写了个刷怪笼标签是["west","zombie2"]，每次刷出怪就会自动执行pld:monsters/west/zombie2
+不过嘛，目前pld:monsters这个路径是固定的，只有后面两个路径可以自定义，如果是dlc可能没什么用。
+你说为什么要这么改？当然是为了扬掉检测下落方块来刷怪的tick啦
