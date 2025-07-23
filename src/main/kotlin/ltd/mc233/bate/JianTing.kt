@@ -8,11 +8,12 @@ import taboolib.common.platform.event.SubscribeEvent
 object JianTing {
     // 踏板坐标列表
     private val tabanCoords = listOf(
-        Triple(1277, 77, 105),  // 仙
-        Triple(1233, 76, 42),   // 神
-        Triple(1282, 78, -8),   // 人
-        Triple(1366, 77, 13),   // 妖
-        Triple(1366, 77, 70)    // 战神
+        Triple(1233, 76, 42),   // 神1
+        Triple(1366, 77, 13),   // 妖2
+        Triple(1277, 77, 105),  // 仙3
+        Triple(1366, 77, 70),   // 战4
+        Triple(1282, 78, -8),   // 人5
+
     )
 
     // 玩家冷却记录 - 防止重复触发
@@ -37,6 +38,7 @@ object JianTing {
         playerCooldown[playerUUID]?.let { lastTriggerTime ->
             if (currentTime - lastTriggerTime < cooldownTime) {
                 // 还在冷却期内，直接返回不处理
+                event.isCancelled = true
                 return
             }
         }
@@ -56,7 +58,6 @@ object JianTing {
                 if (location.blockX == x && location.blockY == y && location.blockZ == z) {
                     // ✨ 记录触发时间 - 开始5秒冷却计时
                     playerCooldown[playerUUID] = currentTime
-
                     player.sendMessage("§a现在还不行哦~")
                     event.isCancelled = true
                     return
