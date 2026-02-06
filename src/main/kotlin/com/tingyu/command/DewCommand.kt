@@ -1,7 +1,6 @@
 package com.tingyu.command
 
 import com.tingyu.common.database.DatabaseManager
-import com.tingyu.player.DewPlayer
 import com.tingyu.player.PlayerManager
 import com.tingyu.player.job.Job
 import com.tingyu.player.race.Race
