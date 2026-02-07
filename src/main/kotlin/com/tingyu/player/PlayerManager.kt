@@ -23,6 +23,7 @@ object PlayerManager {
     private const val KEY_RACE = "race"
     private const val KEY_JOB = "job"
     private const val KEY_COPPER = "copper"
+    private const val KEY_ELEMENT = "element"
 
     // ======================== 事件监听 ========================
 
@@ -49,10 +50,11 @@ object PlayerManager {
         val data = PlayerDataManager.dataOf(player)
         return DewPlayer(
             uuid = player.uniqueId.toString(),
-            name = data["name"] as? String ?: player.name,
-            race = (data["race"] as? String)?.let { runCatching { Race.valueOf(it) }.getOrNull() } ?: Race.NONE,
-            job = (data["job"] as? String)?.let { runCatching { Job.valueOf(it) }.getOrNull() } ?: Job.NONE,
-            copper = (data["copper"] as? Number)?.toLong() ?: 0L
+            name = data[KEY_NAME] as? String ?: player.name,
+            race = (data[KEY_RACE] as? String)?.let { runCatching { Race.valueOf(it) }.getOrNull() } ?: Race.NONE,
+            job = (data[KEY_JOB] as? String)?.let { runCatching { Job.valueOf(it) }.getOrNull() } ?: Job.NONE,
+            copper = (data[KEY_COPPER] as? Number)?.toLong() ?: 0L,
+            element = (data[KEY_ELEMENT] as? Number)?.toLong() ?: 0L
         )
     }
 
@@ -66,6 +68,7 @@ object PlayerManager {
         data[KEY_RACE] = dewPlayer.race.name
         data[KEY_JOB] = dewPlayer.job.name
         data[KEY_COPPER] = dewPlayer.copper
+        data[KEY_ELEMENT] = dewPlayer.element
         PlayerDataManager.saveNow(player)
     }
 
@@ -74,6 +77,21 @@ object PlayerManager {
      */
     fun saveAll() {
         Bukkit.getOnlinePlayers().forEach { save(it) }
+    }
+
+    /**
+     * 立即保存指定玩家
+     */
+    fun savePlayer(player: Player) {
+        save(player)
+    }
+
+    /**
+     * 重新从 PDC 加载玩家数据到缓存
+     */
+    fun reloadPlayer(player: Player) {
+        val dewPlayer = load(player)
+        players[player.uniqueId] = dewPlayer
     }
 
     // ======================== 公开 API ========================
@@ -110,10 +128,8 @@ object PlayerManager {
         return true
     }
 
-    fun setCopper(player: Player, amount: Long): Boolean {
-        val dew = get(player)
-        dew.copper == amount
-        return true
+    fun setCopper(player: Player, amount: Long) {
+        get(player).copper = amount
     }
 
     fun hasCopper(player: Player, amount: Long): Boolean {
@@ -132,5 +148,29 @@ object PlayerManager {
      */
     fun setJob(player: Player, job: Job) {
         get(player).job = job
+    }
+
+    /**
+     * 修改元素
+     */
+    fun addElement(player: Player, amount: Long): Long {
+        val dew = get(player)
+        dew.element += amount
+        return dew.element
+    }
+
+    fun removeElement(player: Player, amount: Long): Boolean {
+        val dew = get(player)
+        if (dew.element < amount) return false
+        dew.element -= amount
+        return true
+    }
+
+    fun setElement(player: Player, amount: Long) {
+        get(player).element = amount
+    }
+
+    fun hasElement(player: Player, amount: Long): Boolean {
+        return get(player).element >= amount
     }
 }

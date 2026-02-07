@@ -23,7 +23,7 @@ object PlayerDataManager : Listener {
      */
     private val playerData = mutableMapOf<UUID, MutableMap<String, Any?>>()
     private val gson = Gson()
-    private val dataKey = NamespacedKey("Dew", "player_data")
+    private val dataKey = NamespacedKey("dew", "player_data")
 
     // ======================== 事件监听 ========================
 

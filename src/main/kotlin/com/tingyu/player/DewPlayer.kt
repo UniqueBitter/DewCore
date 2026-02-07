@@ -11,5 +11,6 @@ data class DewPlayer(
     var name: String,       // 玩家名字
     var race: Race = Race.NONE,
     var job: Job = Job.NONE,
-    var copper: Long = 0    // 铜币
+    var copper: Long = 0,    // 铜币
+    var element: Long = 0     // 元素
 )
