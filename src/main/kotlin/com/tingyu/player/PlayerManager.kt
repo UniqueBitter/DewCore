@@ -173,4 +173,11 @@ object PlayerManager {
     fun hasElement(player: Player, amount: Long): Boolean {
         return get(player).element >= amount
     }
+
+
+    /**
+     * Player 扩展属性，快速获取 DewPlayer
+     */
+    val Player.dew: DewPlayer
+        get() = PlayerManager.get(this)
 }

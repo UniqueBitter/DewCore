@@ -13,4 +13,5 @@ data class DewPlayer(
     var job: Job = Job.NONE,
     var copper: Long = 0,    // 铜币
     var element: Long = 0     // 元素
+
 )

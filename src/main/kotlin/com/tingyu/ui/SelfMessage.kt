@@ -1,20 +1,20 @@
 package com.tingyu.ui
 
+import com.tingyu.common.pdc.customData
 import com.tingyu.player.PlayerManager
+import com.tingyu.player.PlayerManager.dew
 import com.tingyu.player.job.Job
 import com.tingyu.player.race.Race
 import org.bukkit.Statistic
 import org.bukkit.entity.Player
-import org.bukkit.inventory.ItemFlag
 import taboolib.library.xseries.XMaterial
 import taboolib.module.ui.openMenu
-import taboolib.module.ui.type.Basic
 import taboolib.module.ui.type.Chest
 import taboolib.platform.util.buildItem
 
 object SelfMessage {
     fun openMessage(player: Player) {
-        val dew = PlayerManager.get(player)
+        val dew = player.dew
         val killCount = player.getStatistic(Statistic.MOB_KILLS)
         val deathCount = player.getStatistic(Statistic.DEATHS)
 
@@ -56,16 +56,14 @@ object SelfMessage {
                 isCancelled = true
             }
 
-            set('B', buildItem(XMaterial.DIAMOND_SWORD) {
+            set('B', buildItem(XMaterial.PAPER) {
                 name = "§a世界痕迹"
                 lore.add("§7------------------------------")
                 lore.add("§c怪物击杀数: $killCount")
                 lore.add("§4死亡次数: $deathCount")
-                hideAll()
             }){
                 isCancelled = true
                 if (clickEvent().isLeftClick){
-
                 }
             }
 

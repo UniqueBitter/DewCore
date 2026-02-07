@@ -46,7 +46,7 @@ object DewCommand {
         return when (knownKey.type) {
             DataType.RACE -> Race.entries.map { it.name }
             DataType.JOB -> Job.entries.map { it.name }
-            DataType.LONG -> listOf("0", "100", "1000")
+            DataType.LONG -> emptyList()
             DataType.STRING -> emptyList()
         }
     }

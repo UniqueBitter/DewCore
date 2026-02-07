@@ -314,6 +314,7 @@ object PlayerDataManager : Listener {
 val Player.customData: PlayerDataManager.PlayerData
     get() = PlayerDataManager.dataOf(this)
 
+
 /*// 主类 onEnable 中注册
 PlayerDataManager.get().register()
 
