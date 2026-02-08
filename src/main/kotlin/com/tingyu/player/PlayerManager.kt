@@ -5,6 +5,7 @@ import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 import com.tingyu.player.job.Job
 import com.tingyu.player.race.Race
+import org.bukkit.attribute.Attribute
 import taboolib.common.platform.event.SubscribeEvent
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerQuitEvent

@@ -1,5 +1,6 @@
 package com.tingyu
 
+import com.tingyu.item.ItemManager
 import org.bukkit.Bukkit
 import org.bukkit.World
 import taboolib.common.platform.Plugin
@@ -21,6 +22,8 @@ object Main : Plugin() {
         §9 ███████    盘古开天，万物始生。朝露承灵，古域重现    ███████
         """
         )
+
+        ItemManager.load()
     }
 
     override fun onDisable() {

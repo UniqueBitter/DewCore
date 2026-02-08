@@ -29,14 +29,21 @@ taboolib {
         contributors {
             name("Administrator")
         }
+        dependencies {
+            name("MythicMobs")
+        }
+        relocate("ink.ptms.um", "com.tingyu.um")
     }
     version { taboolib = "6.2.3" }
 }
+
 
 repositories {
     mavenCentral()
     maven("https://repo.tabooproject.org/repository/releases/")
     maven("https://oss.sonatype.org/content/repositories/snapshots")
+    maven("https://nexus.maplex.top/repository/maven-public/")
+
 }
 
 dependencies {
@@ -45,6 +52,7 @@ dependencies {
     compileOnly(kotlin("stdlib"))
     compileOnly(fileTree("libs"))
     compileOnly("com.google.code.gson:gson:2.10.1")
+    taboo("ink.ptms:um:1.2.1")
 }
 
 tasks.withType<JavaCompile> {

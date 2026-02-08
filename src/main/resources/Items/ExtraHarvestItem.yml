@@ -1,0 +1,59 @@
+Cutter:
+  Id: "Shears"
+  Display: "<white>采药小刀</white>"
+  Lore:
+    - "<gray><italic>平平无奇</italic></gray>"
+TALLGRASSGanCao:
+  Id: "fern"
+  Display: "<white>甘草</white>"
+  Lore:
+    - "<gray><italic>枝葉如槐，高五六尺，葉端微尖而粗澀，似有白毛</italic></gray>"
+
+
+WHITETULIPXingShen:
+  Id: "white_tulip"
+  Display: "<white>杏參</white>"
+  Lore:
+    - "<gray><italic>形似人參而小，根如桔梗而空，根味甜絕，能殺毒</italic></gray>"
+
+DANDELIONHuangLian:
+  Id: "dandelion"
+  Display: "<white>黃連</white>"
+  Lore:
+    - "<gray><italic>根如珠串相連而色黃，味極濃苦</italic></gray>"
+
+GLOWLICHENShiHu:
+  Id: "glow_lichen"
+  Display: "<white>石斛</white>"
+  Lore:
+    - "<gray><italic>莖如金釵生於石上，根糾於節，乾色白柔軟</italic></gray>"
+
+AMETHYSTSHARDShuiJing:
+  Id: "amethyst_shard"
+  Display: "<blue>水精</blue>"
+  Lore:
+    - "<gray><italic>質堅而脆，刀刮不動，色澈如泉，清明而瀅</italic></gray>"
+
+LILACDingXiang:
+  Id: "lilac"
+  Display: "<white>丁香</white>"
+  Lore:
+    - "<gray><italic>形似桂樹，葉似櫟葉，高一丈多，寒冬不凋</italic></gray>"
+
+HONEYBOTTLEFengMi:
+  Id: "honey_bottle"
+  Display: "<yellow>蜂蜜</yellow>"
+  Lore:
+    - "<gray><italic>色澤金黃，淌若瓊脂，服之生風明眸，充腹填飢</italic></gray>"
+
+CRIMSONROOTSRouCongRong:
+  Id: "crimson_roots"
+  Display: "<white>肉蓯蓉</white>"
+  Lore:
+    - "<gray><italic>形扁而柔潤，多花而味甘</italic></gray>"
+
+ROSEBUSHYanQiZi:
+  Id: "rose_bush"
+  Display: "<red>炎杞子</red>"
+  Lore:
+    - "<gray><italic>枸杞居雀地，火元所浸，果裂如花綻</italic></gray>"

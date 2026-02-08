@@ -24,7 +24,6 @@ object DewCommand {
     // ======================== 已知键定义 ========================
 
     private enum class KnownKey(val type: DataType) {
-        NAME(DataType.STRING),
         RACE(DataType.RACE),
         JOB(DataType.JOB),
         COPPER(DataType.LONG),
@@ -75,7 +74,6 @@ object DewCommand {
     private fun updateCache(player: Player, key: String, value: Any?) {
         val dewPlayer = PlayerManager.get(player)
         when (key.lowercase()) {
-            "name" -> if (value is String) dewPlayer.name = value
             "race" -> if (value is Race) dewPlayer.race = value
             "job" -> if (value is Job) dewPlayer.job = value
             "copper" -> if (value is Long) dewPlayer.copper = value
@@ -175,7 +173,6 @@ object DewCommand {
     private fun getCachedValue(player: Player, key: String): Any? {
         val dewPlayer = PlayerManager.get(player)
         return when (key.lowercase()) {
-            "name" -> dewPlayer.name
             "race" -> dewPlayer.race
             "job" -> dewPlayer.job
             "copper" -> dewPlayer.copper
@@ -205,7 +202,6 @@ object DewCommand {
 
         sender.sendMessage("§6===== ${target.name} 的数据 =====")
         sender.sendMessage("§b[缓存数据]")
-        sender.sendMessage("§ename §7= §f${dewPlayer.name}")
         sender.sendMessage("§erace §7= §f${dewPlayer.race}")
         sender.sendMessage("§ejob §7= §f${dewPlayer.job}")
         sender.sendMessage("§ecopper §7= §f${dewPlayer.copper}")
@@ -260,7 +256,6 @@ object DewCommand {
     private fun resetCacheValue(player: Player, key: String) {
         val dewPlayer = PlayerManager.get(player)
         when (key.lowercase()) {
-            "name" -> dewPlayer.name = player.name
             "race" -> dewPlayer.race = Race.NONE
             "job" -> dewPlayer.job = Job.NONE
             "copper" -> dewPlayer.copper = 0L
@@ -275,7 +270,6 @@ object DewCommand {
 
             // 重置所有缓存
             val dewPlayer = PlayerManager.get(player)
-            dewPlayer.name = player.name
             dewPlayer.race = Race.NONE
             dewPlayer.job = Job.NONE
             dewPlayer.copper = 0L
@@ -291,7 +285,6 @@ object DewCommand {
 
                 // 重置所有缓存
                 val dewPlayer = PlayerManager.get(target)
-                dewPlayer.name = target.name
                 dewPlayer.race = Race.NONE
                 dewPlayer.job = Job.NONE
                 dewPlayer.copper = 0L

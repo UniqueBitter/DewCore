@@ -1,0 +1,6400 @@
+jingwujiao_bow:
+  Id: BOW
+  Display: '§c金乌教众之弓'
+  Enchantments:
+    - PUNCH:1
+  Options:
+    Unbreakable: true
+
+DIAMOND_SWORD_QIANG_LI_JIN_WU_JIAO_ZHONG:
+  Id: DIAMOND_SWORD
+  Durability: 0
+  Amount: 1
+  Enchantments:
+    - SHARPNESS:3
+    - KNOCKBACK:1
+  Options:
+    Unbreakable: true
+
+FlameGuardianBow:
+  Id: BOW
+  Display: '§c火焰魔王的護心侍衛之弓'
+  Durability: 0
+  Options:
+    Unbreakable: true
+  Enchantments:
+    INFINITY: 1
+
+diamond_sword_emperor:
+  Id: DIAMOND_SWORD
+  Enchantments:
+    - SHARPNESS:2
+  Options:
+    Unbreakable: true
+minecraft_bow:
+  Id: BOW
+  Display: '<gray>帝弓'
+  Lore:
+    - '<gray>皇帝御用制式装备'
+  Options:
+    Unbreakable: true
+    Enchantments:
+      - POWER:3
+
+leather_chestplate_green:
+  Id: LEATHER_CHESTPLATE
+  Display: '<#00FF00>綠玉胸甲'
+  Lore:
+    - '<gray>由和田青玉打造的御林军铠甲'
+  Options:
+    Color: 8375321
+    Unbreakable: true
+leather_helmet_green:
+  Id: LEATHER_HELMET
+  Display: '<#00FF00>綠玉頭盔'
+  Lore:
+    - '<gray>镶嵌着夜明珠的帝王头盔'
+  Options:
+    Color: 8375321
+    Unbreakable: true
+emperor_armor_helmet_red:
+  Id: LEATHER_HELMET
+  Display: '<#FF4500>赤衣御林軍头盔'
+  Lore:
+    - '<#FFD700>始皇帝亲卫专用装备'
+    - '<gray>防具值: 20'
+  Options:
+    Color: 16737088
+    Unbreakable: true
+
+emperor_armor_chest_red:
+  Id: LEATHER_CHESTPLATE
+  Display: '<#FF4500>赤衣御林軍胸甲'
+  Lore:
+    - '<#FFD700>始皇帝亲卫专用装备'
+    - '<gray>防具值: 30'
+  Options:
+    Color: 16737088
+    Unbreakable: true
+emperor_armor_chest_white:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 16777215
+    Unbreakable: true
+
+emperor_armor_helmet_white:
+  Id: LEATHER_HELMET
+  Options:
+    Color: 16777215
+    Unbreakable: true
+killer_nether_brick:
+  Id: NETHER_BRICK
+  Enchantments:
+    - SHARPNESS:3
+    - KNOCKBACK:1
+killer_leather_boots:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 1644825
+    Unbreakable: true
+killer_leather_leggings:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 1644825
+    Unbreakable: true
+killer_leather_chestplate:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 1644825
+    Unbreakable: true
+killer_head:
+  Id: PLAYER_HEAD
+  Display: '§6客棧老闆的頭顱'
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE0MTEyODQ4ODc0MzgsInByb2ZpbGVJZCI6IjViYjE5ZjBjNDBjNjQzMmZhMGY0NTQyZDAzY2YzZGNjIiwicHJvZmlsZU5hbWUiOiJBdWRpYWNlMDgwOSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNWFmZmQ2NGVjNzFlNzhhY2NhM2Y0ZWE4Yzk2NzRjN2RhMWNjNmQ0MzQ1Yjg1YTYxOGE3YTM3M2FmYyJ9fX0=
+FIREWORKSTARJiSiWu:
+  Id: "firework_star"
+  Display: "<gold>玄武祭祀物</gold>"
+  Lore:
+    - "<gold>五行輪轉，謂之圓滿</gold>"
+    - "<gold>[右鍵觸發]：玄武祭祀·準備</gold>"
+    - "<gray><italic>由金木水火土五種代表性素材混合而成</italic></gray>"
+    - "<gray><italic>可以用來祭祀玄武祭壇</italic></gray>"
+FIREWORKSTARJiSiWuJingMu:
+  Id: "firework_star"
+  Display: "<white>不完整的玄武祭祀物</white>"
+  Lore:
+    - "<gold>五行輪轉，謂之圓滿</gold>"
+    - "<gray><italic>由金和木的代表性素材混合而成</italic></gray>"
+    - "<gray><italic>需要繼續混合才能用來祭祀玄武祭壇</italic></gray>"
+FIREWORKSTARJiSiWuShuiHuo:
+  Id: "firework_star"
+  Display: "<white>不完整的玄武祭祀物</white>"
+  Lore:
+    - "<gold>五行輪轉，謂之圓滿</gold>"
+    - "<gray><italic>由水和火的代表性素材混合而成</italic></gray>"
+    - "<gray><italic>需要繼續混合才能用來祭祀玄武祭壇</italic></gray>"
+FIREWORKSTARHouTuSu:
+  Id: "firework_star"
+  Display: "<white>厚土素</white>"
+  Lore:
+    - "<gold>五行輪轉，謂之圓滿</gold>"
+    - "<gray><italic>由土的代表性素材混合而成，可以平衡元素</italic></gray>"
+FIREWORKSTARSiYuanSu:
+  Id: "firework_star"
+  Display: "<white>不完整的玄武祭祀物</white>"
+  Lore:
+    - "<gold>五行輪轉，謂之圓滿</gold>"
+    - "<gray><italic>由金木水火的代表性素材混合而成</italic></gray>"
+    - "<gray><italic>需要加入厚土素才能用來祭祀玄武祭壇</italic></gray>"
+BROWNDYETeleportRuneBase:
+  Id: "brown_dye"
+  Display: "<white>萬里通行符</white>"
+  Lore:
+    - "<gold>[右鍵觸發]：萬里通行</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的符籙</italic></gray>"
+    - "<gray><italic>裏面封印了一道飄渺的氣機</italic></gray>"
+BROWNDYETeleportRuneBackToStation:
+  Id: "brown_dye"
+  Display: "<white>驛站通行符</white>"
+  Lore:
+    - "<gold>[右鍵觸發]：驛站的呼喚</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的符籙</italic></gray>"
+    - "<gray><italic>裏面封印了一道飄渺的氣機，遙遙指向了某個具體的地方</italic></gray>"
+BROWNDYETeleportRuneBasePlus:
+  Id: "brown_dye"
+  Display: "<green>萬里通行神符</green>"
+  Lore:
+    - "<green>稀有度：★★★</green>"
+    - "<gold>[右鍵觸發]：萬里通行</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的符籙</italic></gray>"
+    - "<gray><italic>符籙表面銘刻了無數符文相互交織演化氣機</italic></gray>"
+BROWNDYETeleportRuneBackToStationPlus:
+  Id: "brown_dye"
+  Display: "<green>驛站通行神符</green>"
+  Lore:
+    - "<green>稀有度：★★★</green>"
+    - "<gold>[右鍵觸發]：驛站的呼喚</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的符籙</italic></gray>"
+    - "<gray><italic>符籙表面銘刻了無數符文相互交織演化氣機,遙遙指向了某個具體的地方</italic></gray>"
+BROWNDYETeleportRuneLearn:
+  Id: "brown_dye"
+  Display: "<red>萬里通行道籙</red>"
+  Lore:
+    - "<green>稀有度：★★★★</green>"
+    - "<gold>[右鍵觸發]：萬里通行習得</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的道籙</italic></gray>"
+    - "<gray><italic>符籙表面銘刻了無數符文相互交織演化氣機</italic></gray>"
+    - "<gray><italic>使用后可學會如何自主溝通天地氣機</italic></gray>"
+BROWNDYETeleportRuneStationLearn:
+  Id: "brown_dye"
+  Display: "<red>驛站通行道籙</red>"
+  Lore:
+    - "<green>稀有度：★★★★</green>"
+    - "<gold>[右鍵觸發]：驛站的呼喚習得</gold>"
+    - "<gray><italic>仙族發明的可以溝通天地氣機以瞬至萬里的道籙</italic></gray>"
+    - "<gray><italic>符籙表面銘刻了無數符文相互交織演化氣機</italic></gray>"
+    - "<gray><italic>使用后可學會如何自主溝通天地氣機，直至驛站</italic></gray>"
+LIMEDYEZhenWuDianJinWeiWuDengTongYu:
+  Id: "lime_dye"
+  Display: "真武殿近衛："
+  Lore:
+    - "<gray><italic>吾等站哨期，不予通語</italic></gray>"
+LIMEDYEZhenWuDianJinWeiWuWuYuLe:
+  Id: "lime_dye"
+  Display: "真武殿近衛："
+  Lore:
+    - "<gray><italic>吾無語了...</italic></gray>"
+GOLDENSWORD:
+  Id: "golden_sword"
+GRAYDYE:
+  Id: "gray_dye"
+  Display: "<aqua>白色勾玉</aqua>"
+  Lore:
+    - "<gray><italic>怪物身上掉落的神秘勾玉</italic></gray>"
+CYANDYE:
+  Id: "cyan_dye"
+  Display: "<aqua>黑色勾玉</aqua>"
+  Lore:
+    - "<gray><italic>怪物身上掉落的神秘勾玉</italic></gray>"
+DIAMONDHOE:
+  Id: "diamond_hoe"
+WOODENSWORD:
+  Id: "wooden_sword"
+SUGARCANE:
+  Id: "sugar_cane"
+ORANGEDYEFengYinShanMeiDeJieJingShiJiangShanDengJi:
+  Id: "orange_dye"
+  Display: "<aqua>封印山魅的结晶石</aqua>"
+  Lore:
+    - "<gray><italic>將山魅交給雨竹</italic></gray>"
+    - "<gray><italic>他會以經驗傳授作為報酬</italic></gray>"
+    - "<gray><italic>使你提昇一個等級</italic></gray>"
+LIMEDYEZhiNuKuaiKanSaoNi:
+  Id: "lime_dye"
+  Display: "織女："
+  Lore:
+    - "<gray><italic>快看看我的髮型有沒有亂掉？</italic></gray>"
+    - "<gray><italic>哎呀有點小害臊呢......。</italic></gray>"
+LIMEDYEZhiNuWoKuaiZhiA:
+  Id: "lime_dye"
+  Display: "織女："
+  Lore:
+    - "<gray><italic>喔快把他交給...恩咳，我是說</italic></gray>"
+    - "<gray><italic>水牛弟弟你還記得我嗎？</italic></gray>"
+    - "<gray><italic>我是救了你的小織織啊～</italic></gray>"
+NETHERSTALKZhiNuDeWeiTuoZhiNuDeCaiDaiZhiNuTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>織女的委託：織女的彩帶</aqua>"
+  Lore:
+    - "<gray><italic>織女委託你交給水牛精的信物</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+LAPISLAZULIXianZuZhengMingShenWeiZhengMing:
+  Id: "lapis_lazuli"
+  Display: "<aqua>仙族證明</aqua>"
+  Lore:
+    - "<gray><italic>身為仙族成員的證明</italic></gray>"
+GOLDINGOT:
+  Id: "gold_ingot"
+  Display: "<aqua>金元寶</aqua>"
+  Lore:
+    - "<gray><italic>盤古大陸的通用等價物</italic></gray>"
+ROTTENFLESH:
+  Id: "prismarine_shard"
+  Display: "<aqua>金煞爪</aqua>"
+  Lore:
+    - "<gray><italic>五行輪轉，從革者之為金</italic></gray>"
+    - "<gray><italic>穴居於礦脈之精怪，其爪長期受金石之氣淬煉，尤擅破甲</italic></gray>"
+    - "<gray><italic>形如彎鉤，色澤暗青，鋒刃處有天然石紋，觸之微寒</italic></gray>"
+BONEWOOD:
+  Id: "heart_of_the_sea"
+  Display: "<aqua>木靈心</aqua>"
+  Lore:
+    - "<gray><italic>五行輪轉，曲直者之為木</italic></gray>"
+    - "<gray><italic>古木之精，為樹木年深日久所化</italic></gray>"
+    - "<gray><italic>一寸見方的青色木心，紋理似葉脈，散發草木清香，握之有溫潤生機感</italic></gray>"
+STRINGWater:
+  Id: "echo_shard"
+  Display: "<aqua>玄水鱗</aqua>"
+  Lore:
+    - "<gray><italic>五行輪轉，潤下者之為水</italic></gray>"
+    - "<gray><italic>活於寒潭的精怪，其鱗片能匯聚水靈之氣，於月光下泛幽藍光澤</italic></gray>"
+    - "<gray><italic>質地堅韌，表有波紋若流水，自生涼意</italic></gray>"
+BLAZEROD:
+  Id: "fire_coral_fan"
+  Display: "<aqua>炎蜥砂</aqua>"
+  Lore:
+    - "<gray><italic>五行輪轉，炎上者之為火</italic></gray>"
+    - "<gray><italic>出沒於火山地帶的精怪，其體內凝結的結晶，蘊含不穩定的火靈力</italic></gray>"
+    - "<gray><italic>硃紅色砂礫，捻之灼手，內有星點光芒明滅，如同炭火餘燼</italic></gray>"
+MAGMACREAM:
+  Id: "armadillo_scute"
+  Display: "<aqua>石膽珀</aqua>"
+  Lore:
+    - "<gray><italic>五行輪轉，稼穡者之為土</italic></gray>"
+    - "<gray><italic>山巖深處之精怪，吞食地脈礦石後在體內凝成的结晶，土氣厚重</italic></gray>"
+    - "<gray><italic>鵝卵石大小的土黃色琥珀狀物，內含絮狀雜質，質地堅硬，入手沉甸</italic></gray>"
+IRONINGOT:
+  Id: "iron_ingot"
+  Display: "<aqua>銀票</aqua>"
+  Lore:
+    - "<gray><italic>盤古大陸的通用等價物</italic></gray>"
+YELLOWDYE:
+  Id: "yellow_dye"
+  Display: "<aqua>金鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>似乎能打開某些價值極高的寶箱</italic></gray>"
+LIMEDYETaoWangShiBingWoBuBingLe:
+  Id: "lime_dye"
+  Display: "逃亡士兵："
+  Lore:
+    - "<gray><italic>我不想再回去當兵了。</italic></gray>"
+LIMEDYETaoWangShiBingLianNianRenLe:
+  Id: "lime_dye"
+  Display: "逃亡士兵："
+  Lore:
+    - "<gray><italic>連年征戰，我已經沒有家人了。</italic></gray>"
+LIMEDYEBaiXiaoYunNiKanYunWu:
+  Id: "lime_dye"
+  Display: "白小雲："
+  Lore:
+    - "<gray><italic>你看那谷裡的雲霧，</italic></gray>"
+LIMEDYEBaiXiaoYunShiFouMianMu:
+  Id: "lime_dye"
+  Display: "白小雲："
+  Lore:
+    - "<gray><italic>是否讓人看不清它的真面目。</italic></gray>"
+GOLDNUGGET:
+  Id: "gold_nugget"
+  Display: "<aqua>銅錢</aqua>"
+  Lore:
+    - "<gray><italic>盤古大陸的通用等價物</italic></gray>"
+POTIONYiBanJinChuangYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>一般金創藥</dark_green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=1;l=2;p=true}
+POTIONJieDuDan:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>解毒丹</dark_green><white></white>"
+  PotionEffects:
+    - POISON{d=0;l=5;p=true}
+POTATOITEM:
+  Id: "potato"
+  Display: "<white>靈芝</white>"
+  Lore:
+    - "<gray><italic>吸收山川雲雨，四時五行，陰陽晝夜精華而生</italic></gray>"
+POTIONHuiChunDan:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>回春丹</dark_green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=1;l=2;p=true}
+    - REGENERATION{d=600;l=1;p=true}
+GLASSBOTTLE:
+  Id: "glass_bottle"
+  Display: "<white>破舊的布</white>"
+MELONSLICEQingCaoChaGanTianQuShu:
+  Id: "melon_slice"
+  Display: "<aqua>青草茶</aqua>"
+  Lore:
+    - "<gray><italic>甘甜溫潤，清熱生津，可以消除疲勞、退火祛暑</italic></gray>"
+POISONOUSPOTATOChuJiYaoYinLianDanCaiLiao:
+  Id: "poisonous_potato"
+  Display: "<aqua>初級藥引</aqua>"
+  Lore:
+    - "<gray><italic>煉丹師用來煉製丹藥的必備材料</italic></gray>"
+LEATHERHELMETZhanLangTouZhaoXiYouDongZuo:
+  Id: "leather_helmet"
+  Display: "<green>戰狼頭罩</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>用草原狼製成的皮套裝</italic></gray>"
+    - "<gray><italic>毛皮很柔軟不妨礙施展動作</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      MovementSpeed: -0.05
+      Health: 4.0
+  Options:
+    Unbreakable: true
+LEATHERCHESTPLATEZhanLangYingJiaXiYouDongZuo:
+  Id: "leather_chestplate"
+  Display: "<green>戰狼硬甲</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>用草原狼製成的皮套裝</italic></gray>"
+    - "<gray><italic>毛皮很柔軟不妨礙施展動作</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: -0.05
+  Options:
+    Unbreakable: true
+LEATHERLEGGINGSZhanLangPiKuXiYouDongZuo:
+  Id: "leather_leggings"
+  Display: "<green>戰狼皮褲</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>用草原狼製成的皮套裝</italic></gray>"
+    - "<gray><italic>毛皮很柔軟不妨礙施展動作</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+  Options:
+    Unbreakable: true
+LEATHERBOOTSZhanLangChangTongXueXiYouDongZuo:
+  Id: "leather_boots"
+  Display: "<green>戰狼長統靴</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>用草原狼製成的皮套裝</italic></gray>"
+    - "<gray><italic>毛皮很柔軟不妨礙施展動作</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+  Options:
+    Unbreakable: true
+LEATHERHELMETFengXingHuEXiYouXunSu:
+  Id: "leather_helmet"
+  Display: "<green>風行護額</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>遠方風之國度工匠手工打造</italic></gray>"
+    - "<gray><italic>製造時注入風之靈氣</italic></gray>"
+    - "<gray><italic>穿戴後能像風一般行動迅速</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 5.0%
+  Options:
+    Unbreakable: true
+LEATHERCHESTPLATETingFengPiJiaXiYouXunSu:
+  Id: "leather_chestplate"
+  Display: "<green>聽風皮甲</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>遠方風之國度工匠手工打造</italic></gray>"
+    - "<gray><italic>製造時注入風之靈氣</italic></gray>"
+    - "<gray><italic>穿戴後能像風一般行動迅速</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+  Options:
+    Unbreakable: true
+LEATHERLEGGINGSFengLinKuXiYouXunSu:
+  Id: "leather_leggings"
+  Display: "<green>風鱗褲</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>遠方風之國度工匠手工打造</italic></gray>"
+    - "<gray><italic>製造時注入風之靈氣</italic></gray>"
+    - "<gray><italic>穿戴後能像風一般行動迅速</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+  Options:
+    Unbreakable: true
+LEATHERBOOTSFengYuCaoXieXiYouXunSu:
+  Id: "leather_boots"
+  Display: "<green>風羽草鞋</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>遠方風之國度工匠手工打造</italic></gray>"
+    - "<gray><italic>製造時注入風之靈氣</italic></gray>"
+    - "<gray><italic>穿戴後能像風一般行動迅速</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 5.0%
+  Options:
+    Unbreakable: true
+LEATHERHELMETDanDingHeYuXiYouShiYong:
+  Id: "leather_helmet"
+  Display: "<green>丹頂鶴羽</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>煉丹師學徒常用的服裝</italic></gray>"
+    - "<gray><italic>提供各種大小的口袋方便煉丹使用</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+LEATHERCHESTPLATELianDanPaoXiYouShiYong:
+  Id: "leather_chestplate"
+  Display: "<green>煉丹袍</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>煉丹師學徒常用的服裝</italic></gray>"
+    - "<gray><italic>提供各種大小的口袋方便煉丹使用</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+  Options:
+    Unbreakable: true
+LEATHERLEGGINGSGongFuKuXiYouShiYong:
+  Id: "leather_leggings"
+  Display: "<green>功夫褲</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>煉丹師學徒常用的服裝</italic></gray>"
+    - "<gray><italic>提供各種大小的口袋方便煉丹使用</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 2.0
+  Options:
+    Unbreakable: true
+LEATHERBOOTSGongFuXieXiYouShiYong:
+  Id: "leather_boots"
+  Display: "<green>功夫鞋</green>"
+  Lore:
+    - "<green>稀有度：★★</green>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>煉丹師學徒常用的服裝</italic></gray>"
+    - "<gray><italic>提供各種大小的口袋方便煉丹使用</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+STONESWORDQingTongJianJinZhongXiYouShangHai:
+  Id: "stone_sword"
+  Display: "<green>青銅劍[金鐘]</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>使用青銅製成的金屬長劍</italic></gray>"
+    - "<gray><italic>對於節肢動物有不錯的傷害</italic></gray>"
+  Enchantments:
+    - BANE_OF_ARTHROPODS:1
+  Attributes:
+    MAINHAND:
+      Damage: 6.0
+      Health: 0.15
+  Options:
+    Unbreakable: true
+STONEAXEKaiShanDaoPoJunXiYouCuoDe:
+  Id: "stone_axe"
+  Display: "<green>開山刀[破軍]</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>有一點生鏽的開山刀</italic></gray>"
+    - "<gray><italic>不過用來殺出重圍應該是不錯的</italic></gray>"
+  Enchantments:
+    - SHARPNESS:2
+  Attributes:
+    MAINHAND:
+      Damage: 6.5
+      MovementSpeed: 10.0%
+  Options:
+    Unbreakable: true
+BOWQingTongGongJuJiXiYouShenZhong:
+  Id: "bow"
+  Display: "<green>青銅弓[狙擊]</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>使用青銅製成的弓</italic></gray>"
+    - "<gray><italic>重量稍微有些沈重</italic></gray>"
+  Enchantments:
+    - POWER:5
+  Attributes:
+    MAINHAND:
+      Health: -0.15
+      MovementSpeed: -15.0%
+  Options:
+    Unbreakable: true
+BOWHeiTieNuYouXiaXiYouXieDai:
+  Id: "crossbow"
+  Display: "<green>黑鐵弩[遊俠]</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>使用生鐵鑄成的弩箭</italic></gray>"
+    - "<gray><italic>小巧而便於攜帶</italic></gray>"
+  Enchantments:
+    - POWER:3
+    - PUNCH:1
+    - KNOCKBACK:1
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 10.0%
+  Options:
+    Unbreakable: true
+CLAYBRICKLianDanLuXiYouDiRen:
+  Id: "clay_brick"
+  Display: "<blue>煉丹爐</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>煉丹師視同性命的工具</italic></gray>"
+    - "<gray><italic>因為很重所以不太好用來攻擊敵人</italic></gray>"
+  Enchantments:
+    - FIRE_ASPECT:1
+    - KNOCKBACK:1
+  Attributes:
+    MAINHAND:
+      KnockbackResistance: 1.0
+      MovementSpeed: -40.0%
+  Options:
+    Unbreakable: true
+SPIDEREYE:
+  Id: "spider_eye"
+  Display: "<white>蛛眼</white>"
+COAL:
+  Id: "coal"
+  Display: "<white>炭火</white>"
+SULPHUR:
+  Id: "sulphur"
+  Display: "<white>妖鳥的金羽</white>"
+GHASTTEAR:
+  Id: "ghast_tear"
+  Display: "<white>妖鳥的眼淚</white>"
+LEATHER:
+  Id: "leather"
+  Display: "<white>破舊的皮革</white>"
+BLACKDYE:
+  Id: "ink_sac"
+  Display: "<white>飽滿的墨囊</white>"
+FEATHERShenSuYuMaoJiSuNengLi:
+  Id: "feather"
+  Display: "<aqua>神速羽毛</aqua>"
+  Lore:
+    - "<gray><italic>寄宿了風伯的力量</italic></gray>"
+    - "<gray><italic>削減些許體力</italic></gray>"
+    - "<gray><italic>換來強大的移動能力</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Attributes:
+    MAINHAND:
+      Health: -0.5
+      MovementSpeed: 1.5
+ARROW:
+  Id: "arrow"
+  Display: "<aqua>制式箭矢</aqua>"
+  Lore:
+    - "<gray><italic>鍛造精良的上好箭矢</italic></gray>"
+    - "<gray><italic>得益於于近乎一致的尺寸和樣式</italic></gray>"
+    - "<gray><italic>它們極易被打包整理</italic></gray>"
+COMPASS:
+  Id: "compass"
+  Display: "<white>司南</white>"
+MAGENTADYE:
+  Id: "magenta_dye"
+  Display: "<white>銅鑰匙</white>"
+LIGHTBLUEDYE:
+  Id: "light_blue_dye"
+  Display: "<white>銀鑰匙</white>"
+BREAD:
+  Id: "bread"
+  Display: "<white>包子</white>"
+BAKEDPOTATO:
+  Id: "baked_potato"
+  Display: "<white>烤馬鈴薯</white>"
+COOKEDFISH:
+  Id: "cooked_fish"
+  Display: "<white>熟魚</white>"
+BOWL:
+  Id: "bowl"
+  Display: "<white>破舊的空碗</white>"
+GREENDYEShenZuZhengMingShenWeiZhengMing:
+  Id: "green_dye"
+  Display: "<aqua>神族證明</aqua>"
+  Lore:
+    - "&7&o身為神族成員的證明"
+NETHERSTALKGuZhuWangChenJiaDeYaoChiKeYiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>谷主忘塵家的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟谷主忘塵家的鑰匙</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+NETHERSTALKBanMeiYuPeiYuPeiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>半枚玉珮</aqua>"
+  Lore:
+    - "<gray><italic>玉珮上刻有「塵囂」二字</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+REDDYEZhanShenZuZhengMingShenWeiZhengMing:
+  Id: "red_dye"
+  Display: "<aqua>戰神族證明</aqua>"
+  Lore:
+    - "<gray><italic>身為戰神族成員的證明</italic></gray>"
+LIMEDYEWangPeiWangXiaoGeJi:
+  Id: "lime_dye"
+  Display: "王培："
+  Lore:
+    - "<gray><italic>王曉姐以前是城裡的歌伎，</italic></gray>"
+LIMEDYEWangPeiHouLaiZheLi:
+  Id: "lime_dye"
+  Display: "王培："
+  Lore:
+    - "<gray><italic>後來倒了嗓，和我流落到了這裡。</italic></gray>"
+LIMEDYEWangXiaoPianRuoYouLong:
+  Id: "lime_dye"
+  Display: "王曉："
+  Lore:
+    - "<gray><italic>翩若驚鴻，婉若遊龍~</italic></gray>"
+LIMEDYEWangXiaoRongYaoChunSong:
+  Id: "lime_dye"
+  Display: "王曉："
+  Lore:
+    - "<gray><italic>榮曜秋菊，華茂春鬆~</italic></gray>"
+LIMEDYEJinXiangGuoNiDaLaiMa:
+  Id: "lime_dye"
+  Display: "金相國："
+  Lore:
+    - "<gray><italic>你打從葉靈谷來嗎?</italic></gray>"
+LIMEDYEJinXiangGuoGuLiNianLe:
+  Id: "lime_dye"
+  Display: "金相國："
+  Lore:
+    - "<gray><italic>谷裡還好吧，我離開了幾些年了。</italic></gray>"
+LIMEDYEMoPingDangNianBuLuo:
+  Id: "lime_dye"
+  Display: "莫平："
+  Lore:
+    - "<gray><italic>當年人族侵略了我的部落，</italic></gray>"
+LIMEDYEMoPingYiBaMeiLe:
+  Id: "lime_dye"
+  Display: "莫平："
+  Lore:
+    - "<gray><italic>一把火，整個部落一夜就沒了。</italic></gray>"
+LIMEDYEFuLeiNiZhiShengMa:
+  Id: "lime_dye"
+  Display: "伏雷："
+  Lore:
+    - "<gray><italic>你知道千絲谷有很多地方靈氣盈生嗎?</italic></gray>"
+LIMEDYEFuLeiZheJiuZheLi:
+  Id: "lime_dye"
+  Display: "伏雷："
+  Lore:
+    - "<gray><italic>這就是為什麼我喜歡待在這裡。</italic></gray>"
+LIMEDYEYingTaiYeZhiZhangQuanShi:
+  Id: "lime_dye"
+  Display: "應太爺："
+  Lore:
+    - "<gray><italic>執掌天下，靠的不是能力、權勢，</italic></gray>"
+LIMEDYEYingTaiYeKaoDeZhiDao:
+  Id: "lime_dye"
+  Display: "應太爺："
+  Lore:
+    - "<gray><italic>靠的是深知世界萬物的中庸之道。</italic></gray>"
+LIMEDYELiYueQianSiWenHe:
+  Id: "lime_dye"
+  Display: "李岳："
+  Lore:
+    - "<gray><italic>千絲谷風景秀麗，氣候溫和。</italic></gray>"
+LIMEDYELiYueJinNianBieFeng:
+  Id: "lime_dye"
+  Display: "李岳："
+  Lore:
+    - "<gray><italic>今年的收成特別豐。</italic></gray>"
+LIMEDYEGuXiaoYouNeiTianRangZhu:
+  Id: "lime_dye"
+  Display: "顧小優："
+  Lore:
+    - "<gray><italic>那天，爹爹回家就大聲叫嚷著:</italic></gray>"
+LIMEDYEGuXiaoYouWoMenChuQu:
+  Id: "lime_dye"
+  Display: "顧小優："
+  Lore:
+    - "<gray><italic>我們得搬出去。</italic></gray>"
+LIMEDYEGuXiaoBaoWoBuBanJia:
+  Id: "lime_dye"
+  Display: "顧小寶："
+  Lore:
+    - "<gray><italic>我不知道我們為什麼要搬家。</italic></gray>"
+LIMEDYEGuXiaoBaoWoBuZaiJian:
+  Id: "lime_dye"
+  Display: "顧小寶："
+  Lore:
+    - "<gray><italic>我不想跟巧巧說再見。</italic></gray>"
+LIMEDYEGuLaoBanZaiGuoQuLe:
+  Id: "lime_dye"
+  Display: "顧老闆："
+  Lore:
+    - "<gray><italic>在過些時日，我們就要搬出去了。</italic></gray>"
+LIMEDYEGuLaoBanWoHuiLiDe:
+  Id: "lime_dye"
+  Display: "顧老闆："
+  Lore:
+    - "<gray><italic>我會懷念這裡的。</italic></gray>"
+LIMEDYEGuNongXianNengHeKangLe:
+  Id: "lime_dye"
+  Display: "古弄仙："
+  Lore:
+    - "<gray><italic>能和我拚酒量的，就只剩酒仙杜康了，</italic></gray>"
+LIMEDYEGuNongXianNiGanLiangMa:
+  Id: "lime_dye"
+  Display: "古弄仙："
+  Lore:
+    - "<gray><italic>你敢和我這千杯不醉較量嗎?</italic></gray>"
+LIMEDYEJiQingDongFangSuoZai:
+  Id: "lime_dye"
+  Display: "紀清："
+  Lore:
+    - "<gray><italic>東方，是一日的精神所在，</italic></gray>"
+LIMEDYEJiQingXiFangErZhong:
+  Id: "lime_dye"
+  Display: "紀清："
+  Lore:
+    - "<gray><italic>西方，象徵著萬物演變而終。</italic></gray>"
+LIMEDYEZhengZhuDanWangSuShi:
+  Id: "lime_dye"
+  Display: "鄭主："
+  Lore:
+    - "<gray><italic>淡忘凡塵俗事，</italic></gray>"
+LIMEDYEZhengZhuBianDeXianShu:
+  Id: "lime_dye"
+  Display: "鄭主："
+  Lore:
+    - "<gray><italic>便得通世仙術。</italic></gray>"
+PINKDYEDuiHuaPaoPaoQianMianLeBa:
+  Id: "pink_dye"
+  Display: "<aqua>NPC對話泡泡</aqua>"
+  Lore:
+    - "<gray><italic>前面的人好像有話要說？</italic></gray>"
+    - "<gray><italic>快去問問他怎麼了吧</italic></gray>"
+ORANGEDYEWenQuanKeZhanXuYaoDeBuGeiPinCongGuaiZhanBa:
+  Id: "orange_dye"
+  Display: "<aqua>溫泉客棧需要的補給品</aqua>"
+  Lore:
+    - "<gray><italic>從怪物身上找到的補給品</italic></gray>"
+    - "<gray><italic>蒐集一些給溫泉客棧吧</italic></gray>"
+BLAZEPOWDERZhanShenZuYouHaoDeZhengMingZheShiDuBa:
+  Id: "blaze_powder"
+  Display: "<aqua>戰神族友好的證明</aqua>"
+  Lore:
+    - "<gray><italic>這是戰神族為了答謝你所做的貢獻</italic></gray>"
+    - "<gray><italic>所以給予你的友好證明</italic></gray>"
+    - "<gray><italic>到皇城的</italic></gray><dark_green><italic>鳳花樓</italic></dark_green><gray><italic>兌換成該種族的友好度吧</italic></gray>"
+MINECART:
+  Id: "minecart"
+COMMANDBLOCK:
+  Id: "command_block"
+  Lore:
+    - "(+NBT)"
+LIMEDYEZhanShenZuChangSuiRanKangHeng:
+  Id: "lime_dye"
+  Display: "<bold>戰神族長：</bold>"
+  Lore:
+    - "<gray><italic>雖然我還是很討厭神族，</italic></gray>"
+    - "<gray><italic>不過現在最大的敵人還是那位自稱為盤古的神。</italic></gray>"
+    - "<gray><italic>即便他真的是創世神，</italic></gray>"
+    - "<gray><italic>只要是試圖侵犯我們家園的人，</italic></gray>"
+    - "<gray><italic>我們都有義務要聯手抗衡。</italic></gray>"
+LIMEDYEZhanShenZuChangZhanBeiJiuHao:
+  Id: "lime_dye"
+  Display: "<bold>戰神族長：</bold>"
+  Lore:
+    - "<gray><italic>戰備物資的補給就交給我吧，</italic></gray>"
+    - "<gray><italic>有需要什麼儘管拿，</italic></gray>"
+    - "<gray><italic>我收工本費就好！</italic></gray>"
+SNOWBALL:
+  Id: "snow_ball"
+LIMEDYEYaoZuDaChangLaoZhanShenMengZhuChiYouAiMeiLeBa:
+  Id: "lime_dye"
+  Display: "<bold>妖族大長老/戰神盟主-蚩尤：</bold>"
+  Lore:
+    - "<gray><italic>唉，沒想到當初和人仙二族的情誼已經被破壞至此。</italic></gray>"
+    - "<gray><italic>我真後悔沒有早點回來盤古大陸看看。</italic></gray>"
+    - "<gray><italic>要是我能在彼此之間結下如此深的仇恨之前做些什麼，</italic></gray>"
+    - "<gray><italic>也許今天三族的關係就不會那麼糟了吧。</italic></gray>"
+LIMEDYEYaoZuDaChangLaoZhanShenMengZhuChiYouHuaYouYuanBa:
+  Id: "lime_dye"
+  Display: "<bold>妖族大長老/戰神盟主-蚩尤：</bold>"
+  Lore:
+    - "<gray><italic>話又說回來，這一切都是盤古那傢伙的陰謀！</italic></gray>"
+    - "<gray><italic>要不是他挑撥離間，</italic></gray>"
+    - "<gray><italic>好好的結盟關係又怎麼會分崩離析......</italic></gray>"
+    - "<gray><italic>不過今日也見到了兩位以前聯盟的同伴，</italic></gray>"
+    - "<gray><italic>也算是了了一樁心願吧。</italic></gray>"
+LIMEDYERenHuangXuanYuanPiWoMenZuiDuo:
+  Id: "lime_dye"
+  Display: "<bold>人皇-軒轅霹：</bold>"
+  Lore:
+    - "<gray><italic>我們人族什麼沒有，糧食最多！</italic></gray>"
+LIMEDYERenHuangXuanYuanPiChiBaoYouA:
+  Id: "lime_dye"
+  Display: "<bold>人皇-軒轅霹：</bold>"
+  Lore:
+    - "<gray><italic>吃飽了才能上戰場，</italic></gray>"
+    - "<gray><italic>各位戰士們，加油啊！</italic></gray>"
+COOKEDCHICKEN:
+  Id: "cooked_chicken"
+COOKEDBEEF:
+  Id: "cooked_beef"
+GRILLEDPORK:
+  Id: "grilled_pork"
+COOKEDMUTTON:
+  Id: "cooked_mutton"
+PUMPKINPIE:
+  Id: "pumpkin_pie"
+LIMEDYEXianZuMengZhuMeiXiangXingA:
+  Id: "lime_dye"
+  Display: "<bold>仙族盟主：</bold>"
+  Lore:
+    - "<gray><italic>沒想到歷史中最有建樹的盟主梓決還活著，</italic></gray>"
+    - "<gray><italic>蜀山絕大多數的偉大發明都出自他的手筆，</italic></gray>"
+    - "<gray><italic>能在這裡看見他真的是我三生有幸啊。</italic></gray>"
+LIMEDYEXianZuMengZhuXianZuZaiCi:
+  Id: "lime_dye"
+  Display: "<bold>仙族盟主：</bold>"
+  Lore:
+    - "<gray><italic>仙族引以為傲的就是技術和陣法，</italic></gray>"
+    - "<gray><italic>如今，終於可以派上用場了......</italic></gray>"
+    - "<gray><italic>我們要成為聯繫的線，</italic></gray>"
+    - "<gray><italic>把整個世界的正義都聚集在此！</italic></gray>"
+LIMEDYEPengLaiDaoZhuZiJueWoCaiYiKe:
+  Id: "lime_dye"
+  Display: "<bold>蓬萊島主-梓決：</bold>"
+  Lore:
+    - "<gray><italic>我猜想的果然沒錯，</italic></gray>"
+    - "<gray><italic>盤古神並不屬於這個世界。</italic></gray>"
+    - "<gray><italic>我想，這個世界對他來說</italic></gray>"
+    - "<gray><italic>大概是某種「養分」的存在吧。</italic></gray>"
+    - "<gray><italic>等待世界的成長，</italic></gray>"
+    - "<gray><italic>直到成熟的那一刻......</italic></gray>"
+LIMEDYEPengLaiDaoZhuZiJueWoMenShiJie:
+  Id: "lime_dye"
+  Display: "<bold>蓬萊島主-梓決：</bold>"
+  Lore:
+    - "<gray><italic>我們或許還有一線生機。</italic></gray>"
+    - "<gray><italic>盤古將大部分的力量都灌注在了這個世界當中。</italic></gray>"
+    - "<gray><italic>只要世界還沒有毀滅，</italic></gray>"
+    - "<gray><italic>他就還不是原來那個「創世的神」。</italic></gray>"
+    - "<gray><italic>只要打敗他，</italic></gray>"
+    - "<gray><italic>我們就還有機會拯救這個世界！</italic></gray>"
+LIMEDYEXieLingGuZhuLaoFuXieBa:
+  Id: "lime_dye"
+  Display: "<bold>葉靈谷主：</bold>"
+  Lore:
+    - "<gray><italic>老夫剛從葉靈谷趕過來，讓老夫歇歇吧。</italic></gray>"
+LIMEDYEXieLingGuZhuWoZuYaoBao:
+  Id: "lime_dye"
+  Display: "<bold>葉靈谷主：</bold>"
+  Lore:
+    - "<gray><italic>我族和人仙兩族不應該是敵對關係，</italic></gray>"
+    - "<gray><italic>盤古造成了太多的仇恨和戰爭，</italic></gray>"
+    - "<gray><italic>這個仇我們一定要報！</italic></gray>"
+LIMEDYEWangChenQiShiLianMeng:
+  Id: "lime_dye"
+  Display: "<bold>忘塵：</bold>"
+  Lore:
+    - "<gray><italic>其實，當初長老下令鎮壓戰神聯盟的時候，</italic></gray>"
+    - "<gray><italic>站在聯盟這一邊的神族同伴們也都相當不解......</italic></gray>"
+    - "<gray><italic>畢竟我們不需要任何物質資助就可以永生，</italic></gray>"
+    - "<gray><italic>沒有必要使用仙族的武器來鎮壓聯盟。</italic></gray>"
+LIMEDYEWangChenBuGuoZaiBa:
+  Id: "lime_dye"
+  Display: "<bold>忘塵：</bold>"
+  Lore:
+    - "<gray><italic>不過現在看起來，這一切大概都只是因為，</italic></gray>"
+    - "<gray><italic>長老他就是創世之神。</italic></gray>"
+    - "<gray><italic>因此，不容許任何挑釁的存在吧......</italic></gray>"
+LIMEDYEYuZhuWoHeHuoZhu:
+  Id: "lime_dye"
+  Display: "<bold>雨竹：</bold>"
+  Lore:
+    - "<gray><italic>我和盟主離開了偷天換日法陣，</italic></gray>"
+    - "<gray><italic>受到天道反噬，壽元正急遽的減少......</italic></gray>"
+    - "<gray><italic>我可以明顯的感覺到生命在流逝。</italic></gray>"
+    - "<gray><italic>但是，我從沒有如此明顯的感受到自己正「活著」。</italic></gray>"
+LIMEDYEYuZhuHuoZhuZhenDi:
+  Id: "lime_dye"
+  Display: "<bold>雨竹：</bold>"
+  Lore:
+    - "<gray><italic>活著很重要，善待你周圍的人更重要。</italic></gray>"
+    - "<gray><italic>短而精彩才是生命的真諦。</italic></gray>"
+LIMEDYEQianWuZhanShenDaAn:
+  Id: "lime_dye"
+  Display: "<bold>芊無：</bold>"
+  Lore:
+    - "<gray><italic>戰神聯盟的盟主蚩尤大哥原來還活著！</italic></gray>"
+    - "<gray><italic>我心中最牽掛的兩個人總算都到齊了。</italic></gray>"
+    - "<gray><italic>原本以為這無限的生命對我來說，</italic></gray>"
+    - "<gray><italic>是永遠沒有盡頭的懲罰。</italic></gray>"
+    - "<gray><italic>還好我找回了塵囂，</italic></gray>"
+    - "<gray><italic>而現在也確認了大哥平安無事。</italic></gray>"
+    - "<gray><italic>有點慶幸神族的壽命讓我能等待到這個答案。</italic></gray>"
+LIMEDYEQianWuDanShiRenLei:
+  Id: "lime_dye"
+  Display: "<bold>芊無：</bold>"
+  Lore:
+    - "<gray><italic>但是，我真的一點都不想承認，</italic></gray>"
+    - "<gray><italic>神族是盤古的遺族。</italic></gray>"
+    - "<gray><italic>神族和這位冷血的創世神一點都不像。</italic></gray>"
+    - "<gray><italic>我們有悲歡離合，我們有自己的信念。</italic></gray>"
+    - "<gray><italic>就像女媧，即便她知道自己大限已至，</italic></gray>"
+    - "<gray><italic>也不忘托神農照顧他一手創造出來的人類......</italic></gray>"
+LIMEDYEShenNongShiChenDaFuJiBianShiWu:
+  Id: "lime_dye"
+  Display: "<bold>神農氏/陳大夫：</bold>"
+  Lore:
+    - "<gray><italic>即便是賭上性命，</italic></gray>"
+    - "<gray><italic>也要守護她所在乎的事物......</italic></gray>"
+LIMEDYEShenNongShiChenDaFuWoYiZhiLi:
+  Id: "lime_dye"
+  Display: "<bold>神農氏/陳大夫：</bold>"
+  Lore:
+    - "<gray><italic>我已經不能再躲避了，</italic></gray>"
+    - "<gray><italic>就算我戰鬥力不高，</italic></gray>"
+    - "<gray><italic>我也希望能助你們一臂之力。</italic></gray>"
+POTIONFengMuHuiChunQuanGaoJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(高級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=2;p=true}
+    - REGENERATION{d=100;l=4;p=true}
+POTIONJiuZhuanHuanHunXiangGaoJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(高級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=6000;l=1;p=true}
+    - HEALTH_BOOST{d=6000;l=3;p=true}
+POTIONHunYuanYiQiDanGaoJiYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>混元一氣丹(高級[藥])</dark_green><white></white>"
+  PotionEffects:
+    - RESISTANCE{d=6000;l=1;p=true}
+    - FIRE_RESISTANCE{d=6000;l=1;p=true}
+    - ABSORPTION{d=6000;l=1;p=true}
+POTIONTianShenHuTiGaoJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(高級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - STRENGTH{d=6000;l=1;p=true}
+    - ABSORPTION{d=6000;l=3;p=true}
+LIMEDYETaiShangLaoJunYuanLaiLaiLe:
+  Id: "lime_dye"
+  Display: "<bold>太上老君：</bold>"
+  Lore:
+    - "<gray><italic>原來長老他就是盤古啊......</italic></gray>"
+    - "<gray><italic>這樣的話所有的事情就串連起來了。</italic></gray>"
+LIMEDYETaiShangLaoJunSuiRanDeLian:
+  Id: "lime_dye"
+  Display: "<bold>太上老君：</bold>"
+  Lore:
+    - "<gray><italic>雖然不知道，</italic></gray>"
+    - "<gray><italic>對上創世神祇我們有多少勝算，</italic></gray>"
+    - "<gray><italic>但也不能坐以待斃。</italic></gray>"
+    - "<gray><italic>上吧，代替我用力的</italic></gray>"
+    - "<gray><italic>拿丹藥砸那老不修的臉！</italic></gray>"
+POTIONFengHouGaoJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(高級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=3;p=true}
+POTIONDuoHunGaoJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(高級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - SLOWNESS{d=140;l=1;p=true}
+    - WEAKNESS{d=140;l=1;p=true}
+POTIONQiXueGaoJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(高級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - POISON{d=140;l=1;p=true}
+    - WITHER{d=140;l=1;p=true}
+POTIONFanWeiWanLingDanJiuJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>範圍萬靈丹(究級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - POISON{d=0;l=9;p=true}
+    - SLOWNESS{d=0;l=9;p=true}
+    - WEAKNESS{d=0;l=9;p=true}
+    - WITHER{d=0;l=9;p=true}
+POTIONDingShenJiuJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>定身(究級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業：[丹]</gold>"
+  PotionEffects:
+    - SLOWNESS{d=100;l=9;p=true}
+LIMEDYEJianChiYuanZeDeQianZhuangZhangGuiJiBianYuanZe:
+  Id: "lime_dye"
+  Display: "<bold>堅持原則的錢莊掌櫃：</bold>"
+  Lore:
+    - "<gray><italic>即便世界毀滅，</italic></gray>"
+    - "<gray><italic>我也要堅持商人的原則！</italic></gray>"
+LIMEDYEJianChiYuanZeDeQianZhuangZhangGuiWoTiNiDe:
+  Id: "lime_dye"
+  Display: "<bold>堅持原則的錢莊掌櫃：</bold>"
+  Lore:
+    - "<gray><italic>我提供服務，</italic></gray>"
+    - "<gray><italic>但是我不會資助你的！</italic></gray>"
+NETHERSTALKZhiYuZhuDeXinPoJiuTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>致雨竹的信</aqua>"
+  Lore:
+    - "<gray><italic>破舊的竹簡</italic></gray>"
+    - "<gray><italic>可以看出很早以前就寫好了</italic></gray>"
+    - "<gray><italic>卻因為一些原因一直無法送達</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+ORANGEDYEShanMeiJiangShanDengJi:
+  Id: "orange_dye"
+  Display: "<aqua>山魅</aqua>"
+  Lore:
+    - "<gray><italic>將山魅交給雨竹</italic></gray>"
+    - "<gray><italic>他會以經驗傳授作為報酬</italic></gray>"
+    - "<gray><italic>使你提昇一個等級</italic></gray>"
+NETHERSTALKSiShengShouJiHuaDeMiJuanDuoNianTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>四聖獸計畫的秘卷</aqua>"
+  Lore:
+    - "<gray><italic>多年前仙族盟主留下的秘卷。</italic></gray>"
+    - "<gray><italic>紀錄了四聖獸計畫的秘密。</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+MUSHROOMSOUP:
+  Id: "mushroom_soup"
+  Display: "<white>佛跳墙</white>"
+SADDLE:
+  Id: "saddle"
+NETHERSTALKMiShiDeYaoChiKeYiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>密室的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟陳大夫藥草寮後方密室的鑰匙</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+ORANGEDYEChenDaFuXuYaoDeYaoCaoShuCongYeFuBa:
+  Id: "orange_dye"
+  Display: "<aqua>陳大夫需要的藥草束</aqua>"
+  Lore:
+    - "<gray><italic>從野獸身上找到的藥草</italic></gray>"
+    - "<gray><italic>蒐集一些給陳大夫吧</italic></gray>"
+POTIONGaoJiLiaoYuDan:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>高級療癒丹</dark_green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=1;l=4;p=true}
+    - REGENERATION{d=600;l=2;p=true}
+    - ABSORPTION{d=36000;l=2;p=true}
+CARROTITEM:
+  Id: "carrot_item"
+  Display: "<white>人參</white>"
+  Lore:
+      - "<gray><italic>春日生苗，多於深山背陰，三椏五葉，花細如粟蕊如絲</italic></gray>"
+BLAZEPOWDERShenZuYouHaoDeZhengMingZheShiDuBa:
+  Id: "blaze_powder"
+  Display: "<aqua>神族友好的證明</aqua>"
+  Lore:
+    - "<gray><italic>這是神族為了答謝你所做的貢獻</italic></gray>"
+    - "<gray><italic>所以給予你的友好證明</italic></gray>"
+    - "<gray><italic>到皇城的</italic></gray><dark_green><italic>鳳花樓</italic></dark_green><gray><italic>兌換成該種族的友好度吧</italic></gray>"
+COCOABEANSRenZuZhengMingShenWeiZhengMing:
+  Id: "cocoa_beans"
+  Display: "<aqua>人族證明</aqua>"
+  Lore:
+    - "<gray><italic>身為人族成員的證明</italic></gray>"
+NETHERSTALKGongSunXiaoShaoYeDeWeiTuoNiangQinDeFaChaiGongSunTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>公孫小少爺的委託：娘親的髮釵</aqua>"
+  Lore:
+    - "<gray><italic>公孫小少爺請你轉交給他舅舅的信物</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+NETHERSTALKLongLinSenLinShenMuDeWeiTuoHongSeDeDuanDaiShenMuTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>龍鱗森林神木的委託：紅色的緞帶</aqua>"
+  Lore:
+    - "<gray><italic>神木妖精請你轉交給失蹤戀人的信物</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+DIAMONDLEGGINGSZiShaChanXiYouNengLi:
+  Id: "diamond_leggings"
+  Display: "<red>紫砂纏</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>利用北冥之海深處的玄砂打造</italic></gray>"
+    - "<gray><italic>如同大地一樣堅硬的護腿</italic></gray>"
+    - "<gray><italic>賜予穿戴者強大的防禦能力</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 5.0
+      Health: 14.0
+      MovementSpeed: 0.15
+  Options:
+    Unbreakable: true
+MAPPanGuDaLuDiTuDiTuHuBo:
+  Id: "filled_map"
+  Display: "<aqua>盤古大陸地圖</aqua>"
+  Lore:
+    - "<gray><italic>地圖上繪有盤古大陸的大致樣貌</italic></gray>"
+    - "<gray><italic>包括東方的</italic></gray><gold><italic>龍鱗森林</italic></gold>"
+    - "<gray><italic>南方的</italic></gray><gold><italic>焱砂大漠</italic></gold>"
+    - "<gray><italic>西方的</italic></gray><gold><italic>虎爪山脈</italic></gold>"
+    - "<gray><italic>以及北方的</italic></gray><gold><italic>玄水湖泊</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+POTIONJuDuHeDingDanWeiLeDanYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>劇毒-鶴頂丹</dark_green><white></white>"
+  Lore:
+    - "<gray><italic>為了避免落到敵人手中，每名情報員都會準備一顆在身。</italic></gray>"
+    - "<gray><italic>可以從容就義，服下必死無疑的丹藥。</italic></gray>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=20;p=true}
+BLAZEPOWDERRenZuYouHaoDeZhengMingZheShiDuBa:
+  Id: "blaze_powder"
+  Display: "<aqua>人族友好的證明</aqua>"
+  Lore:
+    - "<gray><italic>這是人族為了答謝你所做的貢獻</italic></gray>"
+    - "<gray><italic>所以給予你的友好證明</italic></gray>"
+    - "<gray><italic>到皇城的</italic></gray><dark_green><italic>鳳花樓</italic></dark_green><gray><italic>兌換成該種族的友好度吧</italic></gray>"
+LIMEDYETingZhiWoTingFeiDe:
+  Id: "lime_dye"
+  Display: "聽之："
+  Lore:
+    - "<gray><italic>我聽說這世界上有一種鳥是沒有腳的，</italic></gray>"
+    - "<gray><italic>他只能一直飛啊，飛啊，飛的。</italic></gray>"
+LIMEDYETingZhiTaZheShiHou:
+  Id: "lime_dye"
+  Display: "聽之："
+  Lore:
+    - "<gray><italic>牠這輩子唯一能下地的一次，</italic></gray>"
+    - "<gray><italic>也就是牠死的時候。</italic></gray>"
+LIMEDYESaiGuiTingShuoHenDa:
+  Id: "lime_dye"
+  Display: "塞圭："
+  Lore:
+    - "<gray><italic>聽說鳳花樓的老鴇不但人美心美，力氣還很大？</italic></gray>"
+LIMEDYESaiGuiHeiHeiBeiMing:
+  Id: "lime_dye"
+  Display: "塞圭："
+  Lore:
+    - "<gray><italic>嘿嘿，要進去口袋可要夠深阿，</italic></gray>"
+    - "<gray><italic>否則你就會成為皇城夜晚的悲鳴</italic></gray>"
+SPONGE:
+  Id: "sponge"
+RAWFISH:
+  Id: "salmon"
+MELONSLICELongJingLongJingChunHe:
+  Id: "melon_slice"
+  Display: "<aqua>龍井</aqua>"
+  Lore:
+    - "<gray><italic>龍井外形扁平光滑，大小均勻，湯色碧綠澄清。</italic></gray>"
+    - "<gray><italic>葉香清爽持久，滋味甘鮮醇和。</italic></gray>"
+MELONSLICEBiLuoChunBiLuoShuiChe:
+  Id: "melon_slice"
+  Display: "<aqua>碧螺春</aqua>"
+  Lore:
+    - "<gray><italic>碧螺春茶條索纖細，味鮮生津，清香芬芳，湯綠水澈。</italic></gray>"
+MELONSLICETieGuanYinTieGuanZhiYu:
+  Id: "melon_slice"
+  Display: "<aqua>鐵觀音</aqua>"
+  Lore:
+    - "<gray><italic>鐵觀音茶條捲曲、壯結沉重，泡飲茶湯醇厚甘鮮</italic></gray>"
+    - "<gray><italic>入口回甘帶蜜味，香氣馥郁持久，有「七泡有餘香」之譽</italic></gray>"
+MELONSLICEWuLongHouYunWuQiong:
+  Id: "melon_slice"
+  Display: "<aqua>烏龍</aqua>"
+  Lore:
+    - "<gray><italic>喉韻十足，風韻綿延，飲後回味無窮</italic></gray>"
+MELONSLICEJinXuanShuiSeHuoXing:
+  Id: "melon_slice"
+  Display: "<aqua>金萱</aqua>"
+  Lore:
+    - "<gray><italic>水色蜜黃，濃厚香醇，口感溫順</italic></gray>"
+    - "<gray><italic>入喉甘醇，帶微蜜乳香，入口生津而富活性</italic></gray>"
+MELONSLICEYinZhenYinZhenBuDao:
+  Id: "melon_slice"
+  Display: "<aqua>銀針</aqua>"
+  Lore:
+    - "<gray><italic>銀針只採集剛抽出尚未張開的茶樹嫩芽製作</italic></gray>"
+    - "<gray><italic>沏泡後黃湯黃茶，芽尖輕，經沏泡，在杯中根根直立不倒</italic></gray>"
+MELONSLICEYanChaYanChaWuQiong:
+  Id: "melon_slice"
+  Display: "<aqua>岩茶</aqua>"
+  Lore:
+    - "<gray><italic>岩茶品質獨特，未經窨花</italic></gray>"
+    - "<gray><italic>茶湯擁有濃郁花香，甘馨可口，回味無窮。</italic></gray>"
+MELONSLICEGuaPianGuaPianChongPao:
+  Id: "melon_slice"
+  Display: "<aqua>瓜片</aqua>"
+  Lore:
+    - "<gray><italic>瓜片外形似瓜子，色澤翠綠</italic></gray>"
+    - "<gray><italic>香氣清高，味鮮甘美，耐沖泡。</italic></gray>"
+MELONSLICEMaoJianMaoJianHuangLu:
+  Id: "melon_slice"
+  Display: "<aqua>毛尖</aqua>"
+  Lore:
+    - "<gray><italic>毛尖外形條索緊秀、圓直有峰</italic></gray>"
+    - "<gray><italic>香氣高爽、回甘悠長、湯色黃綠</italic></gray>"
+MELONSLICEMaoFengMaoFengChiJiu:
+  Id: "melon_slice"
+  Display: "<aqua>毛峰</aqua>"
+  Lore:
+    - "<gray><italic>毛峰成茶外形細嫩扁曲</italic></gray>"
+    - "<gray><italic>沖泡杯中霧氣繞頂，滋味醇甜，鮮香持久</italic></gray>"
+RAWFISHMaoTaiSeQingChiJiu:
+  Id: "pufferfish"
+  Display: "<aqua>茅台</aqua>"
+  Lore:
+    - "<gray><italic>色清透明、醇香馥郁、入口柔綿、清冽甘爽、回香持久</italic></gray>"
+RAWFISHWuLiangYeJiuXiangYouChang:
+  Id: "pufferfish"
+  Display: "<aqua>五糧液</aqua>"
+  Lore:
+    - "<gray><italic>酒香濃郁，醇厚甘美，回味悠長</italic></gray>"
+RAWFISHShaoXingJiuSeXiZhi:
+  Id: "pufferfish"
+  Display: "<aqua>紹興</aqua>"
+  Lore:
+    - "<gray><italic>酒色琥珀，酒香氣濃、馥郁芬芳，口感溫柔細緻</italic></gray>"
+RAWFISHShaoDaoZiWeiJiHuoYan:
+  Id: "pufferfish"
+  Display: "<aqua>燒刀子</aqua>"
+  Lore:
+    - "<gray><italic>味極濃烈，入口如燒紅之刀刃，吞入腹中猶如滾燙的火焰</italic></gray>"
+MELONSLICEPengLaiDeNaiLuJuShuoYiHan:
+  Id: "melon_slice"
+  Display: "<aqua>蓬萊的奶綠</aqua>"
+  Lore:
+    - "<gray><italic>據說是蓬萊仙島傳來的飲品</italic></gray>"
+    - "<gray><italic>飲用一口便可飄飄似仙</italic></gray>"
+    - "<gray><italic>飲用二口即可享片刻歡愉</italic></gray>"
+    - "<gray><italic>飲用三口則可散盡家財</italic></gray>"
+    - "<gray><italic>此飲品可遇不可求</italic></gray>"
+    - "<gray><italic>若能在人生在世飲上一杯</italic></gray>"
+    - "<gray><italic>此世便了無遺憾</italic></gray>"
+LIMEDYEMiaoLeNeiGeLuLe:
+  Id: "lime_dye"
+  Display: "苗樂："
+  Lore:
+    - "<gray><italic>那個，請問您攤販在哪，我迷路了！</italic></gray>"
+LIMEDYEMiaoLeNiWenWoDe:
+  Id: "lime_dye"
+  Display: "苗樂："
+  Lore:
+    - "<gray><italic>你問我哪裡有魚？</italic></gray>"
+    - "<gray><italic>天下的魚都是我的！</italic></gray>"
+LIMEDYEFengLiSuNuJiaSuoJiu:
+  Id: "lime_dye"
+  Display: "鳳璃穌："
+  Lore:
+    - "<gray><italic>奴家被石玖大爺所救</italic></gray>"
+LIMEDYEFengLiSuTaJiangZhuaZou:
+  Id: "lime_dye"
+  Display: "鳳璃穌："
+  Lore:
+    - "<gray><italic>他將奴家藏在廂房內以免被人再抓走</italic></gray>"
+BLAZEPOWDERXianZuYouHaoDeZhengMingZheShiDuBa:
+  Id: "blaze_powder"
+  Display: "<aqua>仙族友好的證明</aqua>"
+  Lore:
+    - "<gray><italic>這是仙族為了答謝你所做的貢獻</italic></gray>"
+    - "<gray><italic>所以給予你的友好證明</italic></gray>"
+    - "<gray><italic>到皇城的</italic></gray><dark_green><italic>鳳花樓</italic></dark_green><gray><italic>兌換成該種族的友好度吧</italic></gray>"
+BLAZEPOWDERYaoZuYouHaoDeZhengMingZheShiDuBa:
+  Id: "blaze_powder"
+  Display: "<aqua>妖族友好的證明</aqua>"
+  Lore:
+    - "<gray><italic>這是妖族為了答謝你所做的貢獻</italic></gray>"
+    - "<gray><italic>所以給予你的友好證明</italic></gray>"
+    - "<gray><italic>到皇城的</italic></gray><dark_green><italic>鳳花樓</italic></dark_green><gray><italic>兌換成該種族的友好度吧</italic></gray>"
+TRIPWIREHOOKShiJiuDaYeXiangFangDeYaoChi:
+  Id: "tripwire_hook"
+  Display: "石玖大爺廂房的鑰匙"
+LIMEDYEFengYangHuaChengShouDuoGen:
+  Id: "lime_dye"
+  Display: "<bold>鳳陽花：</bold>"
+  Lore:
+    - "<gray><italic>誠收人參好多根</italic></gray>"
+LIMEDYEFengYangHuaJiaGeLingYi:
+  Id: "lime_dye"
+  Display: "<bold>鳳陽花：</bold>"
+  Lore:
+    - "<gray><italic>價格好談量多另議</italic></gray>"
+LIMEDYEZhuDaGuiKanNinLaiA:
+  Id: "lime_dye"
+  Display: "朱大貴："
+  Lore:
+    - "<gray><italic>看您這付尊容還敢來鳳花樓？</italic></gray>"
+    - "<gray><italic>小心被掌櫃娘轟出來阿...</italic></gray>"
+LIMEDYEZhuDaGuiAiYaPoShuo:
+  Id: "lime_dye"
+  Display: "朱大貴："
+  Lore:
+    - "<gray><italic>唉呀呀...鳳花樓的新小姐們可真是厲害阿...</italic></gray>"
+    - "<gray><italic>希哩呼嚕的...感覺都快要昇天了...噓～別跟我老婆說！</italic></gray>"
+LIMEDYESanGuE^E^QianNi:
+  Id: "lime_dye"
+  Display: "三姑："
+  Lore:
+    - "<gray><italic>欸欸!聽說去鎮妖塔回來的冒險家們都賺了不少錢呢!</italic></gray>"
+LIMEDYESanGuAiYoGuiLa:
+  Id: "lime_dye"
+  Display: "三姑："
+  Lore:
+    - "<gray><italic>唉唷!可不是嗎，找幾個相貌不錯的嫁進去我就榮華富貴啦!</italic></gray>"
+LIMEDYEJiuZuiNanZiHeLaiZaiHe:
+  Id: "lime_dye"
+  Display: "酒醉男子："
+  Lore:
+    - "<gray><italic>喝~來!再喝!!</italic></gray>"
+LIMEDYEJiuZuiNanZiHeWanKuaiHuo:
+  Id: "lime_dye"
+  Display: "酒醉男子："
+  Lore:
+    - "<gray><italic>喝完了這杯咱們哥倆一同去快活快活~</italic></gray>"
+LIMEDYEJiuZuiNanZiLaiAZheBei:
+  Id: "lime_dye"
+  Display: "酒醉男子："
+  Lore:
+    - "<gray><italic>來阿~乾了這杯!</italic></gray>"
+LIMEDYEJiuZuiNanZiJinChaoRiChou:
+  Id: "lime_dye"
+  Display: "酒醉男子："
+  Lore:
+    - "<gray><italic>今朝有酒今朝醉，明日愁來明日愁。</italic></gray>"
+LIMEDYEBoLangDaoRenZhenShiGuiTian:
+  Id: "lime_dye"
+  Display: "泊浪道人："
+  Lore:
+    - "<gray><italic>真是好酒藏甕底！雲遊四海還是下界美酒香沉，</italic></gray>"
+    - "<gray><italic>小二再來個兩壺美酒！今夜不醉不歸天！</italic></gray>"
+LIMEDYEBoLangDaoRenGeZuiYiFan:
+  Id: "lime_dye"
+  Display: "泊浪道人："
+  Lore:
+    - "<gray><italic>嗝...最近煉丹的素材有點不足了...</italic></gray>"
+    - "<gray><italic>或許該再去龍鱗之森抓些小妖來下鍋調理一番。</italic></gray>"
+LIMEDYEFangShanSiWangMaoXian:
+  Id: "lime_dye"
+  Display: "訪山："
+  Lore:
+    - "<gray><italic>死亡本身就是最大的冒險！</italic></gray>"
+LIMEDYEFangShanQianBuYinPiao:
+  Id: "lime_dye"
+  Display: "訪山："
+  Lore:
+    - "<gray><italic>錢不是萬能的！有時候還需要銀票！</italic></gray>"
+FIREBALL:
+  Id: "fireball"
+MONSTEREGG:
+  Id: "horse_spawn_egg"
+  Display: "<aqua>封印葫蘆·馬</aqua>"
+  Lore:
+    - "<gray><italic>仙族發明可以召喚生物的封印葫蘆</italic></gray>"
+    - "<gray><italic>裡面封印了一匹上等戰馬</italic></gray>"
+    - "<gray><italic>請在草地上進行召喚</italic></gray>"
+    - "<gray><italic>並請注意，馬不能跟隨主人通過傳送陣</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+LEASH:
+  Id: "leash"
+CHESTLuZiZhuanYongBeiDai:
+  Id: "chest"
+  Display: "<aqua>驢子專用背袋</aqua>"
+LIMEDYEChunYiYouHenGaiJue:
+  Id: "lime_dye"
+  Display: "春亦："
+  Lore:
+    - "<gray><italic>有很多活人本就該死，</italic></gray>"
+    - "<gray><italic>也有很多死人命不該絕。</italic></gray>"
+LIMEDYEChunYiMeiYouMingYun:
+  Id: "lime_dye"
+  Display: "春亦："
+  Lore:
+    - "<gray><italic>沒有人能輕易斷定生死命運。</italic></gray>"
+LIMEDYEHuangZhaoShiGeBiHuaLe:
+  Id: "lime_dye"
+  Display: "黃兆士："
+  Lore:
+    - "<gray><italic>隔壁的老李，講話老愛帶刺兒！</italic></gray>"
+    - "<gray><italic>真是懶得與他說話了！</italic></gray>"
+LIMEDYEHuangZhaoShiGaiTianLiangJu:
+  Id: "lime_dye"
+  Display: "黃兆士："
+  Lore:
+    - "<gray><italic>改天一定給他顏色瞧瞧，讓他少說兩句！</italic></gray>"
+LIMEDYELiuPoE^E^QianNi:
+  Id: "lime_dye"
+  Display: "六婆："
+  Lore:
+    - "<gray><italic>欸欸!聽說去鎮妖塔回來的冒險家們都賺了不少錢呢!</italic></gray>"
+LIMEDYELiuPoAiYoGuiLa:
+  Id: "lime_dye"
+  Display: "六婆："
+  Lore:
+    - "<gray><italic>唉唷!可不是嗎，找幾個相貌不錯的嫁進去我就榮華富貴啦!</italic></gray>"
+WATERLILY:
+  Id: "water_lily"
+STICK:
+  Id: "stick"
+SKULLITEM:
+  Id: "wither_skeleton_skull"
+  Display: "<white>焦黑的头颅</white>"
+RABBITFOOT:
+  Id: "rabbit_foot"
+  Display: "<white>何首烏</white>"
+  Lore:
+      - "<gray><italic>蔓於竹木牆壁間，莖紫，秋冬採根</italic></gray>"
+REDSTONE:
+  Id: "redstone"
+MILKBUCKET:
+  Id: "milk_bucket"
+ANVIL:
+  Id: "anvil"
+NETHERSTAR:
+  Id: "nether_star"
+  Display: "<aqua>青冥回生石</aqua>"
+  Lore:
+    - "<gray><italic>形如卵丸，通體青碧若雨後初苔，隱現雲紋；觸之溫潤，似握寒潭冷玉</italic></gray>"
+    - "<gray><italic>原爲山巒墟下雲根石，經日月精華與百草露淬鍊，可化重傷鬱氣爲無形</italic></gray>"
+    - "<gray><italic>輔以調息則石散瑩光，繞體三匝，傷疲盡消</italic></gray>"
+LIMEDYEXueZhongQingWenTanMa:
+  Id: "lime_dye"
+  Display: "雪忠："
+  Lore:
+    - "<gray><italic>請問閣下需要來點炭嗎?</italic></gray>"
+LIMEDYEXueZhongBiQiDuoLe:
+  Id: "lime_dye"
+  Display: "雪忠："
+  Lore:
+    - "<gray><italic>比起銀兩，還是這炭實在多了。</italic></gray>"
+IRONHORSEARMOR:
+  Id: "iron_horse_armor"
+GOLDENHORSEARMOR:
+  Id: "golden_horse_armor"
+DIAMONDHORSEARMOR:
+  Id: "diamond_horse_armor"
+LIMEDYEJinLaoBanHeHeFangA:
+  Id: "lime_dye"
+  Display: "金老闆："
+  Lore:
+    - "<gray><italic>呵呵~鳳花樓可是個好地方阿。</italic></gray>"
+LIMEDYEJinLaoBanJinWanKuaiHuo:
+  Id: "lime_dye"
+  Display: "金老闆："
+  Lore:
+    - "<gray><italic>今晚一定要再去找小青快活快活。</italic></gray>"
+LIMEDYEJinFuRenWoMenHunLe:
+  Id: "lime_dye"
+  Display: "金夫人："
+  Lore:
+    - "<gray><italic>我們家那個死鬼以為我不知道?</italic></gray>"
+    - "<gray><italic>他一定又給我跑去那個什麼鳳花樓廝混了!</italic></gray>"
+LIMEDYEJinFuRenDengTaShiTa:
+  Id: "lime_dye"
+  Display: "金夫人："
+  Lore:
+    - "<gray><italic>等他回來看老娘怎麼收拾他!!</italic></gray>"
+BANNERXinFuZhaiJiBianZhaoFuQiNaZaiYongBa:
+  Id: "banner"
+  Display: "<aqua>信蝠宅急便-招福旗</aqua>"
+  Lore:
+    - "<gray><italic>拿在手上就可以讓蝙蝠注意到你，</italic></gray>"
+    - "<gray><italic>若是朋友寄出包裹就能夠收到囉。</italic></gray>"
+    - "<gray><italic>不過這面旗子重量不輕，</italic></gray>"
+    - "<gray><italic>請在安全的地方使用吧。</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: -1.0
+RABBITHIDE:
+  Id: "rabbit_hide"
+NAMETAG:
+  Id: "name_tag"
+  Display: "<white>長命鎖</white>"
+  Lore:
+    - "<gray><italic>早已朽坏的長命鎖，似乎某些人正在收購</italic></gray>"
+TRIPWIREHOOK:
+  Id: "tripwire_hook"
+  Display: "<white>神秘鑰匙</white>"
+
+WOODSWORDTaoMuJianXiYouXiaoGuo:
+  Id: "wood_sword"
+  Display: "<white>桃木劍</white>"
+  Lore:
+    - "<white>稀有度：</white><white>★</white>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>練習用的木劍</italic></gray>"
+    - "<gray><italic>對黑暗生物有稍微的嚇阻效果</italic></gray>"
+  Enchantments:
+    - SMITE:1
+  Options:
+    Unbreakable: true
+NETHERBRICKITEMFangShenDuanBiXiYouYouHao:
+  Id: "nether_brick_item"
+  Display: "<white>防身短匕</white>"
+  Lore:
+    - "<white>稀有度：</white><white>★</white>"
+    - "<gold>限制職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>保命用的小匕首</italic></gray>"
+    - "<gray><italic>帶一把在身上總比沒有好</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:1
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+  Options:
+    Unbreakable: true
+BOWTengMuGongXiYouShiYong:
+  Id: "bow"
+  Display: "<white>藤木弓</white>"
+  Lore:
+    - "<white>稀有度：</white><white>★</white>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>一般的木製弓</italic></gray>"
+    - "<gray><italic>常見的入門款，適合初學者使用</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: -0.1
+      MovementSpeed: -10.0%
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICESanJieZhuangBeiYuanHeXiYouHeXin:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>三階裝備原核</aqua>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gray><italic>用來製作三階裝備核心的材料</italic></gray>"
+    - "<gray><italic>可以鍛造成指定的三階套裝核心</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+CLAYBALLChiTongDingXiYouDuanZao:
+  Id: "clay_ball"
+  Display: "<aqua>赤銅錠</aqua>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gray><italic>用來製作三階武器核心的材料</italic></gray>"
+    - "<gray><italic>非常珍貴，可以到鐵匠鋪進行鍛造</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+LIMEDYEXueTuDaXiaDaoMa:
+  Id: "lime_dye"
+  Display: "學徒："
+  Lore:
+    - "<gray><italic>大俠，你知道小李飛刀嗎？</italic></gray>"
+LIMEDYEXueTuXiaoShiDeDao:
+  Id: "lime_dye"
+  Display: "學徒："
+  Lore:
+    - "<gray><italic>小是小李飛刀的小，李是小李飛刀的李，</italic></gray>"
+    - "<gray><italic>飛是小李飛刀的飛，刀是小李飛刀的刀。</italic></gray>"
+ROTTENFLESHJingLianJinYuanSuJingLianWuQi:
+  Id: "rotten_flesh"
+  Display: "<aqua>精練金元素</aqua>"
+  Lore:
+    - "<gray><italic>精練過的元素，可以用來鍛造裝備和武器</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+BONEJingLianMuYuanSuJingLianWuQi:
+  Id: "bone"
+  Display: "<aqua>精練木元素</aqua>"
+  Lore:
+    - "<gray><italic>精練過的元素，可以用來鍛造裝備和武器</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+STRINGJingLianShuiYuanSuJingLianWuQi:
+  Id: "string"
+  Display: "<aqua>精練水元素</aqua>"
+  Lore:
+    - "<gray><italic>精練過的元素，可以用來鍛造裝備和武器</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+BLAZERODJingLianHuoYuanSuJingLianWuQi:
+  Id: "blaze_rod"
+  Display: "<aqua>精練火元素</aqua>"
+  Lore:
+    - "<gray><italic>精練過的元素，可以用來鍛造裝備和武器</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+MAGMACREAMJingLianTuYuanSuJingLianWuQi:
+  Id: "magma_cream"
+  Display: "<aqua>精練土元素</aqua>"
+  Lore:
+    - "<gray><italic>精練過的元素，可以用來鍛造裝備和武器</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTChiTongJianChuXingPoJunXiYouTongJian:
+  Id: "golden_carrot"
+  Display: "<aqua>赤銅劍雛型[破軍]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的三階[破軍]武器-赤銅劍</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTZhanChuiChuXingJinZhongXiYouZhanChui:
+  Id: "golden_carrot"
+  Display: "<aqua>戰鎚雛型[金鐘]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的三階[金鐘]武器-巨銅戰鎚</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTYanTieGongChuXingJuJiXiYouTieGong:
+  Id: "golden_carrot"
+  Display: "<aqua>燄鐵弓雛型[狙擊]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉火元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的三階[狙擊]武器-燄鐵弓</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTHongLingNuChuXingYouXiaXiYouLingNu:
+  Id: "golden_carrot"
+  Display: "<aqua>紅翎弩雛型[遊俠]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉火元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的三階[遊俠]武器-紅翎弩</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+QUARTZXuanTieDingXiYouDuanZao:
+  Id: "quartz"
+  Display: "<aqua>玄鐵錠</aqua>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gray><italic>用來製作四階武器核心的材料</italic></gray>"
+    - "<gray><italic>非常珍貴，可以到鐵匠鋪進行鍛造</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GOLDENCARROTTaiJiJianChuXingJinZhongXiYouJiJian:
+  Id: "golden_carrot"
+  Display: "<aqua>太極劍雛型[金鐘]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的四階[金鐘]武器-太極劍</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTPoKongFuChuXingPoJunXiYouKongFu:
+  Id: "golden_carrot"
+  Display: "<aqua>破空斧雛型[破軍]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的四階[破軍]武器-破空斧</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTZhongChuiGongChuXingJuJiXiYouChuiGong:
+  Id: "golden_carrot"
+  Display: "<aqua>重鎚弓雛型[狙擊]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的四階[狙擊]武器-重鎚弓</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTJiaoLongNuChuXingYouXiaXiYouLongNu:
+  Id: "golden_carrot"
+  Display: "<aqua>蛟龍弩雛型[遊俠]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的四階[遊俠]武器-蛟龍弩</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTSuoHunLianXiYouHunLu:
+  Id: "golden_carrot"
+  Display: "<aqua>鎖魂鍊</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出煉丹師的四階武器-鎖魂爐</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+DIAMONDLingYuJianXiYouDuanZao:
+  Id: "diamond"
+  Display: "<aqua>靈玉簡</aqua>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gray><italic>用來製作五階武器核心的材料</italic></gray>"
+    - "<gray><italic>非常珍貴，可以到鐵匠鋪進行鍛造</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GOLDENCARROTFeiXianJianChuXingJinZhongXiYouXianJian:
+  Id: "golden_carrot"
+  Display: "<aqua>飛仙劍雛型[金鐘]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的五階[金鐘]武器-崑崙飛仙劍</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTYuRuYiChuXingPoJunXiYouRuYi:
+  Id: "golden_carrot"
+  Display: "<aqua>玉如意雛型[破軍]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>戰士的五階[破軍]武器-三寶玉如意</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTMieShenGongChuXingJuJiXiYouShenGong:
+  Id: "golden_carrot"
+  Display: "<aqua>滅神弓雛型[狙擊]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的五階[狙擊]武器-北斗滅神弓</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTLiuXingNuChuXingYouXiaXiYouXingNu:
+  Id: "golden_carrot"
+  Display: "<aqua>流星弩雛型[遊俠]</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出</italic></gray>"
+    - "<gray><italic>弓箭手的五階[遊俠]武器-日月流星弩</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTQiShaDanXiYouShaDing:
+  Id: "golden_carrot"
+  Display: "<aqua>七煞丹</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉火元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出煉丹師的五階武器-七煞鼎</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GLOWSTONEDUSTTouZhaoCaiLiaoYongLaiZhuangBei:
+  Id: "glowstone_dust"
+  Display: "<aqua>頭罩材料</aqua>"
+  Lore:
+    - "<gray><italic>用來製作頭罩的材料</italic></gray>"
+    - "<gray><italic>加上核心和元素就可以打造出該系列的頭罩裝備</italic></gray>"
+  Options:
+    Unbreakable: true
+GLOWSTONEDUSTXiongJiaCaiLiaoYongLaiZhuangBei:
+  Id: "glowstone_dust"
+  Display: "<aqua>胸甲材料</aqua>"
+  Lore:
+    - "<gray><italic>用來製作胸甲的材料</italic></gray>"
+    - "<gray><italic>加上核心和元素就可以打造出該系列的上衣裝備</italic></gray>"
+  Options:
+    Unbreakable: true
+GLOWSTONEDUSTHuTuiCaiLiaoYongLaiZhuangBei:
+  Id: "glowstone_dust"
+  Display: "<aqua>護腿材料</aqua>"
+  Lore:
+    - "<gray><italic>用來製作護腿的材料</italic></gray>"
+    - "<gray><italic>加上核心和元素就可以打造出該系列的下身裝備</italic></gray>"
+  Options:
+    Unbreakable: true
+GLOWSTONEDUSTXueZiCaiLiaoYongLaiZhuangBei:
+  Id: "glowstone_dust"
+  Display: "<aqua>靴子材料</aqua>"
+  Lore:
+    - "<gray><italic>用來製作靴子的材料</italic></gray>"
+    - "<gray><italic>加上核心和元素就可以打造出該系列的足部裝備</italic></gray>"
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEXiongShouWenShiXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>兇獸紋飾</aqua>"
+  Lore:
+    - "<gray><italic>稀有的三階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和1個精練金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的兇獸系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEHuWenShuZhiXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>虎紋樹脂</aqua>"
+  Lore:
+    - "<gray><italic>稀有的三階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和1個精練金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出弓箭手的猛虎系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEHuaTuoMiCeXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>華佗密冊</aqua>"
+  Lore:
+    - "<gray><italic>稀有的三階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和1個精練木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出煉丹師的華佗系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICESiJieZhuangBeiYuanHeXiYouHeXin:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>四階裝備原核</aqua>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gray><italic>用來製作四階裝備核心的材料</italic></gray>"
+    - "<gray><italic>可以鍛造成指定的四階套裝核心</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEQianNianGuiJiaXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>千年龜甲</aqua>"
+  Lore:
+    - "<gray><italic>稀有的四階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和3個精練水元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的靈龜系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEShenSheFuLinXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>神蛇腹鱗</aqua>"
+  Lore:
+    - "<gray><italic>稀有的四階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和3個精練土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出弓箭手的毒蛇系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEYaoXianShiXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>藥仙石</aqua>"
+  Lore:
+    - "<gray><italic>稀有的四階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和3個精練土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出煉丹師的藥仙系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEWuJieZhuangBeiYuanHeXiYouHeXin:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>五階裝備原核</aqua>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gray><italic>用來製作五階裝備核心的材料</italic></gray>"
+    - "<gray><italic>可以鍛造成指定的五階套裝核心</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEJiaoLongLingHeXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>蛟龍靈核</aqua>"
+  Lore:
+    - "<gray><italic>稀有的五階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和6個精練木元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的青龍系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEJinPengWeiYuXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>金鵬尾羽</aqua>"
+  Lore:
+    - "<gray><italic>稀有的五階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和6個精練火元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出弓箭手的赤鷹系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GLISTERINGMELONSLICEYunXingSuiPianXiYouZhuangBei:
+  Id: "glistering_melon_slice"
+  Display: "<aqua>隕星碎片</aqua>"
+  Lore:
+    - "<gray><italic>稀有的五階裝備核心</italic></gray>"
+    - "<gray><italic>將部位材料和6個精練金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出煉丹師的星君系列裝備</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+LIMEDYEYouYuDeLianDanShiMeiCiZaiA:
+  Id: "lime_dye"
+  Display: "憂鬱的煉丹師："
+  Lore:
+    - "<gray><italic>每次都要來收鮭魚好麻煩啊......</italic></gray>"
+    - "<gray><italic>就沒有能一勞永逸的辦法嗎？</italic></gray>"
+    - "<gray><italic>本來想要在仙族石碑上找些陣法來用，</italic></gray>"
+    - "<gray><italic>沒想到針對吸引生物的陣法完全沒有記載啊......</italic></gray>"
+LIMEDYEYouYuDeLianDanShiJuShuoYuBa:
+  Id: "lime_dye"
+  Display: "憂鬱的煉丹師："
+  Lore:
+    - "<gray><italic>據說要創新陣法的話得要有頂尖的智商才行，</italic></gray>"
+    - "<gray><italic>看來我這輩子是沒有希望了。</italic></gray>"
+    - "<gray><italic>還是乖乖的來擺攤收鮭魚吧。</italic></gray>"
+LIMEDYEZiKouMiaoZuLiTianGou:
+  Id: "lime_dye"
+  Display: "梓口苗："
+  Lore:
+    - "<gray><italic>族裡的醬油用完了，所以我跑來添購</italic></gray>"
+LIMEDYEZiKouMiaoShiHuZouLe:
+  Id: "lime_dye"
+  Display: "梓口苗："
+  Lore:
+    - "<gray><italic>是蝴蝶! 阿，飛走了......</italic></gray>"
+COALXueZhongDeTan:
+  Id: "coal"
+  Display: "雪柊的碳"
+MONSTEREGGDaCongDeDanDan:
+  Id: "monster_egg"
+  Display: "大蔥的蛋蛋"
+MONSTEREGGXiaoFengDeDanDan:
+  Id: "monster_egg"
+  Display: "小風的蛋蛋"
+RAWFISHWuTangMaoDeShengYu:
+  Id: "raw_fish"
+  Display: "無糖貓的生魚"
+FIREWORKCaiSeYanHuo:
+  Id: "firework"
+  Display: "彩色煙火"
+LIMEDYEHeHanDaoDouHaoLe:
+  Id: "lime_dye"
+  Display: "何漢："
+  Lore:
+    - "<gray><italic>刀都鈍了，送去給人家打磨打磨好了。</italic></gray>"
+LIMEDYEHeHanTingShuoTiePu:
+  Id: "lime_dye"
+  Display: "何漢："
+  Lore:
+    - "<gray><italic>聽說這附近有一間不錯的打鐵舖。</italic></gray>"
+LIMEDYEChuChuKeLianDeLianDanShiNeiGeDeQian:
+  Id: "lime_dye"
+  Display: "楚楚可憐的煉丹師："
+  Lore:
+    - "<gray><italic>那個，能不能賣我幾條鮭魚呢？</italic></gray>"
+    - "<gray><italic>我...我有錢喔，有你們人族的錢。</italic></gray>"
+LIMEDYEChuChuKeLianDeLianDanShiYiNiXingLa:
+  Id: "lime_dye"
+  Display: "楚楚可憐的煉丹師："
+  Lore:
+    - "<gray><italic>咦？你問我沒內丹怎麼煉丹？</italic></gray>"
+    - "<gray><italic>呃......我也不清楚欸......</italic></gray>"
+    - "<gray><italic>就把藥草丟進去轉一圈就行啦？</italic></gray>"
+LIMEDYEBaQiDeLianDanShiZenMaMaYang:
+  Id: "lime_dye"
+  Display: "霸氣的煉丹師："
+  Lore:
+    - "<gray><italic>怎麼？我看起來不像煉丹師嗎？</italic></gray>"
+    - "<gray><italic>沒人告訴過你看人不能看長相嗎？，</italic></gray>"
+    - "<gray><italic>長得兇惡又怎麼樣？</italic></gray>"
+LIMEDYEBaQiDeLianDanShiWoJiuRuHe:
+  Id: "lime_dye"
+  Display: "霸氣的煉丹師："
+  Lore:
+    - "<gray><italic>我就是不敢打怪只敢躲在隊友後面。</italic></gray>"
+    - "<gray><italic>你是有意見是不是？</italic></gray>"
+    - "<gray><italic>有意見來單挑啊！</italic></gray>"
+    - "<gray><italic>輸了罰你三條鮭魚就好，如何？</italic></gray>"
+LIMEDYEBuNaiFanDeLianDanShiAiAiDeMa:
+  Id: "lime_dye"
+  Display: "不耐煩的煉丹師："
+  Lore:
+    - "<gray><italic>唉唉怎麼搞的這麼多人來跟我搶生意？</italic></gray>"
+    - "<gray><italic>難道他們也是從海港那裡得知消息的嗎......</italic></gray>"
+LIMEDYEBuNaiFanDeLianDanShiKeXiYiQiao:
+  Id: "lime_dye"
+  Display: "不耐煩的煉丹師："
+  Lore:
+    - "<gray><italic>可惜聽說進了仙島就不能出來了，</italic></gray>"
+    - "<gray><italic>不然我也想進去瞧一瞧。</italic></gray>"
+LIMEDYEGuiGuiSuiSuiDeLianDanShiNiWenZhuanTou:
+  Id: "lime_dye"
+  Display: "鬼鬼祟祟的煉丹師："
+  Lore:
+    - "<gray><italic>你問我為什麼要收鮭魚？</italic></gray>"
+    - "<gray><italic>恩......這個問題問的很好，</italic></gray>"
+    - "<gray><italic>先來個三條鮭魚我再回答......</italic></gray>"
+    - "<gray><italic>欸不對，我為什麼要告訴你啊。（轉頭）</italic></gray>"
+LIMEDYEGuiGuiSuiSuiDeLianDanShiAiAiWoA:
+  Id: "lime_dye"
+  Display: "鬼鬼祟祟的煉丹師："
+  Lore:
+    - "<gray><italic>唉唉太糟糕了，</italic></gray>"
+    - "<gray><italic>連講話都越來越像那個老頭了。</italic></gray>"
+    - "<gray><italic>親愛的會不會嫌棄我啊......</italic></gray>"
+LIMEDYETaoYanYuLeiDeLianDanShiWoZhenXingWei:
+  Id: "lime_dye"
+  Display: "討厭魚類的煉丹師："
+  Lore:
+    - "<gray><italic>我真的很討厭魚類......</italic></gray>"
+    - "<gray><italic>黏黏的滿是腥味.....</italic></gray>"
+LIMEDYETaoYanYuLeiDeLianDanShiHuanDeFanA:
+  Id: "lime_dye"
+  Display: "討厭魚類的煉丹師："
+  Lore:
+    - "<gray><italic>還得保持活跳跳的</italic></gray>"
+    - "<gray><italic>唉唉真麻煩啊......</italic></gray>"
+FEATHERQingYingYuMaoWoZaiShiYong:
+  Id: "feather"
+  Display: "<aqua>輕盈羽毛</aqua>"
+  Lore:
+    - "<gray><italic>握在手中感覺全身都輕盈了起來</italic></gray>"
+    - "<gray><italic>但是似乎也會讓防禦變得薄弱</italic></gray>"
+    - "<gray><italic>需要小心使用</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+  Attributes:
+    MAINHAND:
+      Health: -0.7
+      MovementSpeed: 0.8
+WATCH:
+  Id: "clock"
+  Display: "<white>罗盘</white>"
+
+LIMEDYEShengDiYaGeWoZuiQianBa:
+  Id: "lime_dye"
+  Display: "盛地亞哥："
+  Lore:
+    - "<gray><italic>我最愛用銀科拉，小麥畝產一千八。</italic></gray>"
+LIMEDYEShengDiYaGeJinLaiZhuangJia:
+  Id: "lime_dye"
+  Display: "盛地亞哥："
+  Lore:
+    - "<gray><italic>近來肥料大漲，肥料摻了銀科拉，一袋能抵兩袋灑。</italic></gray>"
+    - "<gray><italic>沒有銀科拉，我要怎樣種莊稼。</italic></gray>"
+LIMEDYEZiYanXiaoJieHaoRen:
+  Id: "lime_dye"
+  Display: "紫煙："
+  Lore:
+    - "<gray><italic>小姐，你別緊張，我不是什麼好人 ！</italic></gray>"
+LIMEDYEZiYanWoWoHaoRen:
+  Id: "lime_dye"
+  Display: "紫煙："
+  Lore:
+    - "<gray><italic>喔，我說錯了，我是好人！</italic></gray>"
+LIMEDYEChiLingXiangZiYaoLian:
+  Id: "lime_dye"
+  Display: "癡靈："
+  Lore:
+    - "<gray><italic>巷子口那小販賺取暴利，</italic></gray>"
+    - "<gray><italic>真的是不要臉！</italic></gray>"
+LIMEDYEChiLingNiShuoQingBa:
+  Id: "lime_dye"
+  Display: "癡靈："
+  Lore:
+    - "<gray><italic>你說他這樣沒心沒肺，</italic></gray>"
+    - "<gray><italic>體重肯定很輕吧？</italic></gray>"
+LIMEDYEChengYanChuiSiChuLai:
+  Id: "lime_dye"
+  Display: "程顏："
+  Lore:
+    - "<gray><italic>垂死病中驚坐起，笑問客從何處來</italic></gray>"
+LIMEDYEChengYanShaoXiaoXiongCi:
+  Id: "lime_dye"
+  Display: "程顏："
+  Lore:
+    - "<gray><italic>少小離家老大回，安能辨我是雄雌</italic></gray>"
+LIMEDYECangSangLaoLuRenWoYeGuangA:
+  Id: "lime_dye"
+  Display: "滄桑老旅人："
+  Lore:
+    - "<gray><italic>我也曾經是個冒險者...直到我膝蓋中了一箭過後，</italic></gray>"
+    - "<gray><italic>就再也沒去過南方探險了...好懷念與馬賊廝殺的時光阿...</italic></gray>"
+LIMEDYECangSangLaoLuRenXiangChuanShiA:
+  Id: "lime_dye"
+  Display: "滄桑老旅人："
+  Lore:
+    - "<gray><italic>相傳神鳥朱雀就是棲息在沙漠中一棵枯枝上，</italic></gray>"
+    - "<gray><italic>但至今我仍沒機會看過一眼...實是人生一大憾事阿...</italic></gray>"
+LIMEDYEXiaXingZheQianLaiLe:
+  Id: "lime_dye"
+  Display: "夏刑："
+  Lore:
+    - "<gray><italic>這前天我好像看見了有人跳進井裡了，今早又看他跳出來了。</italic></gray>"
+LIMEDYEXiaXingNiShuoXiA:
+  Id: "lime_dye"
+  Display: "夏刑："
+  Lore:
+    - "<gray><italic>你說這裡面會不會有什麼東西啊?</italic></gray>"
+NETHERSTALKHuJiaoFenShenMiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>胡椒粉</aqua>"
+  Lore:
+    - "<gray><italic>神秘的粉末，聞起來有嗆鼻的刺激感</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+LIMEDYEWangHuDeKuaiCaiXing:
+  Id: "lime_dye"
+  Display: "王虎："
+  Lore:
+    - "<gray><italic>得快叫我家夥計，把香爐裡的灰給倒了才行！</italic></gray>"
+LIMEDYEWangHuYaoShiCanLe:
+  Id: "lime_dye"
+  Display: "王虎："
+  Lore:
+    - "<gray><italic>要是被人發現那是我用來迷昏二少奶奶的，</italic></gray>"
+    - "<gray><italic>那可就慘了！</italic></gray>"
+LIMEDYETieJiangPuHuoJiDaXiaYuA:
+  Id: "lime_dye"
+  Display: "鐵匠舖夥計："
+  Lore:
+    - "<gray><italic>大俠，你可別和掌櫃說我翹班出來摸魚啊！</italic></gray>"
+LIMEDYETieJiangPuHuoJiZuiJinZouZou:
+  Id: "lime_dye"
+  Display: "鐵匠舖夥計："
+  Lore:
+    - "<gray><italic>最近生意不好，閒著也是閒著嘛！</italic></gray>"
+    - "<gray><italic>不如到街上走走！</italic></gray>"
+LIMEDYEHaoErDanShangCiHaiBa:
+  Id: "lime_dye"
+  Display: "浩二蛋："
+  Lore:
+    - "<gray><italic>上次一隻老鷹打我頭頂飛過，我大腳一踏，強弓一張，</italic></gray>"
+    - "<gray><italic>那隻老鷹就這樣被我給射下來了，怎麼樣，厲害吧?</italic></gray>"
+LIMEDYEHaoErDanANiDuiLe:
+  Id: "lime_dye"
+  Display: "浩二蛋："
+  Lore:
+    - "<gray><italic>阿?你問我射箭有沒有什麼訣竅，</italic></gray>"
+    - "<gray><italic>唉...恩......阿.....那個....用...用心去感受就對了!</italic></gray>"
+LIMEDYENieGongNuQinGongGeRen:
+  Id: "lime_dye"
+  Display: "聶宮女："
+  Lore:
+    - "<gray><italic>秦公公真討厭阿，一天到晚在那邊唸唸唸，</italic></gray>"
+    - "<gray><italic>明明他自己才是什麼都不做，最偷懶的那個人。</italic></gray>"
+LIMEDYENieGongNuXuXuJianLe:
+  Id: "lime_dye"
+  Display: "聶宮女："
+  Lore:
+    - "<gray><italic>噓噓噓，小聲點!別讓他人聽見了。</italic></gray>"
+LIMEDYELiSiXiangDangDeRen:
+  Id: "lime_dye"
+  Display: "李四："
+  Lore:
+    - "<gray><italic>想當年，我是實實在在也是有故事的人....</italic></gray>"
+LIMEDYELiSiZhiShiWuCheng:
+  Id: "lime_dye"
+  Display: "李四："
+  Lore:
+    - "<gray><italic>只是到了今天，我仍就是一事無成...</italic></gray>"
+LIMEDYELingZhenDangYiZuoDe:
+  Id: "lime_dye"
+  Display: "凌真："
+  Lore:
+    - "<gray><italic>當一個人再也不能擁有的時候，他唯一可以做的…</italic></gray>"
+LIMEDYELingZhenJiuShiWangJi:
+  Id: "lime_dye"
+  Display: "凌真："
+  Lore:
+    - "<gray><italic>就是令自已不要忘記。</italic></gray>"
+LIMEDYEWuQingTingShuoZhongZu:
+  Id: "lime_dye"
+  Display: "無清："
+  Lore:
+    - "<gray><italic>聽說世間有一群人，他們在烈火中誕生，在戰火中成長</italic></gray>"
+    - "<gray><italic>天地為家，血肉為食，是一個為了戰鬥而誕生的種族。</italic></gray>"
+LIMEDYEWuQingBuGuoWeiDi:
+  Id: "lime_dye"
+  Display: "無清："
+  Lore:
+    - "<gray><italic>不過聽說他們極少在世間走動，</italic></gray>"
+    - "<gray><italic>如果遇到了，千萬不要輕易與他們為敵。</italic></gray>"
+LIMEDYEErTongRenShengGuoLe:
+  Id: "lime_dye"
+  Display: "爾彤："
+  Lore:
+    - "<gray><italic>人生就這麼一點點。</italic></gray>"
+    - "<gray><italic>有些事嘛，睜一眼閉一眼，一天就過了</italic></gray>"
+LIMEDYEErTongNeiRuGuoLe:
+  Id: "lime_dye"
+  Display: "爾彤："
+  Lore:
+    - "<gray><italic>那如果，閉了眼不睜開呢？</italic></gray>"
+    - "<gray><italic>那一輩子就過了！</italic></gray>"
+LIMEDYEChiChengZaiZheCaiXing:
+  Id: "lime_dye"
+  Display: "赤澄："
+  Lore:
+    - "<gray><italic>在這大陸旅行，馬一定是方便的好夥伴，</italic></gray>"
+    - "<gray><italic>不過可要細心照料才行。</italic></gray>"
+LIMEDYEChiChengBuGuoShiJia:
+  Id: "lime_dye"
+  Display: "赤澄："
+  Lore:
+    - "<gray><italic>不過聽說有種神秘的羽毛，拿著可以跑的比馬還快，</italic></gray>"
+    - "<gray><italic>不曉得是真是假...</italic></gray>"
+RAWFISHGaoJiGongMiGongPinMiXiang:
+  Id: "pufferfish"
+  Display: "<aqua>高級貢蜜</aqua>"
+  Lore:
+    - "<gray><italic>貢品等級的蜂蜜，</italic></gray>"
+    - "<gray><italic>就算用甕裝著也無法擋住其中散發的蜜香</italic></gray>"
+LIMEDYENiHaiZhuShaHuiLai:
+  Id: "lime_dye"
+  Display: "泥海："
+  Lore:
+    - "<gray><italic>朱砂跟符紙都用完了，師傅叫我去買一點回來。</italic></gray>"
+LIMEDYENiHaiWoShiNianLai:
+  Id: "lime_dye"
+  Display: "泥海："
+  Lore:
+    - "<gray><italic>我師傅可厲害了，移山填海什麼的都是信手拈來。</italic></gray>"
+LIMEDYELiuLaoXiaQiZhiSheng:
+  Id: "lime_dye"
+  Display: "劉老："
+  Lore:
+    - "<gray><italic>下棋，講求的是料敵先知，下一步棋，要預想</italic></gray>"
+    - "<gray><italic>後面的十多種可能，唯有如此，才能克敵制勝。</italic></gray>"
+LIMEDYELiuLaoLaiLaiJuA:
+  Id: "lime_dye"
+  Display: "劉老："
+  Lore:
+    - "<gray><italic>來來來，小兄弟，有沒有興趣跟我對弈一局阿。</italic></gray>"
+LIMEDYEHeGongNuShangCiRenLe:
+  Id: "lime_dye"
+  Display: "何宮女："
+  Lore:
+    - "<gray><italic>上次打掃庫房，秦公公就一直站在邊上指揮來指揮去的，</italic></gray>"
+    - "<gray><italic>一會說這沒掃乾淨，一會說那還有灰塵，真是煩也煩死人了。</italic></gray>"
+LIMEDYEHeGongNuHengTingBuPa:
+  Id: "lime_dye"
+  Display: "何宮女："
+  Lore:
+    - "<gray><italic>哼!聽見又怎樣，別人怕他我可不怕。</italic></gray>"
+MAPHuangChengDiTuJiLuJiangPu:
+  Id: "filled_map"
+  Display: "<aqua>皇城地圖</aqua>"
+  Lore:
+    - "<gray><italic>紀錄皇城各個重要地點的地圖</italic></gray>"
+    - "<gray><italic>包括西北方的</italic></gray><gold><italic>驛站</italic></gold>"
+    - "<gray><italic>中心偏東北方的</italic></gray><gold><italic>傳送點</italic></gold><gray><italic>和</italic></gray><gold><italic>煉丹房</italic></gold>"
+    - "<gray><italic>正西方的</italic></gray><gold><italic>鳳花樓</italic></gold>"
+    - "<gray><italic>西南方的</italic></gray><gold><italic>錢莊</italic></gold><gray><italic>、</italic></gray><gold><italic>市集</italic></gold>"
+    - "<gray><italic>以及鍛造裝備的</italic></gray><gold><italic>鐵匠舖</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+LIMEDYEWangShanHouHaiHaiYa:
+  Id: "lime_dye"
+  Display: "王杉："
+  Lore:
+    - "<gray><italic>吼害壓喔咿呀歐ㄧ唉呀那嚕灣都依呀黑唉~~</italic></gray>"
+    - "<gray><italic>厚依唷喔吼害呀~~~</italic></gray>"
+LIMEDYEWangShanNiShuoWoDe:
+  Id: "lime_dye"
+  Display: "王杉："
+  Lore:
+    - "<gray><italic>你說我在唱什麼，這是我上次到山裡去，</italic></gray>"
+    - "<gray><italic>遇到一個皮膚黑黑的小孩教我的。</italic></gray>"
+NETHERSTALKMiLuDeMaiKeFengYouHuoMiFeng:
+  Id: "nether_stalk"
+  Display: "<aqua>迷路的麥剋蜂</aqua>"
+  Lore:
+    - "<gray><italic>有活力的小蜜蜂</italic></gray>"
+LIMEDYEXinQiTianGanXieYaoLe:
+  Id: "lime_dye"
+  Display: "<bold>辛齊天：</bold>"
+  Lore:
+    - "<gray><italic>感謝你的人蔘！</italic></gray>"
+    - "<gray><italic>這些人蔘搭配麥剋蜂的毒液，</italic></gray>"
+    - "<gray><italic>就能煉製克制毒性的丹藥了！</italic></gray>"
+LIMEDYEXinQiTianDuoKuiKouWo:
+  Id: "lime_dye"
+  Display: "<bold>辛齊天：</bold>"
+  Lore:
+    - "<gray><italic>多虧了你，</italic></gray>"
+    - "<gray><italic>我才能製作出如此出色的解毒丹。</italic></gray>"
+    - "<gray><italic>我就算恩人成本價就好，</italic></gray>"
+    - "<gray><italic>有需要盡管跟我開口喔！</italic></gray>"
+POTIONXinShiJieDuDanYongMaiDeDu:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>辛氏解毒丹</dark_green><white></white>"
+  Lore:
+    - "<gray><italic>用麥剋蜂毒液煉製的丹藥，</italic></gray>"
+    - "<gray><italic>能解大部分的毒。</italic></gray>"
+  PotionEffects:
+    - POISON{d=0;l=10;p=true}
+    - WITHER{d=0;l=10;p=true}
+LIMEDYEWangDaMaYaoMaiXiangGu:
+  Id: "lime_dye"
+  Display: "王大媽："
+  Lore:
+    - "<gray><italic>要買魚、買肉.....還要買點香菇。</italic></gray>"
+LIMEDYEWangDaMaJinWanMaNi:
+  Id: "lime_dye"
+  Display: "王大媽："
+  Lore:
+    - "<gray><italic>今晚煮些什麼呢?</italic></gray>"
+PURPLEDYEYaoZuZhengMingShenWeiZhengMing:
+  Id: "purple_dye"
+  Display: "<aqua>妖族證明</aqua>"
+  Lore:
+    - "<gray><italic>身為妖族成員的證明</italic></gray>"
+POISONOUSPOTATOZhongJiYaoYinLianDanCaiLiao:
+  Id: "poisonous_potato"
+  Display: "<aqua>中級藥引</aqua>"
+  Lore:
+    - "<gray><italic>煉丹師用來煉製丹藥的必備材料</italic></gray>"
+POISONOUSPOTATOGaoJiYaoYinLianDanCaiLiao:
+  Id: "poisonous_potato"
+  Display: "<aqua>高級藥引</aqua>"
+  Lore:
+    - "<gray><italic>煉丹師用來煉製丹藥的必備材料</italic></gray>"
+PAPERXinShouZhuangBeiDuiHuanQuanKeYiZhuangBei:
+  Id: "paper"
+  Display: "<aqua>新手裝備兌換券</aqua>"
+  Lore:
+    - "<gray><italic>可以向銷售員兌換基礎裝備</italic></gray>"
+PAPERXiaoRenDeTuiJianHanQingNaJiaLuo:
+  Id: "paper"
+  Display: "<aqua>小仁的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找村長</italic></gray>"
+    - "<gray><italic>沿著階梯往上走，在隧道前右轉沿路往上</italic></gray>"
+    - "<gray><italic>看到的第一間紅色屋瓦的房子，就是村長家囉</italic></gray>"
+PAPERXiaoHuaDeTuiJianHanQingNaChiBian:
+  Id: "paper"
+  Display: "<aqua>小花的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找谷主</italic></gray>"
+    - "<gray><italic>谷主就在古樹前的水池邊</italic></gray>"
+PAPERXiaoFeiDeTuiJianHanQingNaDianLe:
+  Id: "paper"
+  Display: "<aqua>小飛的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找盟主</italic></gray>"
+    - "<gray><italic>沿著環山棧道往下走，到大石碑處左轉直走</italic></gray>"
+    - "<gray><italic>沿著之字形的路上山就可以到達盟主大殿了</italic></gray>"
+PAPERFuXiDeTuiJianHanQingNaDianLe:
+  Id: "paper"
+  Display: "<aqua>伏羲的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找長老</italic></gray>"
+    - "<gray><italic>穿過山洞往上走，經過商業區後方大橋</italic></gray>"
+    - "<gray><italic>就可以到達長老的大殿了</italic></gray>"
+PAPERFeiHuDeTuiJianHanQingNaTingZhong:
+  Id: "paper"
+  Display: "<aqua>飛虎的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找族長</italic></gray>"
+    - "<gray><italic>族長就在右前方的議事廳中</italic></gray>"
+BLAZEPOWDERGeiZhenChangDeXinJianLianXinXinJian:
+  Id: "blaze_powder"
+  Display: "<aqua>給鎮長的信件</aqua>"
+  Lore:
+    - "<gray><italic>蓮心要我轉交給鎮長的信件</italic></gray>"
+NETHERSTALKXiaoHaiZiDeDuDouZheShiDieBa:
+  Id: "nether_stalk"
+  Display: "<aqua>小孩子的肚兜</aqua>"
+  Lore:
+    - "<gray><italic>這是虎子當年失蹤時所穿得肚兜，將它交給虎子的爹爹吧</italic></gray>"
+POTIONXinShouLiaoYuDanXinShouDanYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<aqua>新手療癒丹</aqua>"
+  Lore:
+    - "<gray><italic>新手專用治療丹藥</italic></gray>"
+SNOWBALLTuiHuoFuZhenDuiXiaoGuo:
+  Id: "snow_ball"
+  Display: "<aqua>退火符</aqua>"
+  Lore:
+    - "<gray><italic>針對火焰魔製作的符咒</italic></gray>"
+    - "<gray><italic>對一般怪物只有擊退效果</italic></gray>"
+NETHERSTALKZhuangZhuXiaoTuZiDeLongZiZhuangZhuTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>裝著小兔子的籠子</aqua>"
+  Lore:
+    - "<gray><italic>裝著迷路小兔子的籠子。小妹妹請你幫忙交給兔子王。</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+ORANGEDYEBeiQiangZouDeShanShenMiaoGongPinGuaiWuGongBa:
+  Id: "orange_dye"
+  Display: "<aqua>被搶走的山神廟供品</aqua>"
+  Lore:
+    - "<gray><italic>怪物搶走的山神供品</italic></gray>"
+    - "<gray><italic>蒐集一些一起還給廟公吧</italic></gray>"
+ORANGEDYEWangYuanWaiBeiQiangZouDeHuoWuWangYuanTaBa:
+  Id: "orange_dye"
+  Display: "<aqua>王員外被搶走的貨物</aqua>"
+  Lore:
+    - "<gray><italic>王員外被馬賊搶走的貨物</italic></gray>"
+    - "<gray><italic>蒐集一些一起還給他吧</italic></gray>"
+NETHERSTALKTaiShangLaoJunShuFangDeYaoChiKeYiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>太上老君書房的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟太上老君書房的鑰匙</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+EXPBOTTLEJiangHuXinDeLiTouJingYan:
+  Id: "exp_bottle"
+  Display: "<aqua>江湖心得</aqua>"
+  Lore:
+    - "<gray><italic>裡頭記載著各種江湖上的行走心得</italic></gray>"
+    - "<gray><italic>可以從裡頭學到許多經驗</italic></gray>"
+ORANGEDYEShangXianBeiQiangZouDeWenXianZhuanYuanTaBa:
+  Id: "orange_dye"
+  Display: "<aqua>上仙被搶走的文獻</aqua>"
+  Lore:
+    - "<gray><italic>篆元真人被怪物偷走的研究文獻</italic></gray>"
+    - "<gray><italic>蒐集一些一起還給他吧</italic></gray>"
+NETHERSTALKTuShuGuanGuanLiYuanDeBaoGuoDanYaoBaoGuo:
+  Id: "nether_stalk"
+  Display: "<aqua>圖書館管理員的包裹</aqua>"
+  Lore:
+    - "<gray><italic>丹藥店老闆請你轉交給圖書館管理員的包裹</italic></gray>"
+NETHERSTALKWeiJianDingDeSheJiLanTuYiSiShiWei:
+  Id: "nether_stalk"
+  Display: "<aqua>未鑑定的設計藍圖</aqua>"
+  Lore:
+    - "<gray><italic>疑似是四聖獸的設計圖，不知道是真是偽。</italic></gray>"
+ORANGEDYEYuanQiDeJieJingBuGanJingBa:
+  Id: "orange_dye"
+  Display: "<aqua>怨氣的結晶</aqua>"
+  Lore:
+    - "<gray><italic>不甘與怨恨聚集而成的結晶</italic></gray>"
+    - "<gray><italic>蒐集一些給白骨精吧</italic></gray>"
+LIMEDYEQinGongGongZheXieDiWei:
+  Id: "lime_dye"
+  Display: "秦公公："
+  Lore:
+    - "<gray><italic>這些宮女阿，一天到晚就知道偷懶、嚼耳根，</italic></gray>"
+    - "<gray><italic>一定要好好的教訓他們一頓，讓他們清楚自己的地位!!</italic></gray>"
+LIMEDYEQinGongGongNiHuanGongZuo:
+  Id: "lime_dye"
+  Display: "秦公公："
+  Lore:
+    - "<gray><italic>你還杵在這做啥?還不快去工作!</italic></gray>"
+LIMEDYEYanZiTingShuoKanKan:
+  Id: "lime_dye"
+  Display: "燕子："
+  Lore:
+    - "<gray><italic>聽說皇宮晚上比鳳花樓還精采呢！真想去一次看看</italic></gray>"
+LIMEDYEYanZiNiWenJiGuan:
+  Id: "lime_dye"
+  Display: "燕子："
+  Lore:
+    - "<gray><italic>你問我地點在哪?這我也有點不清楚呢!</italic></gray>"
+    - "<gray><italic>我聽其他宮女說有兩道機關</italic></gray>"
+LIMEDYEXiaoChunZiZongSuanCaiHao:
+  Id: "lime_dye"
+  Display: "小春子："
+  Lore:
+    - "<gray><italic>總算能到後宮混口飯吃了，後宮佳麗果然姿色撩人！</italic></gray>"
+    - "<gray><italic>希望沒淨身的事情別讓李公公知道才好...</italic></gray>"
+LIMEDYEXiaoChunZiJinWanHeiHei:
+  Id: "lime_dye"
+  Display: "小春子："
+  Lore:
+    - "<gray><italic>今晚要偷溜到哪個宮女房間過夜呢...嘿嘿</italic></gray>"
+CAKE:
+  Id: "cake"
+COOKEDRABBIT:
+  Id: "cooked_rabbit"
+  Display: "<aqua>莫名奇妙就熟了的兔肉</aqua>"
+  Lore:
+    - "<gray><italic>這是什麽？吃一口——這是什麽？再吃一口！</italic></gray>"
+APPLE:
+  Id: "apple"
+LIMEDYEHeGanHuangGongQiaoQiao:
+  Id: "lime_dye"
+  Display: "何甘："
+  Lore:
+    - "<gray><italic>皇宮真漂亮阿，真希望能有機會進去瞧瞧。</italic></gray>"
+LIMEDYEHeGanADangDeBa:
+  Id: "lime_dye"
+  Display: "何甘："
+  Lore:
+    - "<gray><italic>阿~當皇帝到底是什麼感覺阿，一定很爽的吧?</italic></gray>"
+LIMEDYEWangDaShaShangCiWoJian:
+  Id: "lime_dye"
+  Display: "王大傻："
+  Lore:
+    - "<gray><italic>上次我在這個路口撿到十文錢，</italic></gray>"
+    - "<gray><italic>我想看看會不會再出現一次十文錢讓我撿。</italic></gray>"
+LIMEDYEWangDaShaZenMaYouNi:
+  Id: "lime_dye"
+  Display: "王大傻："
+  Lore:
+    - "<gray><italic>怎麼還沒有呢....怎麼還沒有呢?</italic></gray>"
+LIMEDYEZuYiXiangXiangXiaoXi:
+  Id: "lime_dye"
+  Display: "祖宜："
+  Lore:
+    - "<gray><italic>想向我打聽點小道消息? </italic></gray>"
+LIMEDYEZuYiXingAHuaHua:
+  Id: "lime_dye"
+  Display: "祖宜："
+  Lore:
+    - "<gray><italic>行阿，先拿兩張銀票來給爺們花花。</italic></gray>"
+LIMEDYELaoWengXiaoHuoGuangGuang:
+  Id: "lime_dye"
+  Display: "老翁："
+  Lore:
+    - "<gray><italic>小伙子啊~聽說這裡的風景不錯！你可不可以帶我逛逛？</italic></gray>"
+LIMEDYELaoWengE^E^ZouLe:
+  Id: "lime_dye"
+  Display: "老翁："
+  Lore:
+    - "<gray><italic>欸欸欸！等等啊小伙子！別這麼快就走了！！</italic></gray>"
+LIMEDYENanMenWeiBoQiShouGuiDaLao:
+  Id: "lime_dye"
+  Display: "南門衛 勃谿："
+  Lore:
+    - "<gray><italic>守規矩點，小心我把你抓入大牢。</italic></gray>"
+LIMEDYENanMenWeiBoQiHaoHaoQiZhong:
+  Id: "lime_dye"
+  Display: "南門衛 勃谿："
+  Lore:
+    - "<gray><italic>好好巡視南門，才不會讓可疑的妖道混入其中！</italic></gray>"
+LIMEDYENanMenWeiLeiQiShuoShuoGuoQu:
+  Id: "lime_dye"
+  Display: "南門衛 雷棨："
+  Lore:
+    - "<gray><italic>說說你為什麼要入城，讓我滿意就放你過去。</italic></gray>"
+LIMEDYENanMenWeiLeiQiNanFangZhongRen:
+  Id: "lime_dye"
+  Display: "南門衛 雷棨："
+  Lore:
+    - "<gray><italic>南方的風沙如此乾燥...徹夜守衛是件疲累之事...</italic></gray>"
+    - "<gray><italic>但絕不能辜負聖上所託之重任！</italic></gray>"
+LIMEDYEXiaoXunZiHuangShangShiNi:
+  Id: "lime_dye"
+  Display: "小勳子："
+  Lore:
+    - "<gray><italic>皇上也真是的，一到夜晚就偷溜出去夜夜笙歌，</italic></gray>"
+    - "<gray><italic>不過鳳花樓的老鴇又說皇上沒來過。到底是怎麼回事呢?</italic></gray>"
+LIMEDYEXiaoXunZiHuangChengHuTong:
+  Id: "lime_dye"
+  Display: "小勳子："
+  Lore:
+    - "<gray><italic>皇城東側樓梯下方似乎有甚麼東西，宮女們常常在那徘徊。</italic></gray>"
+    - "<gray><italic>不過過去一看卻只是死胡同...</italic></gray>"
+RAWFISHQianMaDingNiSiFenRuKou:
+  Id: "pufferfish"
+  Display: "<aqua>乾馬丁尼</aqua>"
+  Lore:
+    - "<gray><italic>四分之三琴酒和四分之一苦艾酒</italic></gray>"
+    - "<gray><italic>微甜，偏苦，冰鎮後更好入口</italic></gray>"
+RAWFISHMaGeLiTeErFenQingShuang:
+  Id: "pufferfish"
+  Display: "<aqua>瑪格麗特</aqua>"
+  Lore:
+    - "<gray><italic>二分之一龍舌蘭酒，四分之一君度橙酒</italic></gray>"
+    - "<gray><italic>四分之一青檸檬汁</italic></gray>"
+    - "<gray><italic>口感濃鬱，帶有清鮮的果香</italic></gray>"
+    - "<gray><italic>入口酸酸甜甜，非常的清爽</italic></gray>"
+RAWFISHXueXingMaLiFuTeDuTe:
+  Id: "pufferfish"
+  Display: "<aqua>血腥瑪麗</aqua>"
+  Lore:
+    - "<gray><italic>伏特加，檸檬汁，鮮磨的胡椒粒</italic></gray>"
+    - "<gray><italic>鹽，塔巴斯科醬，伍斯特醬，和番茄汁</italic></gray>"
+    - "<gray><italic>色澤鮮紅，口味又咸又甜，非常的獨特</italic></gray>"
+RAWFISHXingGanHaiAnFuTeXiaoLa:
+  Id: "pufferfish"
+  Display: "<aqua>性感海岸</aqua>"
+  Lore:
+    - "<gray><italic>伏特加，桃子利口酒，菠蘿汁，小紅莓汁</italic></gray>"
+    - "<gray><italic>口感酸酸甜甜，略帶些伏特加的小辣</italic></gray>"
+RAWFISHBaiSeELuoSiFuTeShiZu:
+  Id: "pufferfish"
+  Display: "<aqua>白色俄羅斯</aqua>"
+  Lore:
+    - "<gray><italic>伏特加，鮮奶油 ，咖啡香甜酒</italic></gray>"
+    - "<gray><italic>香氣濃郁，口感濃厚，後勁十足</italic></gray>"
+LIMEDYEXiangMinWoZuoMaDe:
+  Id: "lime_dye"
+  Display: "湘泯："
+  Lore:
+    - "<gray><italic>我昨天遇到個人，冒冒失失的跑來問我說</italic></gray>"
+    - "<gray><italic>我是不是任務恩披溪什麼的...</italic></gray>"
+LIMEDYEXiangMinNiGenShiA:
+  Id: "lime_dye"
+  Display: "湘泯："
+  Lore:
+    - "<gray><italic>你跟昨天那人是同夥是不是阿?</italic></gray>"
+LIMEDYEWangErShaNiKanQuDeng:
+  Id: "lime_dye"
+  Display: "王二傻："
+  Lore:
+    - "<gray><italic>你看我大哥整天蹲在那邊等著撿十文錢，</italic></gray>"
+    - "<gray><italic>我才沒他那麼笨呢!沒二十文錢我可不會去等。</italic></gray>"
+LIMEDYEWangErShaShuoRenShaZi:
+  Id: "lime_dye"
+  Display: "王二傻："
+  Lore:
+    - "<gray><italic>說人家傻，你才是傻子呢!</italic></gray>"
+    - "<gray><italic>你是傻子，你全家都是傻子。</italic></gray>"
+LIMEDYEDaShaZheChengFuNi:
+  Id: "lime_dye"
+  Display: "大傻："
+  Lore:
+    - "<gray><italic>這城哩，人人都笑我傻！</italic></gray>"
+    - "<gray><italic>其實傻人才有傻福呢！</italic></gray>"
+LIMEDYEDaShaShaYuZhuangSha:
+  Id: "lime_dye"
+  Display: "大傻："
+  Lore:
+    - "<gray><italic>傻與不傻，要看你會不會裝傻。</italic></gray>"
+LIMEDYEYuChuXiaoLongBaoZuiJinYeWei:
+  Id: "lime_dye"
+  Display: "<bold>御廚筱隆褒：</bold>"
+  Lore:
+    - "<gray><italic>最近皇上想吃點野味</italic></gray>"
+LIMEDYEYuChuXiaoLongBaoRuGuoBaoChou:
+  Id: "lime_dye"
+  Display: "<bold>御廚筱隆褒：</bold>"
+  Lore:
+    - "<gray><italic>如果你能幫我帶來特殊的山珍</italic></gray>"
+    - "<gray><italic>我可以幫你烹煮一部分的菜餚做為報酬</italic></gray>"
+RABBITSTEW:
+  Id: "rabbit_stew"
+CLAYBRICKHunYuanShenDingXiYouNengLi:
+  Id: "clay_brick"
+  Display: "<red>混元神鼎</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>傳說中宇宙剛形成時就存在的法寶</italic></gray>"
+    - "<gray><italic>鼎內自成一個宇宙</italic></gray>"
+    - "<gray><italic>任何材料進入都會被熔煉</italic></gray>"
+    - "<gray><italic>也有不凡的攻擊能力</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:8
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      Damage: 5.0
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoWuQiHunYuanShenDingXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說武器-[混元神鼎]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>傳說中宇宙剛形成時就存在的法寶</italic></gray>"
+    - "<gray><italic>鼎內自成一個宇宙</italic></gray>"
+    - "<gray><italic>任何材料進入都會被熔煉</italic></gray>"
+    - "<gray><italic>也有不凡的攻擊能力</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoWuQiZhuRiXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說武器-[逐日]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>傳說中人皇后羿所用的武器</italic></gray>"
+    - "<gray><italic>擁有連太陽都懼怕的力量</italic></gray>"
+    - "<gray><italic>射出的箭是利用殺氣凝結而成</italic></gray>"
+    - "<gray><italic>快速而致命</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+WOODPICKAXEDingHaiShenZhenXiYouWuQi:
+  Id: "wood_pickaxe"
+  Display: "<red>定海神針</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>又名如意金箍棒，可大可小</italic></gray>"
+    - "<gray><italic>傳說中齊天大聖孫悟空使用的武器</italic></gray>"
+    - "<gray><italic>由太上老君所製，重達一萬三千五百斤</italic></gray>"
+    - "<gray><italic>被孫悟空搶去當作稱手武器</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:3
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      Damage: 20.0
+      Health: 0.3
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoWuQiDingHaiShenZhenXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說武器-[定海神針]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>又名如意金箍棒，可大可小</italic></gray>"
+    - "<gray><italic>傳說中齊天大聖孫悟空使用的武器</italic></gray>"
+    - "<gray><italic>由太上老君所製，重達一萬三千五百斤</italic></gray>"
+    - "<gray><italic>被孫悟空搶去當作稱手武器</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiJiuTianXuanYuXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[九天玄羽]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中天神九天玄女的羽翼</italic></gray>"
+    - "<gray><italic>賜予穿戴者強盛的生命力量</italic></gray>"
+    - "<gray><italic>如同草原一般頑強而堅毅</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+DIAMONDHELMETHunTianLingXiYouBaoWu:
+  Id: "diamond_helmet"
+  Display: "<red>混天綾</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中三太子哪吒的神器</italic></gray>"
+    - "<gray><italic>一眨眼就可以包覆天地</italic></gray>"
+    - "<gray><italic>刀槍不入，水火不侵的寶物</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 3.0
+      Health: 14.0
+      KnockbackResistance: 1.0
+      MovementSpeed: 15.0%
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiHunTianLingXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[混天綾]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中三太子哪吒的神器</italic></gray>"
+    - "<gray><italic>一眨眼就可以包覆天地</italic></gray>"
+    - "<gray><italic>刀槍不入，水火不侵的寶物</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiWeiTuoTianXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[韋馱天]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>擁有疾風般的速度</italic></gray>"
+    - "<gray><italic>可以讓穿戴者縮地成寸</italic></gray>"
+    - "<gray><italic>一瞬十萬里</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+DIAMONDCHESTPLATETaiChuShenJiaXiYouZhiLi:
+  Id: "diamond_chestplate"
+  Display: "<red>太初神甲</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>盤古開天之時就存在的法器</italic></gray>"
+    - "<gray><italic>寄宿著洪荒的意志</italic></gray>"
+    - "<gray><italic>穿上就可以獲得戰神之力</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 5.0
+      Health: 16.0
+      KnockbackResistance: 1.0
+      MovementSpeed: 0.15
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiTaiChuShenJiaXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[太初神甲]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>盤古開天之時就存在的法器</italic></gray>"
+    - "<gray><italic>寄宿著洪荒的意志</italic></gray>"
+    - "<gray><italic>穿上就可以獲得戰神之力</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiFengHuoLunXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[風火輪]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中三太子哪吒的法器</italic></gray>"
+    - "<gray><italic>踩在風火輪上可以翻轉騰雲</italic></gray>"
+    - "<gray><italic>同時還夾帶火焰之力襲擊敵人</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+BOWZhuRiXiYouZhiMing:
+  Id: "bow"
+  Display: "<red>逐日</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>傳說中人皇后羿所用的武器</italic></gray>"
+    - "<gray><italic>擁有連太陽都懼怕的力量</italic></gray>"
+    - "<gray><italic>射出的箭是利用殺氣凝結而成</italic></gray>"
+    - "<gray><italic>快速而致命</italic></gray>"
+  Enchantments:
+    - POWER:35
+    - PUNCH:1
+    - FLAME:1
+    - INFINITY:1
+  Attributes:
+    MAINHAND:
+      MovementSpeed: -0.1
+      KnockbackResistance: 1.0
+  Options:
+    Unbreakable: true
+DIAMONDBOOTSJiuTianXuanYuXiYouJianYi:
+  Id: "diamond_boots"
+  Display: "<red>九天玄羽</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中天神九天玄女的羽翼</italic></gray>"
+    - "<gray><italic>賜予穿戴者強盛的生命力量</italic></gray>"
+    - "<gray><italic>如同草原一般頑強而堅毅</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 2.0
+      Health: 14.0
+      KnockbackResistance: 1.0
+      MovementSpeed: 0.1
+  Options:
+    Unbreakable: true
+DIAMONDBOOTSWeiTuoTianXiYouWanLi:
+  Id: "diamond_boots"
+  Display: "<red>韋馱天</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>擁有疾風般的速度</italic></gray>"
+    - "<gray><italic>可以讓穿戴者縮地成寸</italic></gray>"
+    - "<gray><italic>一瞬十萬里</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 8.0
+      MovementSpeed: 0.4
+  Options:
+    Unbreakable: true
+DIAMONDBOOTSFengHuoLunXiYouDiRen:
+  Id: "diamond_boots"
+  Display: "<red>風火輪</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>傳說中三太子哪吒的法器</italic></gray>"
+    - "<gray><italic>踩在風火輪上可以翻轉騰雲</italic></gray>"
+    - "<gray><italic>同時還夾帶火焰之力襲擊敵人</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 4.0
+      Health: 10.0
+      MovementSpeed: 0.15
+  Options:
+    Unbreakable: true
+LIMEDYELuXiaoLiuWuAiMeiRen:
+  Id: "lime_dye"
+  Display: "魯郩流："
+  Lore:
+    - "<gray><italic>吾愛江山，更愛美人。</italic></gray>"
+LIMEDYELuXiaoLiuKeXiMeiRen:
+  Id: "lime_dye"
+  Display: "魯郩流："
+  Lore:
+    - "<gray><italic>可惜我既沒有江山，更沒有美人。</italic></gray>"
+LIMEDYEDongXueWuLunShenShang:
+  Id: "lime_dye"
+  Display: "冬雪："
+  Lore:
+    - "<gray><italic>無論你一生當中幹過什麼，</italic></gray>"
+    - "<gray><italic>那些事情所造成的影響早晚都會再回到你的身上。</italic></gray>"
+LIMEDYEDongXueZhiYaoDingHui:
+  Id: "lime_dye"
+  Display: "冬雪："
+  Lore:
+    - "<gray><italic>只要你活的時間夠長，它就肯定會。</italic></gray>"
+LIMEDYEQiaoBaiLaoTianNaZou:
+  Id: "lime_dye"
+  Display: "巧白："
+  Lore:
+    - "<gray><italic>老天總會把我們身邊最好的東西拿走，</italic></gray>"
+LIMEDYEQiaoBaiLaiTiDuoLe:
+  Id: "lime_dye"
+  Display: "巧白："
+  Lore:
+    - "<gray><italic>來提醒我們，我們得到的太多了！</italic></gray>"
+LIMEDYELianCaiKanDaoLeMa:
+  Id: "lime_dye"
+  Display: "斂才："
+  Lore:
+    - "<gray><italic>看到我手上的銀兩了嗎?</italic></gray>"
+LIMEDYELianCaiZheShiWoDe:
+  Id: "lime_dye"
+  Display: "斂才："
+  Lore:
+    - "<gray><italic>這是我的。</italic></gray>"
+LIMEDYEZhuJianGuanLiYuanNiJianWoWo:
+  Id: "lime_dye"
+  Display: "<bold>竹簡管理員：</bold>"
+  Lore:
+    - "<gray><italic>你撿到了古老的竹簡的話，</italic></gray>"
+    - "<gray><italic>可以賣給我喔！</italic></gray>"
+LIMEDYEZhuJianGuanLiYuanBaZhuShiNi:
+  Id: "lime_dye"
+  Display: "<bold>竹簡管理員：</bold>"
+  Lore:
+    - "<gray><italic>把竹簡丟到旁邊的筒子就可以了，</italic></gray>"
+    - "<gray><italic>我等等再把竹簡整理到書架上。</italic></gray>"
+    - "<gray><italic>這些寫了神秘文字的竹簡，</italic></gray>"
+    - "<gray><italic>或許記載了強大的知識呢！</italic></gray>"
+LIMEDYECuiGuoZuoTianBuCuo:
+  Id: "lime_dye"
+  Display: "翠果："
+  Lore:
+    - "<gray><italic>昨天給我家主子做的紅棗湯真是不錯！</italic></gray>"
+LIMEDYECuiGuoXiaCiHaoLe:
+  Id: "lime_dye"
+  Display: "翠果："
+  Lore:
+    - "<gray><italic>下次再能做東阿阿膠就好了！</italic></gray>"
+LIMEDYEWenXianHaoRenShengZuoCai:
+  Id: "lime_dye"
+  Display: "溫賢豪："
+  Lore:
+    - "<gray><italic>人生不能像做菜，</italic></gray>"
+LIMEDYEWenXianHaoBaSuoXiaGuo:
+  Id: "lime_dye"
+  Display: "溫賢豪："
+  Lore:
+    - "<gray><italic>把所有料準備好了才下鍋！</italic></gray>"
+LIMEDYELinJiaDaShaoYeZuoRenFenBie:
+  Id: "lime_dye"
+  Display: "林家大少爺："
+  Lore:
+    - "<gray><italic>做人如果沒有夢想，那跟鹹魚有什麼分別？</italic></gray>"
+LIMEDYELinJiaDaShaoYeAiQingHengDe:
+  Id: "lime_dye"
+  Display: "林家大少爺："
+  Lore:
+    - "<gray><italic>愛情來的快，去得也快，</italic></gray>"
+    - "<gray><italic>只有豬肉捲是永恆的！</italic></gray>"
+LIMEDYEHuaFuNuCaiWangCaiXiangZhao:
+  Id: "lime_dye"
+  Display: "華府奴才："
+  Lore:
+    - "<gray><italic>旺財你不能死啊，旺財，</italic></gray>"
+    - "<gray><italic>你跟了我這麼多年，對我有情有義，肝膽相照，</italic></gray>"
+LIMEDYEHuaFuNuCaiDanShiWangCai:
+  Id: "lime_dye"
+  Display: "華府奴才："
+  Lore:
+    - "<gray><italic>但是到了現在我連一頓飽飯都沒讓你吃過，</italic></gray>"
+    - "<gray><italic>我對不起你啊，旺財！</italic></gray>"
+LIMEDYEHuaShanJinTianAiLa:
+  Id: "lime_dye"
+  Display: "華杉："
+  Lore:
+    - "<gray><italic>今天要跟小美去約會，明天是小月，後天是小雯</italic></gray>"
+    - "<gray><italic>後面還有芠欣、康渼、小萌、艾拉..........</italic></gray>"
+LIMEDYEHuaShanYouDianQuA:
+  Id: "lime_dye"
+  Display: "華杉："
+  Lore:
+    - "<gray><italic>有點不想去阿......</italic></gray>"
+LIMEDYEHuJiaLiangShiJieKuaiLe:
+  Id: "lime_dye"
+  Display: "胡家良："
+  Lore:
+    - "<gray><italic>世界上有一半的人，不理解另一半人的快樂。</italic></gray>"
+LIMEDYEHuJiaLiangDaXiaShiNi:
+  Id: "lime_dye"
+  Display: "胡家良："
+  Lore:
+    - "<gray><italic>大俠，你說是不是呢？</italic></gray>"
+POTIONHunYuanYiQiDanChuJiYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>混元一氣丹(初級[藥])</dark_green><white></white>"
+  PotionEffects:
+    - RESISTANCE{d=18000;l=1;p=true}
+    - FIRE_RESISTANCE{d=18000;l=1;p=true}
+    - ABSORPTION{d=18000;l=1;p=true}
+POTIONLuoShenDanChuJiYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>洛神丹(初級[藥])</dark_green><white></white>"
+  PotionEffects:
+    - SPEED{d=12000;l=1;p=true}
+    - JUMP_BOOST{d=12000;l=1;p=true}
+    - WATER_BREATHING{d=12000;l=1;p=true}
+    - NIGHT_VISION{d=12000;l=1;p=true}
+POTIONWanLingDanChuJiYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>萬靈丹(初級[藥])</dark_green><white></white>"
+  PotionEffects:
+    - POISON{d=0;l=9;p=true}
+    - SLOWNESS{d=0;l=9;p=true}
+    - WEAKNESS{d=0;l=9;p=true}
+    - WITHER{d=0;l=9;p=true}
+POTIONFengMuHuiChunQuanChuJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(初級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=1;p=true}
+    - REGENERATION{d=100;l=2;p=true}
+POTIONTianShenHuTiChuJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(初級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - ABSORPTION{d=12000;l=2;p=true}
+POTIONHunYuanYiQiDanZhongJiYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>混元一氣丹(中級[藥])</dark_green><white></white>"
+  PotionEffects:
+    - RESISTANCE{d=24000;l=1;p=true}
+    - FIRE_RESISTANCE{d=24000;l=1;p=true}
+    - ABSORPTION{d=24000;l=1;p=true}
+POTIONQiSiHuiShengQuanJiuJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>起死回生泉(究級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=2;l=6;p=true}
+    - REGENERATION{d=100;l=5;p=true}
+POTIONFengMuHuiChunQuanZhongJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(中級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=2;p=true}
+    - REGENERATION{d=100;l=3;p=true}
+POTIONTianShenHuTiZhongJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(中級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - ABSORPTION{d=12000;l=3;p=true}
+POTIONJiuZhuanHuanHunXiangChuJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(初級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=12000;l=1;p=true}
+    - HEALTH_BOOST{d=12000;l=1;p=true}
+POTIONFengHouChuJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(初級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+POTIONDuoHunChuJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(初級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - SLOWNESS{d=200;l=1;p=true}
+    - WEAKNESS{d=100;l=1;p=true}
+POTIONQiXueChuJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(初級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - POISON{d=100;l=1;p=true}
+    - WITHER{d=100;l=1;p=true}
+POTIONJiuZhuanHuanHunXiangZhongJiFaXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(中級[法])</green><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=12000;l=2;p=true}
+    - HEALTH_BOOST{d=12000;l=2;p=true}
+POTIONFengHouZhongJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(中級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=3;p=true}
+POTIONDuoHunZhongJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(中級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - SLOWNESS{d=300;l=2;p=true}
+    - WEAKNESS{d=200;l=5;p=true}
+POTIONQiXueZhongJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(中級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - POISON{d=200;l=2;p=true}
+    - WITHER{d=200;l=2;p=true}
+POTIONJianXueFengHouJiuJiShuXianZhiYeDan:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>見血封喉(究級[術])</red><white></white>"
+  Lore:
+    - "<gold>限制職業:[丹]</gold>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=2;l=9;p=true}
+LIMEDYELaoLieHuAiWoShengJi:
+  Id: "lime_dye"
+  Display: "<bold>老獵戶：</bold>"
+  Lore:
+    - "<gray><italic>唉......我以前是江湖上人稱</italic></gray>"
+    - "<gray><italic>百步穿兔的神射手。</italic></gray>"
+    - "<gray><italic>可惜現在老了，眼睛花了，準頭偏了。</italic></gray>"
+    - "<gray><italic>只能做點小買賣維持生計。</italic></gray>"
+LIMEDYELaoLieHuARuJianNi:
+  Id: "lime_dye"
+  Display: "<bold>老獵戶：</bold>"
+  Lore:
+    - "<gray><italic>啊，如果你有打到生兔肉的話，</italic></gray>"
+    - "<gray><italic>可以便宜賣給我喔。</italic></gray>"
+    - "<gray><italic>另外我還會製作箭袋，</italic></gray>"
+    - "<gray><italic>如果你是弓箭手的話，會很有幫助的。</italic></gray>"
+    - "<gray><italic>能幫你省下不少背包的空間呢。</italic></gray>"
+FERMENTEDSPIDEREYELaoLieHuTeZhiDeJianDaiYiGeJianShi:
+  Id: "fermented_spider_eye"
+  Display: "<light_purple>老獵戶特製的箭袋</light_purple>"
+  Lore:
+    - "<gray><italic>一個能容納大量箭矢的箭袋</italic></gray>"
+    - "<gray><italic>能夠最大幅度減少弓箭手的背包負擔</italic></gray>"
+    - "<gray><italic>只要拿在手上</italic></gray>"
+    - "<gray><italic>就能解開箭袋拿出裡頭的箭矢</italic></gray>"
+LIMEDYEJiuZhenNaNiKongMa:
+  Id: "lime_dye"
+  Display: "九真："
+  Lore:
+    - "<gray><italic>吶…你有在晚上看過星空嗎？</italic></gray>"
+LIMEDYEJiuZhenOuErMeiDe:
+  Id: "lime_dye"
+  Display: "九真："
+  Lore:
+    - "<gray><italic>偶爾停下腳步看一下夜晚的天空，很美的</italic></gray>"
+LIMEDYEJiuMoMeiMeiKuaiDian:
+  Id: "lime_dye"
+  Display: "九墨："
+  Lore:
+    - "<gray><italic>妹，沒時間了，快點！</italic></gray>"
+LIMEDYEJiuMoZeZhenXingBa:
+  Id: "lime_dye"
+  Display: "九墨："
+  Lore:
+    - "<gray><italic>嘖…真是受不了妳，算了今晚就在這邊過夜看星星吧</italic></gray>"
+LIMEDYEQiangErKanShenNuMa:
+  Id: "lime_dye"
+  Display: "薔兒："
+  Lore:
+    - "<gray><italic>看什麼看？沒看過妖族美女嗎？</italic></gray>"
+LIMEDYEQiangErWoWoHuaNi:
+  Id: "lime_dye"
+  Display: "薔兒："
+  Lore:
+    - "<gray><italic>我...我才沒有故意跟你講話呢！</italic></gray>"
+FISHINGRODYiBanDiaoGan:
+  Id: "fishing_rod"
+  Display: "<aqua>一般釣竿</aqua>"
+FISHINGRODKuaiSuYaoErDiaoGan:
+  Id: "fishing_rod"
+  Display: "<aqua>快速咬鉺釣竿</aqua>"
+  Enchantments:
+    - LURE:2
+FISHINGRODHaoYunDiaoGan:
+  Id: "fishing_rod"
+  Display: "<aqua>好運釣竿</aqua>"
+  Enchantments:
+    - LUCK_OF_THE_SEA:2
+FISHINGRODGaoJiDiaoGan:
+  Id: "fishing_rod"
+  Display: "<aqua>高級釣竿</aqua>"
+  Enchantments:
+    - LUCK_OF_THE_SEA:1
+    - LURE:1
+LIMEDYEGuWenWoNingYiSheng:
+  Id: "lime_dye"
+  Display: "孤文："
+  Lore:
+    - "<gray><italic>我寧願和你共度凡人短暫的一生</italic></gray>"
+LIMEDYEGuWenYeBuSangTian:
+  Id: "lime_dye"
+  Display: "孤文："
+  Lore:
+    - "<gray><italic>也不願一個人看盡這世界的滄海桑田。</italic></gray>"
+LIMEDYEShenZuYinLuRenWoMenLiZhe:
+  Id: "lime_dye"
+  Display: "神族引路人："
+  Lore:
+    - "<gray><italic>我們是承襲了盤古意志的種族</italic></gray>"
+    - "<gray><italic>是世界的主宰和管理者</italic></gray>"
+LIMEDYEShenZuYinLuRenWoMenYuanBa:
+  Id: "lime_dye"
+  Display: "神族引路人："
+  Lore:
+    - "<gray><italic>我們擁有與天地同壽的生命</italic></gray>"
+    - "<gray><italic>快加入成為我們的一員吧！</italic></gray>"
+LIMEDYERenZuYinLuRenNuWaZuXian:
+  Id: "lime_dye"
+  Display: "人族引路人："
+  Lore:
+    - "<gray><italic>女媧用泥土和水創造了人類。</italic></gray>"
+    - "<gray><italic>我們感恩她賜予我們生命，她是我們的祖先。</italic></gray>"
+LIMEDYERenZuYinLuRenRenZuRenBa:
+  Id: "lime_dye"
+  Display: "人族引路人："
+  Lore:
+    - "<gray><italic>人族是富有創造力和生命力的種族，因團結而強大。</italic></gray>"
+    - "<gray><italic>快成為我們的族人吧！</italic></gray>"
+LIMEDYEXianZuYinLuRenQianXinXianRen:
+  Id: "lime_dye"
+  Display: "仙族引路人："
+  Lore:
+    - "<gray><italic>潛心修煉，追求真理。</italic></gray>"
+    - "<gray><italic>我們是富有正義感和研究精神的仙人。</italic></gray>"
+LIMEDYEXianZuYinLuRenDuiShiMenBa:
+  Id: "lime_dye"
+  Display: "仙族引路人："
+  Lore:
+    - "<gray><italic>對世界運行的法則感到好奇嗎？或是決定斬妖除魔保衛家園？</italic></gray>"
+    - "<gray><italic>那就別猶豫了，快加入我們吧！</italic></gray>"
+LEATHERCHESTPLATE:
+  Id: "leather_chestplate"
+LEATHERLEGGINGS:
+  Id: "leather_leggings"
+LEATHERBOOTS:
+  Id: "leather_boots"
+POTIONZhongJiLiaoYuDan:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>中級療癒丹</dark_green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=1;l=3;p=true}
+    - REGENERATION{d=600;l=1;p=true}
+    - ABSORPTION{d=18000;l=2;p=true}
+POTIONXinShouLiaoYuDan:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>新手療癒丹</dark_green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=1;l=1;p=true}
+WOODSWORDTaoMuJian:
+  Id: "wood_sword"
+  Display: "桃木劍"
+NETHERBRICKITEMDuanBi:
+  Id: "nether_brick_item"
+  Display: "短匕"
+STONESWORDQingTongJian:
+  Id: "stone_sword"
+  Display: "青銅劍"
+STONEAXEKaiShanDao:
+  Id: "stone_axe"
+  Display: "開山刀"
+IRONSWORDChiTongJian:
+  Id: "iron_sword"
+  Display: "赤銅劍"
+IRONAXEJuTongZhanChui:
+  Id: "iron_axe"
+  Display: "巨銅戰鎚"
+GOLDSWORDTaiJiJian:
+  Id: "gold_sword"
+  Display: "太極劍"
+GOLDAXEPoKongFu:
+  Id: "gold_axe"
+  Display: "破空斧"
+DIAMONDSWORDKunLunFeiXianJian:
+  Id: "diamond_sword"
+  Display: "崑崙飛仙劍"
+DIAMONDAXESanBaoYuRuYi:
+  Id: "diamond_axe"
+  Display: "三寶玉如意"
+BOWTengMuGong:
+  Id: "bow"
+  Display: "藤木弓"
+BOWQingTongGong:
+  Id: "bow"
+  Display: "青銅弓"
+BOWYanTieGong:
+  Id: "bow"
+  Display: "燄鐵弓"
+BOWZhongChuiGong:
+  Id: "bow"
+  Display: "重鎚弓"
+BOWBeiDouMieShenGong:
+  Id: "bow"
+  Display: "北斗滅神弓"
+CLAYBRICKLianDanLu:
+  Id: "clay_brick"
+  Display: "煉丹爐"
+CLAYBRICKSuoHunLu:
+  Id: "clay_brick"
+  Display: "鎖魂爐"
+CLAYBRICKQiShaDing:
+  Id: "clay_brick"
+  Display: "七煞鼎"
+BEDROCKJiaoYiXuanXiangDaoCiWeiZhi:
+  Id: "bedrock"
+  Display: "<bold><red>交易選項到此為止</red></bold>"
+NAMETAGWuQiDuanZaoShi:
+  Id: "name_tag"
+  Display: "<green><bold>武器鍛造師</bold></green>"
+CHEST:
+  Id: "chest"
+  Lore:
+    - "(+NBT)"
+NAMETAGZhuangBeiDuanZaoShi:
+  Id: "name_tag"
+  Display: "<green><bold>裝備鍛造師</bold></green>"
+NAMETAGZhanBeiZiYuanBuWuQiGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>戰備資源部武器管理員</bold></green>"
+NAMETAGZhanBeiZiYuanBuZhuangBeiGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>戰備資源部裝備管理員</bold></green>"
+NAMETAGLianDanShiGongZuoRenYuan:
+  Id: "name_tag"
+  Display: "<green><bold>煉丹室工作人員</bold></green>"
+NAMETAGBuGeiPinGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>補給品管理員</bold></green>"
+NAMETAGBuGeiShiZaWuHuiShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>補給室雜物回收員</bold></green>"
+NAMETAGTieJiangPuWuQiXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠鋪武器銷售員</bold></green>"
+NAMETAGXianQiPuXianQiXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>仙器鋪仙器銷售員</bold></green>"
+NAMETAGZiYuanZhongXinWuQiGuanLiRen:
+  Id: "name_tag"
+  Display: "<green><bold>資源中心武器管理人</bold></green>"
+NAMETAGTieJiangPuZhuangBeiXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠鋪裝備銷售員</bold></green>"
+NAMETAGXianQiPuZhuangBeiXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>仙器鋪裝備銷售員</bold></green>"
+NAMETAGZiYuanZhongXinZhuangBeiGuanLiRen:
+  Id: "name_tag"
+  Display: "<green><bold>資源中心裝備管理人</bold></green>"
+NAMETAGDanYaoPuXiaoEr:
+  Id: "name_tag"
+  Display: "<green><bold>丹藥鋪小二</bold></green>"
+NAMETAGLingDanPuXiaoEr:
+  Id: "name_tag"
+  Display: "<green><bold>靈丹鋪小二</bold></green>"
+NAMETAGDanTaLianDanShi:
+  Id: "name_tag"
+  Display: "<green><bold>丹塔煉丹師</bold></green>"
+NAMETAGZaHuoPuZhangGui:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨鋪掌櫃</bold></green>"
+NAMETAGZaHuoPuZaWuShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨鋪雜物收購員</bold></green>"
+NAMETAGZaHuoXingZaWuShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨行雜物收購員</bold></green>"
+NAMETAGLuXingShangRen:
+  Id: "name_tag"
+  Display: "<green><bold>旅行商人</bold></green>"
+NAMETAGDanYaoPuZhangGui:
+  Id: "name_tag"
+  Display: "<green><bold>丹藥鋪掌櫃</bold></green>"
+NAMETAGKeZhanXiaoEr:
+  Id: "name_tag"
+  Display: "<green><bold>客棧小二</bold></green>"
+NAMETAGZaHuoDianWuQiShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨店武器收購員</bold></green>"
+STONESWORD:
+  Id: "stone_sword"
+GOLDSWORD:
+  Id: "gold_sword"
+NAMETAGZaHuoPuWuQiShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨鋪武器收購員</bold></green>"
+NAMETAGYouJingYanDeLuXingZhe:
+  Id: "name_tag"
+  Display: "<green><bold>有經驗的旅行者</bold></green>"
+NAMETAGFengNiang:
+  Id: "name_tag"
+  Display: "<green><bold>鳳娘</bold></green>"
+NAMETAGKuangWuShouGouShang:
+  Id: "name_tag"
+  Display: "<green><bold>礦物收購商</bold></green>"
+NAMETAGMengGuKaoRouXiaoFan:
+  Id: "name_tag"
+  Display: "<green><bold>蒙古烤肉小販</bold></green>"
+NAMETAGFengPingFenXiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>風評分析員</bold></green>"
+NAMETAGZaWuShouGouShang:
+  Id: "name_tag"
+  Display: "<green><bold>雜物收購商</bold></green>"
+NAMETAGHaiXianTanFan:
+  Id: "name_tag"
+  Display: "<green><bold>海鮮攤販</bold></green>"
+NAMETAGQianZhuangZhangGui:
+  Id: "name_tag"
+  Display: "<green><bold>錢莊掌櫃</bold></green>"
+NAMETAGYuanSuHuiShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>元素回收員</bold></green>"
+NAMETAGShuShiXiaoFan:
+  Id: "name_tag"
+  Display: "<green><bold>熟食小販</bold></green>"
+NAMETAGYuChuXiaoLongBao:
+  Id: "name_tag"
+  Display: "<green><bold>御廚筱隆褒</bold></green>"
+NAMETAGYiZhanGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>驛站管理員</bold></green>"
+MONSTEREGGZhaoHuanShiXianZuSongZhen:
+  Id: "monster_egg"
+  Display: "<aqua>召喚石</aqua>"
+  Lore:
+    - "<gray><italic>仙族發明可以召喚生物的靈石</italic></gray>"
+    - "<gray><italic>裡面封印了一匹上等戰馬</italic></gray>"
+    - "<gray><italic>請在草地上進行召喚</italic></gray>"
+    - "<gray><italic>並請注意，馬不能跟隨主人通過傳送陣</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+NAMETAGSuShiZhuanMai:
+  Id: "name_tag"
+  Display: "<green><bold>素食專賣</bold></green>"
+NAMETAGLuXingYongJuXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>旅行用具銷售員</bold></green>"
+NAMETAGNanBeiZaHuoPiFa:
+  Id: "name_tag"
+  Display: "<green><bold>南北雜貨批發</bold></green>"
+NAMETAGMaJuXiaoShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>馬具銷售員</bold></green>"
+NAMETAGTieJiangPuZhangGui:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠鋪掌櫃</bold></green>"
+NAMETAGWuQiShouGouShang:
+  Id: "name_tag"
+  Display: "<green><bold>武器收購商</bold></green>"
+POISONOUSPOTATOYaoYin:
+  Id: "poisonous_potato"
+  Display: "藥引"
+LEATHERHELMETChuXinZhePiMaoXiYouFangHu:
+  Id: "leather_helmet"
+  Display: "<white>初心者皮帽</white>"
+  Lore:
+    - "<white>稀有度：★</white>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>初始裝備</italic></gray>"
+    - "<gray><italic>可以提供簡易防護</italic></gray>"
+  Options:
+    Unbreakable: true
+LEATHERCHESTPLATEChuXinZhePiJiaXiYouFangHu:
+  Id: "leather_chestplate"
+  Display: "<white>初心者皮甲</white>"
+  Lore:
+    - "<white>稀有度：★</white>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>初始裝備</italic></gray>"
+    - "<gray><italic>可以提供簡易防護</italic></gray>"
+  Options:
+    Unbreakable: true
+LEATHERLEGGINGSChuXinZhePiKuXiYouFangHu:
+  Id: "leather_leggings"
+  Display: "<white>初心者皮褲</white>"
+  Lore:
+    - "<white>稀有度：★</white>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>初始裝備</italic></gray>"
+    - "<gray><italic>可以提供簡易防護</italic></gray>"
+  Options:
+    Unbreakable: true
+LEATHERBOOTSChuXinZheBuXieXiYouFangHu:
+  Id: "leather_boots"
+  Display: "<white>初心者布鞋</white>"
+  Lore:
+    - "<white>稀有度：★</white>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>初始裝備</italic></gray>"
+    - "<gray><italic>可以提供簡易防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 5.0%
+  Options:
+    Unbreakable: true
+POTIONFengMuHuiChunQuanXunLianYong:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "逢木回春泉(訓練用)"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=2;p=true}
+    - REGENERATION{d=100;l=3;p=true}
+LEATHERHELMET:
+  Id: "leather_helmet"
+NAMETAGBuGeiShiWuQiHuiShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>補給室武器回收員</bold></green>"
+NAMETAGBuGeiShiFangJuHuiShouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>補給室防具回收員</bold></green>"
+IRONHELMET:
+  Id: "iron_helmet"
+IRONCHESTPLATE:
+  Id: "iron_chestplate"
+IRONLEGGINGS:
+  Id: "iron_leggings"
+IRONBOOTS:
+  Id: "iron_boots"
+NAMETAGHuoBiDuiHuanChuGongZuoRenYuan:
+  Id: "name_tag"
+  Display: "<green><bold>貨幣兌換處工作人員</bold></green>"
+NAMETAGZaHuoXingWuQiShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨行武器收購員</bold></green>"
+NAMETAGZaHuoDianFangJuShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨店防具收購員</bold></green>"
+NAMETAGZaHuoXingFangJuShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨行防具收購員</bold></green>"
+NAMETAGZaHuoPuFangJuShouGouYuan:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨鋪防具收購員</bold></green>"
+NAMETAGYuanSuShangRen:
+  Id: "name_tag"
+  Display: "<green><bold>元素商人</bold></green>"
+NAMETAGChaLouXiaoEr:
+  Id: "name_tag"
+  Display: "<green><bold>茶樓小二</bold></green>"
+NAMETAGJiuYiDianDang:
+  Id: "name_tag"
+  Display: "<green><bold>舊衣典當</bold></green>"
+NAMETAGJingYanFengFuDeLuXingZhe:
+  Id: "name_tag"
+  Display: "<green><bold>經驗豐富的旅行者</bold></green>"
+NAMETAGTieJiangPuZhuangBeiFuLingJieShuoYuan:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠鋪裝備附靈解說員</bold></green>"
+NAMETAGGuDongShouZangJia:
+  Id: "name_tag"
+  Display: "<green><bold>古董收藏家</bold></green>"
+NAMETAGZhuJianGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>竹簡管理員</bold></green>"
+NAMETAGShenMiShangRen:
+  Id: "name_tag"
+  Display: "<green><bold>神秘商人</bold></green>"
+NETHERSTALKTianZhiJianYiTianZhiTuZhan:
+  Id: "nether_stalk"
+  Display: "<aqua>天之劍意</aqua>"
+  Lore:
+    - "<gray><italic>天之劍為大道，</italic></gray>"
+    - "<gray><italic>凡事循規蹈矩，規矩定方圓，</italic></gray>"
+    - "<gray><italic>踰矩之徒，斬！</italic></gray>"
+NETHERSTALKDiZhiJianYiDiZhiRenZhan:
+  Id: "nether_stalk"
+  Display: "<aqua>地之劍意</aqua>"
+  Lore:
+    - "<gray><italic>地之劍為正道，</italic></gray>"
+    - "<gray><italic>地脈正氣，歧途者不可得，</italic></gray>"
+    - "<gray><italic>邪妄之人，斬！</italic></gray>"
+NETHERSTALKRenZhiJianYiRenZhiZheZhan:
+  Id: "nether_stalk"
+  Display: "<aqua>人之劍意</aqua>"
+  Lore:
+    - "<gray><italic>人之劍為小道，</italic></gray>"
+    - "<gray><italic>由欲驅使，雖殺不殺，</italic></gray>"
+    - "<gray><italic>殺心不定者，斬！</italic></gray>"
+OAKSIGN:
+  Id: "oak_sign"
+MELONSLICE:
+  Id: "melon_slice"
+REDSTONEJiNianBiYongLaiGuangMang:
+  Id: "redstone"
+  Display: "<aqua>PG紀念幣</aqua>"
+  Lore:
+    - "<gray><italic>用來獲取紀念品的代幣，</italic></gray>"
+    - "<gray><italic>閃爍著火焰般的光芒</italic></gray>"
+LIMEDYEYaoZuYinLuRenWoMenTongZai:
+  Id: "lime_dye"
+  Display: "妖族引路人："
+  Lore:
+    - "<gray><italic>我們與大自然共處，學習自然的道與精神</italic></gray>"
+    - "<gray><italic>與世界同在......</italic></gray>"
+LIMEDYEYaoZuYinLuRenRuGuoYuanBa:
+  Id: "lime_dye"
+  Display: "妖族引路人："
+  Lore:
+    - "<gray><italic>如果你也喜歡大自然，愛好和平</italic></gray>"
+    - "<gray><italic>就請加入，成為我們的一員吧！</italic></gray>"
+LIMEDYEZhanShenZuYinLuRenZuYouXiaoXi:
+  Id: "lime_dye"
+  Display: "戰神族引路人："
+  Lore:
+    - "<gray><italic>族有族規，嚴禁透漏任何消息。</italic></gray>"
+LIMEDYEZhanShenZuYinLuRenXiangZhiLieBa:
+  Id: "lime_dye"
+  Display: "戰神族引路人："
+  Lore:
+    - "<gray><italic>想知道我們到底是誰？</italic></gray>"
+    - "<gray><italic>就加入我們的行列吧。</italic></gray>"
+NAMETAGYuanSuJingLianShi:
+  Id: "name_tag"
+  Display: "<green><bold>元素精煉師</bold></green>"
+NAMETAGKaiGe:
+  Id: "name_tag"
+  Display: "<green><bold>凱歌</bold></green>"
+NAMETAGGuZhuWangChen:
+  Id: "name_tag"
+  Display: "<green><bold>谷主忘塵</bold></green>"
+NETHERSTALKGuZhuWangChenJiaDeYaoChiKeYiYaoChi:
+  Id: "nether_stalk"
+  Display: "<aqua>谷主忘塵家的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟谷主忘塵家的鑰匙</italic></gray>"
+STICKMieHuoXiaoBangBangKeYiBangBang:
+  Id: "stick"
+  Display: "<aqua>滅火小棒棒</aqua>"
+  Lore:
+    - "<gray><italic>可以撲滅火焰的神奇棒棒</italic></gray>"
+NAMETAGMoYu:
+  Id: "name_tag"
+  Display: "<green><bold>墨雨</bold></green>"
+NAMETAGChangLao:
+  Id: "name_tag"
+  Display: "<green><bold>長老</bold></green>"
+NAMETAGCengJingDeChenXiaoTianJunWangChen:
+  Id: "name_tag"
+  Display: "<green><bold>曾經的塵囂天君-忘塵</bold></green>"
+LEATHERHELMETYuLieKuiNengGouTouKui:
+  Id: "leather_helmet"
+  Display: "魚鬣盔"
+  Lore:
+    - "<gray><italic>能夠延長水下呼吸時間的頭盔</italic></gray>"
+  Enchantments:
+    - RESPIRATION:3
+NAMETAGZuoYan:
+  Id: "name_tag"
+  Display: "<green><bold>左焰</bold></green>"
+NAMETAGBaiHuFenHun:
+  Id: "name_tag"
+  Display: "<green><bold>白虎分魂</bold></green>"
+PAPERBaiHuFenHunShenMiaoYouBa:
+  Id: "paper"
+  Display: "白虎分魂："
+  Lore:
+    - "<gray><italic>神廟的力量應該還足以賦予你祝福</italic></gray>"
+    - "<black>加油吧。</black>"
+PAPERBaiHuFenHunGeiNiDiBa:
+  Id: "paper"
+  Display: "白虎分魂："
+  Lore:
+    - "<gray><italic>給你一些提示，白虎掌管速度，請一鼓作氣衝到底吧。</italic></gray>"
+NAMETAGTaiShangLaoJun:
+  Id: "name_tag"
+  Display: "<green><bold>太上老君</bold></green>"
+LIMEDYEDuiHuaPaoPaoQianMianLeBa:
+  Id: "lime_dye"
+  Display: "<aqua>NPC對話泡泡</aqua>"
+  Lore:
+    - "<gray><italic>前面的人好像有話要說？</italic></gray>"
+    - "<gray><italic>快去問問他怎麼了吧</italic></gray>"
+NETHERSTALKTaiShangLaoJunShuFangDeYaoChiKeYiYaoChi:
+  Id: "nether_stalk"
+  Display: "<aqua>太上老君書房的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟太上老君書房的鑰匙</italic></gray>"
+NAMETAGPengLaiDaoZhuZiJue:
+  Id: "name_tag"
+  Display: "<green><bold>蓬萊島主-梓決</bold></green>"
+NETHERSTALKZhiYuZhuDeXinPoJiuSongDa:
+  Id: "nether_stalk"
+  Display: "<aqua>致雨竹的信</aqua>"
+  Lore:
+    - "<gray><italic>破舊的竹簡</italic></gray>"
+    - "<gray><italic>可以看出很早以前就寫好了</italic></gray>"
+    - "<gray><italic>卻因為一些原因一直無法送達</italic></gray>"
+NAMETAGChouMeiBuZhanDeShenZuNuXing:
+  Id: "name_tag"
+  Display: "<green><bold>愁眉不展的神族女性</bold></green>"
+NETHERSTALKBanMeiYuPeiYuPeiErZi:
+  Id: "nether_stalk"
+  Display: "<aqua>半枚玉珮</aqua>"
+  Lore:
+    - "<gray><italic>玉珮上刻有「塵囂」二字</italic></gray>"
+NAMETAGFeiHu:
+  Id: "name_tag"
+  Display: "<green><bold>飛虎</bold></green>"
+NAMETAGXiaoHua:
+  Id: "name_tag"
+  Display: "<green><bold>小花</bold></green>"
+NAMETAGXiaoFei:
+  Id: "name_tag"
+  Display: "<green><bold>小飛</bold></green>"
+NAMETAGFuXi:
+  Id: "name_tag"
+  Display: "<green><bold>伏羲</bold></green>"
+NAMETAGZuChang:
+  Id: "name_tag"
+  Display: "<green><bold>族長</bold></green>"
+NAMETAGXieLingGuGuZhu:
+  Id: "name_tag"
+  Display: "<green><bold>葉靈谷谷主</bold></green>"
+NAMETAGXianZuMengZhu:
+  Id: "name_tag"
+  Display: "<green><bold>仙族盟主</bold></green>"
+NETHERSTALKSiShengShouJiHuaDeMiJuanDuoNianMiMi:
+  Id: "nether_stalk"
+  Display: "<aqua>四聖獸計畫的秘卷</aqua>"
+  Lore:
+    - "<gray><italic>多年前仙族盟主留下的秘卷。</italic></gray>"
+    - "<gray><italic>紀錄了四聖獸計畫的秘密。</italic></gray>"
+NAMETAGZhanBeiZiYuanBuFuZeRen:
+  Id: "name_tag"
+  Display: "<green><bold>戰備資源部負責人</bold></green>"
+NAMETAGTieJiangPuLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠舖老闆</bold></green>"
+NAMETAGXianQiPuLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>仙器鋪老闆</bold></green>"
+NAMETAGZiYuanZhongXinFuZeRen:
+  Id: "name_tag"
+  Display: "<green><bold>資源中心負責人</bold></green>"
+NAMETAGZhanBeiZiYuanBuBuYuan:
+  Id: "name_tag"
+  Display: "<green><bold>戰備資源部部員</bold></green>"
+NAMETAGTieJiangPuDuiHuanYuan:
+  Id: "name_tag"
+  Display: "<green><bold>鐵匠鋪兌換員</bold></green>"
+NAMETAGXianQiPuDuiHuanYuan:
+  Id: "name_tag"
+  Display: "<green><bold>仙器鋪兌換員</bold></green>"
+NAMETAGZiYuanZhongXinGongZuoRenYuan:
+  Id: "name_tag"
+  Display: "<green><bold>資源中心工作人員</bold></green>"
+NAMETAGDanYaoGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>丹藥管理員</bold></green>"
+NAMETAGJieRenShangXian:
+  Id: "name_tag"
+  Display: "<green><bold>戒忍上仙</bold></green>"
+NAMETAGDanTaFuZeRen:
+  Id: "name_tag"
+  Display: "<green><bold>丹塔負責人</bold></green>"
+NAMETAGLingDanPuZhangGui:
+  Id: "name_tag"
+  Display: "<green><bold>靈丹鋪掌櫃</bold></green>"
+NAMETAGTuShuGuanGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>圖書館管理員</bold></green>"
+NAMETAGJiuYou:
+  Id: "name_tag"
+  Display: "<green><bold>九幽</bold></green>"
+NAMETAGZangShuGeGuanLiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>藏書閣管理員</bold></green>"
+NAMETAGRanDeng:
+  Id: "name_tag"
+  Display: "<green><bold>燃燈</bold></green>"
+NAMETAGXiaoRen:
+  Id: "name_tag"
+  Display: "<green><bold>小仁</bold></green>"
+NAMETAGMuYuanDeBaiGuJing:
+  Id: "name_tag"
+  Display: "<green><bold>墓園的白骨精</bold></green>"
+NAMETAGChenDaFu:
+  Id: "name_tag"
+  Display: "<green><bold>陳大夫</bold></green>"
+NETHERSTALKMiShiDeYaoChiKeYiYaoChi:
+  Id: "nether_stalk"
+  Display: "<aqua>密室的鑰匙</aqua>"
+  Lore:
+    - "<gray><italic>可以開啟陳大夫藥草寮後方密室的鑰匙</italic></gray>"
+NAMETAGBeiQiangJieDeFuShangWangYuanWai:
+  Id: "name_tag"
+  Display: "<green><bold>被搶劫的富商-王員外</bold></green>"
+NAMETAGCunChang:
+  Id: "name_tag"
+  Display: "<green><bold>村長</bold></green>"
+NAMETAGLiDaFu:
+  Id: "name_tag"
+  Display: "<green><bold>李大夫</bold></green>"
+NAMETAGZhuanYuanZhenRen:
+  Id: "name_tag"
+  Display: "<green><bold>篆元真人</bold></green>"
+NETHERSTALKHuJiaoFenShenMiJiGan:
+  Id: "nether_stalk"
+  Display: "<aqua>胡椒粉</aqua>"
+  Lore:
+    - "<gray><italic>神秘的粉末，聞起來有嗆鼻的刺激感</italic></gray>"
+NAMETAGYuQianDaiDaoShiWeiChangYuLuo:
+  Id: "name_tag"
+  Display: "<green><bold>御前帶刀侍衛長-羽羅</bold></green>"
+NAMETAGWenQuanKeZhanDeDaLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>溫泉客棧的大老闆</bold></green>"
+NAMETAGShiBeiDeJingPo:
+  Id: "name_tag"
+  Display: "<green><bold>石碑的精魄</bold></green>"
+NAMETAGCengJingDeShuiZuZuRenLingHun:
+  Id: "name_tag"
+  Display: "<green><bold>曾經的水族族人靈魂</bold></green>"
+NAMETAGWenQuanKeZhanDeErLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>溫泉客棧的二老闆</bold></green>"
+NAMETAGShuiZuZuChangShuiYuan:
+  Id: "name_tag"
+  Display: "<green><bold>水族族長水淵</bold></green>"
+NAMETAGWenQuanKeZhanDeXiaoLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>溫泉客棧的小老闆</bold></green>"
+NAMETAGZaHuoPuLaoBanDiYe:
+  Id: "name_tag"
+  Display: "<green><bold>雜貨鋪老闆-荻野</bold></green>"
+NAMETAGShuiZuJiSiLuoHe:
+  Id: "name_tag"
+  Display: "<green><bold>水族祭司洛禾</bold></green>"
+NAMETAGBeiFengYinZaiMiaoZhongDeZheXianYuZhuJuShi:
+  Id: "name_tag"
+  Display: "<green><bold>被封印在廟中的謫仙-雨竹居士</bold></green>"
+NAMETAGGongSunXiaoShaoYe:
+  Id: "name_tag"
+  Display: "<green><bold>公孫小少爺</bold></green>"
+NETHERSTALKGongSunXiaoShaoYeDeWeiTuoNiangQinDeFaChaiGongSunXinWu:
+  Id: "nether_stalk"
+  Display: "<aqua>公孫小少爺的委託：娘親的髮釵</aqua>"
+  Lore:
+    - "<gray><italic>公孫小少爺請你轉交給他舅舅的信物</italic></gray>"
+NAMETAGLiuZiJi:
+  Id: "name_tag"
+  Display: "<green><bold>劉子驥</bold></green>"
+NAMETAGGuXiaoHan:
+  Id: "name_tag"
+  Display: "<green><bold>顧小漢</bold></green>"
+NAMETAGXiaoKeZhanLaoBan:
+  Id: "name_tag"
+  Display: "<green><bold>小客棧老闆</bold></green>"
+NAMETAGLuZhouXiaoZhenDeZhenChang:
+  Id: "name_tag"
+  Display: "<green><bold>綠洲小鎮的鎮長</bold></green>"
+NAMETAGWuZheHongLuan:
+  Id: "name_tag"
+  Display: "<green><bold>巫者紅鸞</bold></green>"
+NAMETAGShanShenMiaoDeMiaoGong:
+  Id: "name_tag"
+  Display: "<green><bold>山神廟的廟公</bold></green>"
+EXPBOTTLE:
+  Id: "exp_bottle"
+POTIONShanShenDeZhuFu:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>山神的祝福</dark_green><white></white>"
+  PotionEffects:
+    - ABSORPTION{d=36000;l=1;p=true}
+NAMETAGDaNeiZongGuanLiGongGong:
+  Id: "name_tag"
+  Display: "<green><bold>大內總管-李公公</bold></green>"
+NAMETAGShenMuYaoJing:
+  Id: "name_tag"
+  Display: "<green><bold>神木妖精</bold></green>"
+NETHERSTALKLongLinSenLinShenMuDeWeiTuoHongSeDeDuanDaiShenMuXinWu:
+  Id: "nether_stalk"
+  Display: "<aqua>龍鱗森林神木的委託：紅色的緞帶</aqua>"
+  Lore:
+    - "<gray><italic>神木妖精請你轉交給失蹤戀人的信物</italic></gray>"
+NAMETAGRenHuangXuanYuanShi:
+  Id: "name_tag"
+  Display: "<green><bold>人皇-軒轅氏</bold></green>"
+NAMETAGXiHuanDiaoYuDeLaoRen:
+  Id: "name_tag"
+  Display: "<green><bold>喜歡釣魚的老人</bold></green>"
+FISHINGRODLiangZhongFuMoDouYouDeDiaoGan:
+  Id: "fishing_rod"
+  Display: "<aqua>兩種附魔都有的釣竿</aqua>"
+  Enchantments:
+    - LUCK_OF_THE_SEA:1
+    - LURE:1
+NAMETAGHuGuoFaShiFaHai:
+  Id: "name_tag"
+  Display: "<green><bold>護國法師-法海</bold></green>"
+NAMETAGXiHuanSouJiQiTeShuiChanDeLaoRen:
+  Id: "name_tag"
+  Display: "<green><bold>喜歡蒐集奇特水產的老人</bold></green>"
+NAMETAGYueLaoMiaoGuanLiRenShiRi:
+  Id: "name_tag"
+  Display: "<green><bold>月老廟管理人-蝕日</bold></green>"
+NAMETAGZhenChangWangMao:
+  Id: "name_tag"
+  Display: "<green><bold>鎮長-王卯</bold></green>"
+NAMETAGYaoTong:
+  Id: "name_tag"
+  Display: "<green><bold>藥童</bold></green>"
+NAMETAGJiSiChuLan:
+  Id: "name_tag"
+  Display: "<green><bold>祭司-楚蘭</bold></green>"
+NAMETAGHuaYao:
+  Id: "name_tag"
+  Display: "<green><bold>華夭</bold></green>"
+NAMETAGQingLongFenHun:
+  Id: "name_tag"
+  Display: "<green><bold>青龍分魂</bold></green>"
+NAMETAGDaChangLao:
+  Id: "name_tag"
+  Display: "<green><bold>大長老</bold></green>"
+NAMETAGGuanLiYuanMoXian:
+  Id: "name_tag"
+  Display: "<green><bold>管理員-墨仙</bold></green>"
+NAMETAGBaoDaTing:
+  Id: "name_tag"
+  Display: "<green><bold>包打聽</bold></green>"
+NAMETAGZhiNu:
+  Id: "name_tag"
+  Display: "<green><bold>織女</bold></green>"
+NETHERSTALKZhiNuDeWeiTuoZhiNuDeCaiDaiZhiNuXinWu:
+  Id: "nether_stalk"
+  Display: "<aqua>織女的委託：織女的彩帶</aqua>"
+  Lore:
+    - "<gray><italic>織女委託你交給水牛精的信物</italic></gray>"
+NAMETAGShangXinDeLaoYeYe:
+  Id: "name_tag"
+  Display: "<green><bold>傷心的老爺爺</bold></green>"
+NAMETAGLianXin:
+  Id: "name_tag"
+  Display: "<green><bold>蓮心</bold></green>"
+POTIONDiKangYanJiangDeShiYanDanYao:
+  Id: "potion"
+  Options:
+    StackSize: 64
+  Display: "<dark_green>抵抗岩漿的試驗丹藥</dark_green><white></white>"
+  PotionEffects:
+    - FIRE_RESISTANCE{d=600;l=1;p=true}
+NAMETAGGuLingLingDeXiaoNanHai:
+  Id: "name_tag"
+  Display: "<green><bold>孤伶伶的小男孩</bold></green>"
+NAMETAGLeiLiuBuZhiDeYuZhu:
+  Id: "name_tag"
+  Display: "<green><bold>淚流不止的雨竹</bold></green>"
+NAMETAGYanJiuShaMoShengTaiDeXueZhe:
+  Id: "name_tag"
+  Display: "<green><bold>研究沙漠生態的學者</bold></green>"
+NAMETAGYuZhu:
+  Id: "name_tag"
+  Display: "<green><bold>雨竹</bold></green>"
+NAMETAGMoMoHeJiuDeNanZi:
+  Id: "name_tag"
+  Display: "<green><bold>默默喝酒的男子</bold></green>"
+NAMETAGShuiNiuJing:
+  Id: "name_tag"
+  Display: "<green><bold>水牛精</bold></green>"
+NAMETAGGongSunLaoYe:
+  Id: "name_tag"
+  Display: "<green><bold>公孫老爺</bold></green>"
+NAMETAGLuBianDeXiaoMeiMei:
+  Id: "name_tag"
+  Display: "<green><bold>路邊的小妹妹</bold></green>"
+NETHERSTALKZhuangZhuXiaoTuZiDeLongZiZhuangZhuZiWang:
+  Id: "nether_stalk"
+  Display: "<aqua>裝著小兔子的籠子</aqua>"
+  Lore:
+    - "<gray><italic>裝著迷路小兔子的籠子。小妹妹請你幫忙交給兔子王。</italic></gray>"
+NAMETAGFengYangHua:
+  Id: "name_tag"
+  Display: "<green><bold>鳳陽花</bold></green>"
+PAPERXiaoRenDeTuiJianHanQingNaCunChang:
+  Id: "paper"
+  Display: "<aqua>小仁的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找村長</italic></gray>"
+PAPERXiaoHuaDeTuiJianHanQingNaGuZhu:
+  Id: "paper"
+  Display: "<aqua>小花的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找谷主</italic></gray>"
+PAPERXiaoFeiDeTuiJianHanQingNaMengZhu:
+  Id: "paper"
+  Display: "<aqua>小飛的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找盟主</italic></gray>"
+PAPERFuXiDeTuiJianHanQingNaChangLao:
+  Id: "paper"
+  Display: "<aqua>伏羲的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找長老</italic></gray>"
+PAPERFeiHuDeTuiJianHanQingNaZuChang:
+  Id: "paper"
+  Display: "<aqua>飛虎的推薦函</aqua>"
+  Lore:
+    - "<gray><italic>請拿著這封推薦函去找族長</italic></gray>"
+FLINTJinYuanSuJieJingTaiShangXiaoGuo:
+  Id: "flint"
+  Display: "<yellow>金元素結晶</yellow>"
+  Lore:
+    - "<gray><italic>太上老君所發明的超濃縮元素結晶</italic></gray>"
+    - "<gray><italic>可以利用煉丹爐作為媒介，發動大範圍的術法</italic></gray>"
+    - "<gray><italic>煉化金元素晶體可以造成大面積的腐蝕傷害</italic></gray>"
+    - "<gray><italic>但是對於由死氣聚集而成的怪物會有反效果</italic></gray>"
+MELONSEEDSMuYuanSuJieJingTaiShangZhuangTai:
+  Id: "melon_seeds"
+  Display: "<yellow>木元素結晶</yellow>"
+  Lore:
+    - "<gray><italic>太上老君所發明的超濃縮元素結晶</italic></gray>"
+    - "<gray><italic>可以利用煉丹爐作為媒介，發動大範圍的術法</italic></gray>"
+    - "<gray><italic>煉化木元素晶體可以將生機灌注到周圍的隊友身上</italic></gray>"
+    - "<gray><italic>協助他們回血，並且解除各種異常狀態</italic></gray>"
+SEEDSShuiYuanSuJieJingTaiShangXiaoGuo:
+  Id: "seeds"
+  Display: "<yellow>水元素結晶</yellow>"
+  Lore:
+    - "<gray><italic>太上老君所發明的超濃縮元素結晶</italic></gray>"
+    - "<gray><italic>可以利用煉丹爐作為媒介，發動大範圍的術法</italic></gray>"
+    - "<gray><italic>煉化水元素晶體可以散發出劇毒煙霧</italic></gray>"
+    - "<gray><italic>使周圍敵人受到持續中毒傷害的效果</italic></gray>"
+COALHuoYuanSuJieJingTaiShangShangHai:
+  Id: "charcoal"
+  Display: "<yellow>火元素結晶</yellow>"
+  Lore:
+    - "<gray><italic>太上老君所發明的超濃縮元素結晶</italic></gray>"
+    - "<gray><italic>可以利用煉丹爐作為媒介，發動大範圍的術法</italic></gray>"
+    - "<gray><italic>煉化火元素晶體可以讓周圍敵人著火</italic></gray>"
+    - "<gray><italic>並且暫時協助隊友們抵擋火焰傷害</italic></gray>"
+PUMPKINSEEDSTuYuanSuJieJingTaiShangXiaoGuo:
+  Id: "pumpkin_seeds"
+  Display: "<yellow>土元素結晶</yellow>"
+  Lore:
+    - "<gray><italic>太上老君所發明的超濃縮元素結晶</italic></gray>"
+    - "<gray><italic>可以利用煉丹爐作為媒介，發動大範圍的術法</italic></gray>"
+    - "<gray><italic>煉化土元素晶體可以暫時讓周圍的土壤變軟</italic></gray>"
+    - "<gray><italic>使敵人行動變得緩慢</italic></gray>"
+    - "<gray><italic>但是對於跳躍移動的敵人沒有效果</italic></gray>"
+BOW:
+  Id: "bow"
+BOWBaiHu:
+  Id: "bow"
+  Enchantments:
+    - POWER:100
+DIAMONDSWORD:
+  Id: "diamond_sword"
+MELONSLICEMaoTaiSeQingChiJiu:
+  Id: "pufferfish"
+  Display: "<aqua>茅台</aqua>"
+  Lore:
+    - "<gray><italic>色清透明、醇香馥郁、入口柔綿、清冽甘爽、回香持久</italic></gray>"
+MELONSLICEWuLiangYeJiuXiangYouChang:
+  Id: "pufferfish"
+  Display: "<aqua>五糧液</aqua>"
+  Lore:
+    - "<gray><italic>酒香濃郁，醇厚甘美，回味悠長</italic></gray>"
+MELONSLICEShaoXingJiuSeXiZhi:
+  Id: "pufferfish"
+  Display: "<aqua>紹興</aqua>"
+  Lore:
+    - "<gray><italic>酒色琥珀，酒香氣濃、馥郁芬芳，口感溫柔細緻</italic></gray>"
+MELONSLICEShaoDaoZiWeiJiHuoYan:
+  Id: "pufferfish"
+  Display: "<aqua>燒刀子</aqua>"
+  Lore:
+    - "<gray><italic>味極濃烈，入口如燒紅之刀刃，吞入腹中猶如滾燙的火焰</italic></gray>"
+IRONSWORD:
+  Id: "iron_sword"
+GLISTERINGMELONSLICEFanLiFangJuHeXin:
+  Id: "glistering_melon_slice"
+  Display: "範例防具核心"
+GLOWSTONEDUSTMaoZiCaiLiao:
+  Id: "glowstone_dust"
+  Display: "帽子材料"
+GOLDENCARROT:
+  Id: "golden_carrot"
+STONEBUTTON:
+  Id: "stone_button"
+DIAMONDSWORDKunLunFeiXianJianXiYouShiYong:
+  Id: "diamond_sword"
+  Display: "<yellow>崑崙飛仙劍</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gray><italic>上古時期崑崙眾神贈與仙族的飛劍</italic></gray>"
+    - "<gray><italic>擁有眾神之力，非不凡者不能使用</italic></gray>"
+  Enchantments:
+    - SHARPNESS:3
+  Attributes:
+    MAINHAND:
+      Damage: 12.0
+      Health: 8.0
+      MovementSpeed: -45.0%
+  Options:
+    Unbreakable: true
+BOWBeiDouMieShenGongXiYouShenBing:
+  Id: "bow"
+  Display: "<yellow>北斗滅神弓</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gray><italic>戰神族所製作的弓</italic></gray>"
+    - "<gray><italic>擁眾星殞神之力的神兵</italic></gray>"
+  Enchantments:
+    - POWER:27
+    - PUNCH:1
+  Attributes:
+    MAINHAND:
+      Health: -8.0
+      MovementSpeed: -25.0%
+  Options:
+    Unbreakable: true
+CLAYBRICKQiShaDingXiYouGuangMang:
+  Id: "clay_brick"
+  Display: "<yellow>七煞鼎</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gray><italic>極品丹爐，煉丹師夢寐以求的煉丹工具</italic></gray>"
+    - "<gray><italic>蘊含的星辰之力讓整個爐鼎散發著淡淡的光芒</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:5
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      KnockbackResistance: 1.0
+      MovementSpeed: -20.0%
+  Options:
+    Unbreakable: true
+GOLDENCARROTChiTongJianChuXingXiYouTongJian:
+  Id: "golden_carrot"
+  Display: "<aqua>赤銅劍雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的三階武器-赤銅劍</italic></gray>"
+NETHERSTALKFanLiRenWuDaoJuZheShiTongZhong:
+  Id: "nether_stalk"
+  Display: "<aqua>範例任務道具</aqua>"
+  Lore:
+    - "<gray><italic>這是教學用的示範任務道具</italic></gray>"
+    - "<red><italic>請將此物投入桶中</italic></red>"
+LIMEDYEFanLiWoMenWuPin:
+  Id: "lime_dye"
+  Display: "範例NPC："
+  Lore:
+    - "<gray><italic>我們的名字有兩種顏色</italic></gray>"
+    - "<gray><italic>如果是綠色就代表可以和我們買賣物品</italic></gray>"
+LIMEDYEFanLiRuGuoLuRen:
+  Id: "lime_dye"
+  Display: "範例NPC："
+  Lore:
+    - "<gray><italic>如果是白色的話</italic></gray>"
+    - "<gray><italic>代表我們只是喜歡聊天的路人</italic></gray>"
+LIMEDYEFanLiZuoBianDaoJu:
+  Id: "lime_dye"
+  Display: "範例NPC："
+  Lore:
+    - "<gray><italic>左邊道具的右下角顯示0表示不會消耗</italic></gray>"
+    - "<gray><italic>換取時請注意不要按住shift</italic></gray>"
+    - "<gray><italic>請翻到下一個交易頁面換取示範道具</italic></gray>"
+FIREWORKZhanShenZuYanHuo:
+  Id: "firework"
+  Display: "戰神族煙火"
+FIREWORKYaoZuYanHuo:
+  Id: "firework"
+  Display: "妖族煙火"
+FIREWORKRenZuYanHuo:
+  Id: "firework"
+  Display: "人族煙火"
+FIREWORKShenZuYanHuo:
+  Id: "firework"
+  Display: "神族煙火"
+FIREWORKXianZuYanHuo:
+  Id: "firework"
+  Display: "仙族煙火"
+LIMEDYEBanLingTingShuoShiDe:
+  Id: "lime_dye"
+  Display: "半靈："
+  Lore:
+    - "<gray><italic>聽說客棧裡新來的三個夥計，</italic></gray>"
+    - "<gray><italic>老盛氣凌人、頤指氣使的！</italic></gray>"
+LIMEDYEBanLingZhangGuiXiaMa:
+  Id: "lime_dye"
+  Display: "半靈："
+  Lore:
+    - "<gray><italic>掌櫃大人！</italic></gray>"
+    - "<gray><italic>你甘心讓那三個無賴一輩子踩在腳下嗎？</italic></gray>"
+LIMEDYEXiaoHuZiWoYaoChengXian:
+  Id: "lime_dye"
+  Display: "小虎子："
+  Lore:
+    - "<gray><italic> 我要努力修練，總有一天我也要飛升成仙。</italic></gray>"
+LIMEDYEXiaoHuZiHengHaXiuLian:
+  Id: "lime_dye"
+  Display: "小虎子："
+  Lore:
+    - "<gray><italic>哼~哈! 嘿! 沒事請不要打擾我修練。</italic></gray>"
+LIMEDYEHanRongTingShuoGuaiA:
+  Id: "lime_dye"
+  Display: "瀚榮："
+  Lore:
+    - "<gray><italic>聽說最近村子裡新開了一間客棧，可是從來沒人見過，真奇怪阿?</italic></gray>"
+LIMEDYEHanRongJiRanMaNi:
+  Id: "lime_dye"
+  Display: "瀚榮："
+  Lore:
+    - "<gray><italic>既然沒人見過又怎麼知道新開了間客棧呢?到底是為什麼呢?</italic></gray>"
+LIMEDYEJiuGuNiangYouHouXieBa:
+  Id: "lime_dye"
+  Display: "九姑娘："
+  Lore:
+    - "<gray><italic>悠齁齁～走這麼快去哪兒阿？</italic></gray>"
+    - "<gray><italic>不嫌棄的話進來歇歇吧!</italic></gray>"
+LIMEDYEJiuGuNiangYouNinNuNi:
+  Id: "lime_dye"
+  Display: "九姑娘："
+  Lore:
+    - "<gray><italic>呦～您有碰到如花姐姐嗎？</italic></gray>"
+    - "<gray><italic>她是我們村內第一美女呢！</italic></gray>"
+LIMEDYEHuangChangYaoNiePingA:
+  Id: "lime_dye"
+  Display: "黃昌："
+  Lore:
+    - "<gray><italic>妖孽橫行，天下不再太平阿!</italic></gray>"
+LIMEDYEHuangChangAiAi:
+  Id: "lime_dye"
+  Display: "黃昌："
+  Lore:
+    - "<gray><italic>唉~</italic></gray>"
+LIMEDYEBaiBoTianXiaCangSheng:
+  Id: "lime_dye"
+  Display: "白伯："
+  Lore:
+    - "<gray><italic>天下將亂，誰能解救蒼生?</italic></gray>"
+LIMEDYEBaiBoAiAi:
+  Id: "lime_dye"
+  Display: "白伯："
+  Lore:
+    - "<gray><italic>唉~</italic></gray>"
+LIMEDYEChuYaoDuiChangQuChuTingMa:
+  Id: "lime_dye"
+  Display: "除妖隊長："
+  Lore:
+    - "<gray><italic>驅除妖孽!斬妖除魔!，</italic></gray>"
+    - "<gray><italic>同胞們!看見你前方山上的涼亭嗎?</italic></gray>"
+LIMEDYEChuYaoDuiChangJiaRuWeiBao:
+  Id: "lime_dye"
+  Display: "除妖隊長："
+  Lore:
+    - "<gray><italic>加入斬妖除魔的隊伍</italic></gray>"
+    - "<gray><italic>我族將以豐厚獎勵為報</italic></gray>"
+LIMEDYEHanHuaiZhenShangDeQian:
+  Id: "lime_dye"
+  Display: "寒槐："
+  Lore:
+    - "<gray><italic>鎮上新來的小子原來是江湖術士，</italic></gray>"
+    - "<gray><italic>想來招攬生意、騙我們的錢！</italic></gray>"
+LIMEDYEHanHuaiWoYiDaRen:
+  Id: "lime_dye"
+  Display: "寒槐："
+  Lore:
+    - "<gray><italic>我一定要告訴村長大人！</italic></gray>"
+LADDER:
+  Id: "ladder"
+LIMEDYERuHuaJieJieAMeiShangHao:
+  Id: "lime_dye"
+  Display: "如花姐姐："
+  Lore:
+    - "<gray><italic>阿～～～每天吃一粒回春丹,天然欸尚好。</italic></gray>"
+LIMEDYERuHuaJieJieSiXiangGuiNu:
+  Id: "lime_dye"
+  Display: "如花姐姐："
+  Lore:
+    - "<gray><italic>死相～人家可是黃花大閨女!</italic></gray>"
+LIMEDYEDaNiuZheTongZaA:
+  Id: "lime_dye"
+  Display: "大牛："
+  Lore:
+    - "<gray><italic>這通道可真複雜阿!</italic></gray>"
+LIMEDYEDaNiuBuManLuNi:
+  Id: "lime_dye"
+  Display: "大牛："
+  Lore:
+    - "<gray><italic>不瞞你說，其實我有時還會在裡面迷路呢!</italic></gray>"
+LIMEDYEWeiFengWoZhenXiaLe:
+  Id: "lime_dye"
+  Display: "衛豐："
+  Lore:
+    - "<gray><italic>我真的覺得是時候把房子擴建一下了。</italic></gray>"
+LIMEDYEWeiFengKuoJianGuoLe:
+  Id: "lime_dye"
+  Display: "衛豐："
+  Lore:
+    - "<gray><italic>擴建之後我要買張大大的桌子，</italic></gray>"
+    - "<gray><italic>如果能再買個櫃子那就在好不過了。</italic></gray>"
+LIMEDYECengAXiGeBiGuiHun:
+  Id: "lime_dye"
+  Display: "曾阿喜："
+  Lore:
+    - "<gray><italic>隔壁的阿毛我找了他三天了，</italic></gray>"
+    - "<gray><italic>不知道又給我跑到哪裡鬼混。</italic></gray>"
+LIMEDYECengAXiPiGuPoLe:
+  Id: "lime_dye"
+  Display: "曾阿喜："
+  Lore:
+    - "<gray><italic>屁股後面涼涼的，不知道是不是褲子破了?</italic></gray>"
+PAPERJinZhi:
+  Id: "paper"
+  Display: "金紙BJ４"
+LIMEDYEZhunLinDuZiZiLe:
+  Id: "lime_dye"
+  Display: "諄林："
+  Lore:
+    - "<gray><italic>肚子餓了，該去雜貨舖買個包子了。</italic></gray>"
+LIMEDYEZhunLinMenWaiPiaoLiang:
+  Id: "lime_dye"
+  Display: "諄林："
+  Lore:
+    - "<gray><italic>門外的那條吊橋真是漂亮。</italic></gray>"
+COCOABEANSDuQiShi:
+  Id: "cocoa_beans"
+  Display: "肚臍屎"
+REDROSE:
+  Id: "red_rose"
+LIMEDYEAXunShuaiShiCunZai:
+  Id: "lime_dye"
+  Display: "阿勳："
+  Lore:
+    - "<gray><italic>帥，是不需要理由的，帥是一個事實，一種確切的存在，</italic></gray>"
+    - "<gray><italic>就算世人無法認同，我的帥，依然存在。</italic></gray>"
+LIMEDYEAXunRuGuoZaiCuo:
+  Id: "lime_dye"
+  Display: "阿勳："
+  Lore:
+    - "<gray><italic>如果帥是一種罪，我已罪惡滔天；</italic></gray>"
+    - "<gray><italic>如果瀟灑是種錯，我已一錯再錯。</italic></gray>"
+WOODHOETaoShiBang:
+  Id: "wood_hoe"
+  Display: "掏屎棒"
+LIMEDYEMuRongGongZiHengWoXiaoJie:
+  Id: "lime_dye"
+  Display: "慕容公子："
+  Lore:
+    - "<gray><italic>哼!我一個翩翩才子，學富五車，飽學詩書，</italic></gray>"
+    - "<gray><italic>這是沒機會，要是讓我進了城，包準迷死一票官家小姐。</italic></gray>"
+LIMEDYEMuRongGongZiLuZhuHaoShi:
+  Id: "lime_dye"
+  Display: "慕容公子："
+  Lore:
+    - "<gray><italic>露珠濕紗碧 暮游曉寂積</italic></gray>"
+    - "<gray><italic>好詩阿~好詩。</italic></gray>"
+LIMEDYECengPoPoXiaoHuoShenMa:
+  Id: "lime_dye"
+  Display: "曾婆婆："
+  Lore:
+    - "<gray><italic>小夥子，你隨意進到我家裡來做甚麼?</italic></gray>"
+LIMEDYECengPoPoGunKuaiKuaiGun:
+  Id: "lime_dye"
+  Display: "曾婆婆："
+  Lore:
+    - "<gray><italic>滾!快滾!!</italic></gray>"
+HOPPER:
+  Id: "hopper"
+FIREWORK:
+  Id: "firework"
+CACTUSXiaoXianRenZhang:
+  Id: "cactus"
+  Display: "小仙人掌"
+LIMEDYEZhuDaShaWoYiGuoJia:
+  Id: "lime_dye"
+  Display: "朱大傻："
+  Lore:
+    - "<gray><italic>我一定要努力讀書，報效國家!</italic></gray>"
+LIMEDYEZhuDaShaYiYiLaiZhu:
+  Id: "lime_dye"
+  Display: "朱大傻："
+  Lore:
+    - "<gray><italic>一一得一，一二得二，一三...恩...</italic></gray>"
+    - "<gray><italic>一三是多少來著?</italic></gray>"
+EYEOFENDER:
+  Id: "eye_of_ender"
+POTIONFengMuHuiChunQuanChuJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(初級[法])</green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=1;p=true}
+    - REGENERATION{d=100;l=2;p=true}
+POTIONTianShenHuTiChuJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(初級[法])</green><white></white>"
+  PotionEffects:
+    - ABSORPTION{d=6000;l=1;p=true}
+POTIONJiuZhuanHuanHunXiangChuJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(初級[法])</green><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=6000;l=1;p=true}
+    - HEALTH_BOOST{d=6000;l=1;p=true}
+POTIONFengHouChuJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(初級[術])</red><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+POTIONDuoHunChuJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(初級[術])</red><white></white>"
+  PotionEffects:
+    - SLOWNESS{d=40;l=1;p=true}
+    - WEAKNESS{d=40;l=1;p=true}
+POTIONQiXueChuJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(初級[術])</red><white></white>"
+  PotionEffects:
+    - POISON{d=40;l=1;p=true}
+    - WITHER{d=40;l=1;p=true}
+POTIONDuoHunZhongJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(中級[術])</red><white></white>"
+  PotionEffects:
+    - SLOWNESS{d=80;l=1;p=true}
+    - WEAKNESS{d=80;l=1;p=true}
+POTIONDingShenJiuJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>定身(究級[術])</red><white></white>"
+  PotionEffects:
+    - SLOWNESS{d=100;l=9;p=true}
+POTIONJianXueFengHouJiuJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>見血封喉(究級[術])</red><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=2;l=9;p=true}
+POTIONFanWeiWanLingDanJiuJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>範圍萬靈丹(究級[法])</green><white></white>"
+  PotionEffects:
+    - POISON{d=0;l=9;p=true}
+    - SLOWNESS{d=0;l=9;p=true}
+    - WEAKNESS{d=0;l=9;p=true}
+    - WITHER{d=0;l=9;p=true}
+POTIONQiSiHuiShengQuanJiuJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>起死回生泉(究級[法])</green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=2;l=6;p=true}
+    - REGENERATION{d=100;l=5;p=true}
+POTIONFengMuHuiChunQuanZhongJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(中級法)</green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=2;p=true}
+    - REGENERATION{d=100;l=3;p=true}
+POTIONTianShenHuTiZhongJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(中級法)</green><white></white>"
+  PotionEffects:
+    - ABSORPTION{d=6000;l=2;p=true}
+POTIONJiuZhuanHuanHunXiangZhongJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(中級法)</green><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=6000;l=1;p=true}
+    - HEALTH_BOOST{d=6000;l=2;p=true}
+POTIONFengHouZhongJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(中級術)</red><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=2;p=true}
+POTIONQiXueZhongJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(中級術)</red><white></white>"
+  PotionEffects:
+    - POISON{d=80;l=1;p=true}
+    - WITHER{d=80;l=1;p=true}
+POTIONFengMuHuiChunQuanGaoJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>逢木回春泉(高級法)</green><white></white>"
+  PotionEffects:
+    - INSTANT_HEALTH{d=20;l=2;p=true}
+    - REGENERATION{d=100;l=4;p=true}
+POTIONTianShenHuTiGaoJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>天神護體(高級法)</green><white></white>"
+  PotionEffects:
+    - STRENGTH{d=6000;l=1;p=true}
+    - ABSORPTION{d=6000;l=3;p=true}
+POTIONJiuZhuanHuanHunXiangGaoJiFa:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<green>九轉還魂香(高級法)</green><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=1;p=true}
+    - NAUSEA{d=200;l=1;p=true}
+    - REGENERATION{d=6000;l=1;p=true}
+    - HEALTH_BOOST{d=6000;l=3;p=true}
+POTIONFengHouGaoJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>封喉(高級術)</red><white></white>"
+  PotionEffects:
+    - INSTANT_DAMAGE{d=20;l=3;p=true}
+POTIONDuoHunGaoJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>奪魂(高級術)</red><white></white>"
+  PotionEffects:
+    - SLOWNESS{d=140;l=1;p=true}
+    - WEAKNESS{d=140;l=1;p=true}
+POTIONQiXueGaoJiShu:
+  Id: "splash_potion"
+  Options:
+    StackSize: 64
+  Display: "<red>泣血(高級術)</red><white></white>"
+  PotionEffects:
+    - POISON{d=140;l=1;p=true}
+    - WITHER{d=140;l=1;p=true}
+POISONOUSPOTATOTeShuYaoYinLianDanCaiLiao:
+  Id: "poisonous_potato"
+  Display: "<aqua>特殊藥引</aqua>"
+  Lore:
+    - "<gray><italic>煉丹師用來煉製丹藥的必備材料</italic></gray>"
+CLAYBRICKSuoHunLuXiYouXiaoGuo:
+  Id: "clay_brick"
+  Display: "<light_purple>鎖魂爐</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>煉丹爐中的上品</italic></gray>"
+    - "<gray><italic>可以完整的將藥性融合，提昇丹藥效果</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:3
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      KnockbackResistance: 1.0
+      MovementSpeed: -30.0%
+  Options:
+    Unbreakable: true
+BOWRiYueLiuXingNuYouXiaXiYouZhiJian:
+  Id: "crossbow"
+  Display: "<yellow>日月流星弩[遊俠]</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>射出的箭矢有如流星一般</italic></gray>"
+    - "<gray><italic>絢麗而致命</italic></gray>"
+    - "<gray><italic>讓使用的人能如同星辰一般</italic></gray>"
+    - "<gray><italic>遊走於敵人之間</italic></gray>"
+  Enchantments:
+    - POWER:24
+    - PUNCH:1
+  Attributes:
+    MAINHAND:
+      Health: -0.25
+      MovementSpeed: 25.0%
+  Options:
+    Unbreakable: true
+BOWBeiDouMieShenGongJuJiXiYouShenBing:
+  Id: "bow"
+  Display: "<yellow>北斗滅神弓[狙擊]</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>戰神族所製作的弓</italic></gray>"
+    - "<gray><italic>擁眾星殞神之力的神兵</italic></gray>"
+  Enchantments:
+    - POWER:30
+    - PUNCH:1
+  Attributes:
+    MAINHAND:
+      Health: -0.4
+      MovementSpeed: -25.0%
+  Options:
+    Unbreakable: true
+BOWJiaoLongNuYouXiaXiYouZhuangJia:
+  Id: "crossbow"
+  Display: "<light_purple>蛟龍弩[遊俠]</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>寄宿著水龍力量的弩箭</italic></gray>"
+    - "<gray><italic>強大的機扣讓箭矢</italic></gray>"
+    - "<gray><italic>可以輕易的擊破敵人的裝甲</italic></gray>"
+  Enchantments:
+    - POWER:18
+    - KNOCKBACK:2
+    - PUNCH:2
+  Attributes:
+    MAINHAND:
+      Health: -0.15
+      MovementSpeed: 20.0%
+  Options:
+    Unbreakable: true
+BOWZhongChuiGongJuJiXiYouSheJi:
+  Id: "bow"
+  Display: "<light_purple>重鎚弓[狙擊]</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>雖然重量重了些</italic></gray>"
+    - "<gray><italic>但是可以藉由甩弓的力量</italic></gray>"
+    - "<gray><italic>將敵人擊飛後再進行射擊</italic></gray>"
+  Enchantments:
+    - POWER:21
+    - KNOCKBACK:2
+  Attributes:
+    MAINHAND:
+      Health: -0.25
+      MovementSpeed: -45.0%
+      KnockbackResistance: 1.0
+  Options:
+    Unbreakable: true
+BOWHongLingGongYouXiaXiYouZhiLi:
+  Id: "crossbow"
+  Display: "<blue>紅翎弓[遊俠]</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>傳說鳳凰落下的羽毛製成的十字弓</italic></gray>"
+    - "<gray><italic>賜予使用者燃火之力</italic></gray>"
+  Enchantments:
+    - POWER:11
+    - FLAME:1
+    - FIRE_ASPECT:1
+    - KNOCKBACK:2
+    - PUNCH:1
+  Attributes:
+    MAINHAND:
+      Health: -0.1
+      MovementSpeed: 15.0%
+  Options:
+    Unbreakable: true
+BOWYanTieGongJuJiXiYouShangHai:
+  Id: "bow"
+  Display: "<blue>燄鐵弓[狙擊]</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>由焱沙大漠出產的稀有燄鐵所製成的弓</italic></gray>"
+    - "<gray><italic>能夠給予射出的箭矢火焰傷害</italic></gray>"
+  Enchantments:
+    - POWER:13
+    - FLAME:1
+  Attributes:
+    MAINHAND:
+      Health: -0.2
+      MovementSpeed: -10.0%
+  Options:
+    Unbreakable: true
+DIAMONDAXESanBaoYuRuYiPoJunXiYouYaoMo:
+  Id: "diamond_axe"
+  Display: "<yellow>三寶玉如意[破軍]</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>傳說為上古神祇原始天尊的法器</italic></gray>"
+    - "<gray><italic>可以鎮壓各方神仙妖魔</italic></gray>"
+  Enchantments:
+    - SHARPNESS:5
+  Attributes:
+    MAINHAND:
+      Damage: 16.0
+      Health: -0.25
+      KnockbackResistance: 1.0
+      MovementSpeed: 30.0%
+  Options:
+    Unbreakable: true
+DIAMONDSWORDKunLunFeiXianJianJinZhongXiYouShiYong:
+  Id: "diamond_sword"
+  Display: "<yellow>崑崙飛仙劍[金鐘]</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>上古時期崑崙眾神贈與仙族的飛劍</italic></gray>"
+    - "<gray><italic>擁有眾神之力，非不凡者不能使用</italic></gray>"
+  Enchantments:
+    - SHARPNESS:3
+  Attributes:
+    MAINHAND:
+      Damage: 12.0
+      Health: 0.5
+      MovementSpeed: -20.0%
+  Options:
+    Unbreakable: true
+GOLDAXEPoKongFuPoJunXiYouSangDan:
+  Id: "gold_axe"
+  Display: "<light_purple>破空斧[破軍]</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>劃破空氣的聲音如笛鳴直衝雲霄一般</italic></gray>"
+    - "<gray><italic>讓敵人聞之喪膽</italic></gray>"
+  Enchantments:
+    - SHARPNESS:4
+  Attributes:
+    MAINHAND:
+      Damage: 11.0
+      Health: -0.1
+      MovementSpeed: 20.0%
+  Options:
+    Unbreakable: true
+GOLDSWORDTaiJiJianJinZhongXiYouShangHai:
+  Id: "gold_sword"
+  Display: "<light_purple>太極劍[金鐘]</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>蘊含了古文化陰陽道法的長劍</italic></gray>"
+    - "<gray><italic>對違背常理的黑暗生物可以造成龐大的傷害</italic></gray>"
+  Enchantments:
+    - SMITE:2
+  Attributes:
+    MAINHAND:
+      Damage: 9.0
+      Health: 0.3
+      MovementSpeed: -15.0%
+  Options:
+    Unbreakable: true
+IRONBOOTSLongZhuaLuXiYouYouXiu:
+  Id: "iron_boots"
+  Display: "<yellow>龍爪履</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>承接青龍之力的套裝</italic></gray>"
+    - "<gray><italic>光是看著就感覺到一陣寒慄</italic></gray>"
+    - "<gray><italic>攻擊和防禦效能都相當優秀</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 2.0
+      MovementSpeed: 0.05
+      Health: 10.0
+  Options:
+    Unbreakable: true
+GOLDBOOTSChiYingZhuaXiYouRuoDian:
+  Id: "gold_boots"
+  Display: "<yellow>赤鷹爪</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>用最珍貴的赤鷹羽毛織成</italic></gray>"
+    - "<gray><italic>承襲了猛禽的速度和力量</italic></gray>"
+    - "<gray><italic>能夠準確的瞄準並擊中敵人的弱點</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.2
+      Health: 6.0
+  Options:
+    Unbreakable: true
+IRONLEGGINGSLongJinHuYaoXiYouYouXiu:
+  Id: "iron_leggings"
+  Display: "<yellow>龍筋護腰</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>承接青龍之力的套裝</italic></gray>"
+    - "<gray><italic>光是看著就感覺到一陣寒慄</italic></gray>"
+    - "<gray><italic>攻擊和防禦效能都相當優秀</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 14.0
+      MovementSpeed: 0.05
+      Damage: 1.0
+  Options:
+    Unbreakable: true
+GOLDLEGGINGSChiYingYuXiYouRuoDian:
+  Id: "gold_leggings"
+  Display: "<yellow>赤鷹羽</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>用最珍貴的赤鷹羽毛織成</italic></gray>"
+    - "<gray><italic>承襲了猛禽的速度和力量</italic></gray>"
+    - "<gray><italic>能夠準確的瞄準並擊中敵人的弱點</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.1
+      Health: 6.0
+  Options:
+    Unbreakable: true
+IRONCHESTPLATELongLinRuanJiaXiYouYouXiu:
+  Id: "iron_chestplate"
+  Display: "<yellow>龍鱗軟甲</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>承接青龍之力的套裝</italic></gray>"
+    - "<gray><italic>光是看著就感覺到一陣寒慄</italic></gray>"
+    - "<gray><italic>攻擊和防禦效能都相當優秀</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      MovementSpeed: -0.05
+      Health: 16.0
+  Options:
+    Unbreakable: true
+GOLDCHESTPLATEChiYingYiXiYouRuoDian:
+  Id: "gold_chestplate"
+  Display: "<yellow>赤鷹翼</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>用最珍貴的赤鷹羽毛織成</italic></gray>"
+    - "<gray><italic>承襲了猛禽的速度和力量</italic></gray>"
+    - "<gray><italic>能夠準確的瞄準並擊中敵人的弱點</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.05
+      Health: 2.0
+      KnockbackResistance: 1.0
+  Options:
+    Unbreakable: true
+IRONHELMETLongXuHuiXiYouYouXiu:
+  Id: "iron_helmet"
+  Display: "<yellow>龍鬚迴</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>承接青龍之力的套裝</italic></gray>"
+    - "<gray><italic>光是看著就感覺到一陣寒慄</italic></gray>"
+    - "<gray><italic>攻擊和防禦效能都相當優秀</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 12.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+GOLDHELMETChiYingYanXiYouRuoDian:
+  Id: "gold_helmet"
+  Display: "<yellow>赤鷹眼</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>用最珍貴的赤鷹羽毛織成</italic></gray>"
+    - "<gray><italic>承襲了猛禽的速度和力量</italic></gray>"
+    - "<gray><italic>能夠準確的瞄準並擊中敵人的弱點</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.2
+      Health: 4.0
+  Options:
+    Unbreakable: true
+IRONBOOTSLingGuiChuShuiXiYouSuDu:
+  Id: "iron_boots"
+  Display: "<light_purple>靈龜出水</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>寄宿著玄武之力的套裝</italic></gray>"
+    - "<gray><italic>雖然防禦力驚人</italic></gray>"
+    - "<gray><italic>卻也犧牲了部份移動速度</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 6.0
+      MovementSpeed: 0.1
+  Options:
+    Unbreakable: true
+GOLDBOOTSSheXingZuXiYouShangHai:
+  Id: "gold_boots"
+  Display: "<light_purple>蛇行足</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>採用最狡猾的毒蛇鱗片製成</italic></gray>"
+    - "<gray><italic>堅硬的鱗甲可以抵擋致命傷害</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.15
+      Health: 2.0
+  Options:
+    Unbreakable: true
+IRONLEGGINGSGuiNingHuKuaXiYouSuDu:
+  Id: "iron_leggings"
+  Display: "<light_purple>龜寧護跨</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>寄宿著玄武之力的套裝</italic></gray>"
+    - "<gray><italic>雖然防禦力驚人</italic></gray>"
+    - "<gray><italic>卻也犧牲了部份移動速度</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 10.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+GOLDLEGGINGSSheLinHuKuaXiYouShangHai:
+  Id: "gold_leggings"
+  Display: "<light_purple>蛇鱗護跨</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>採用最狡猾的毒蛇鱗片製成</italic></gray>"
+    - "<gray><italic>堅硬的鱗甲可以抵擋致命傷害</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.05
+      Health: 4.0
+  Options:
+    Unbreakable: true
+IRONCHESTPLATEXuanLingWuJiaXiYouSuDu:
+  Id: "iron_chestplate"
+  Display: "<light_purple>玄靈武甲</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>寄宿著玄武之力的套裝</italic></gray>"
+    - "<gray><italic>雖然防禦力驚人</italic></gray>"
+    - "<gray><italic>卻也犧牲了部份移動速度</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 12.0
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.15
+  Options:
+    Unbreakable: true
+GOLDCHESTPLATEShePiSuoJiaXiYouShangHai:
+  Id: "gold_chestplate"
+  Display: "<light_purple>蛇皮鎖甲</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>採用最狡猾的毒蛇鱗片製成</italic></gray>"
+    - "<gray><italic>堅硬的鱗甲可以抵擋致命傷害</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: 0.1
+  Options:
+    Unbreakable: true
+IRONHELMETJiaGuTouShiXiYouSuDu:
+  Id: "iron_helmet"
+  Display: "<light_purple>甲骨頭飾</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>寄宿著玄武之力的套裝</italic></gray>"
+    - "<gray><italic>雖然防禦力驚人</italic></gray>"
+    - "<gray><italic>卻也犧牲了部份移動速度</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 2.0
+      MovementSpeed: 0.05
+      Health: 8.0
+  Options:
+    Unbreakable: true
+GOLDHELMETSheXinXiYouShangHai:
+  Id: "gold_helmet"
+  Display: "<light_purple>蛇信</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>採用最狡猾的毒蛇鱗片製成</italic></gray>"
+    - "<gray><italic>堅硬的鱗甲可以抵擋致命傷害</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+LEATHERBOOTSXiongShouTiXiYouTuTeng:
+  Id: "leather_boots"
+  Display: "<blue>兇獸蹄</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>附著了上古兇獸饕餮氣息的套裝</italic></gray>"
+    - "<gray><italic>裝甲上繪有帶著肅殺之氣的圖騰</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.05
+      Health: 4.0
+  Options:
+    Unbreakable: true
+GOLDBOOTSHuPiXueXiYouFangHu:
+  Id: "gold_boots"
+  Display: "<blue>虎皮靴</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>由堅硬的虎皮製成</italic></gray>"
+    - "<gray><italic>能提供較佳的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: 0.1
+  Options:
+    Unbreakable: true
+LEATHERLEGGINGSXiongShouHuKuaXiYouTuTeng:
+  Id: "leather_leggings"
+  Display: "<blue>兇獸護跨</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>附著了上古兇獸饕餮氣息的套裝</italic></gray>"
+    - "<gray><italic>裝甲上繪有帶著肅殺之氣的圖騰</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 6.0
+  Options:
+    Unbreakable: true
+GOLDLEGGINGSHuWenHuKuaXiYouFangHu:
+  Id: "gold_leggings"
+  Display: "<blue>虎紋護跨</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[弓]</gold>"
+    - "<gray><italic>由堅硬的虎皮製成</italic></gray>"
+    - "<gray><italic>能提供較佳的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+      MovementSpeed: 0.02
+  Options:
+    Unbreakable: true
+CHAINMAILBOOTSWenWuQuXiYouWeiJu:
+  Id: "chainmail_boots"
+  Display: "<yellow>文武曲</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>利用隕星的碎片打造的套裝</italic></gray>"
+    - "<gray><italic>表面若隱若現著淡淡的星光</italic></gray>"
+    - "<gray><italic>神聖的力量讓邪惡生物都感到畏懼</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 6.0
+      MovementSpeed: 10.0%
+  Options:
+    Unbreakable: true
+CHAINMAILLEGGINGSJunChenFuXiYouWeiJu:
+  Id: "chainmail_leggings"
+  Display: "<yellow>君塵拂</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>利用隕星的碎片打造的套裝</italic></gray>"
+    - "<gray><italic>表面若隱若現著淡淡的星光</italic></gray>"
+    - "<gray><italic>神聖的力量讓邪惡生物都感到畏懼</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 10.0
+      MovementSpeed: 0.05
+      KnockbackResistance: 1.0
+  Options:
+    Unbreakable: true
+CHAINMAILCHESTPLATETaiShangShenPaoXiYouWeiJu:
+  Id: "chainmail_chestplate"
+  Display: "<yellow>太上神袍</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>利用隕星的碎片打造的套裝</italic></gray>"
+    - "<gray><italic>表面若隱若現著淡淡的星光</italic></gray>"
+    - "<gray><italic>神聖的力量讓邪惡生物都感到畏懼</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 12.0
+  Options:
+    Unbreakable: true
+CHAINMAILHELMETQiXingGuanXiYouWeiJu:
+  Id: "chainmail_helmet"
+  Display: "<yellow>七星冠</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>利用隕星的碎片打造的套裝</italic></gray>"
+    - "<gray><italic>表面若隱若現著淡淡的星光</italic></gray>"
+    - "<gray><italic>神聖的力量讓邪惡生物都感到畏懼</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 8.0
+      MovementSpeed: 0.1
+  Options:
+    Unbreakable: true
+CHAINMAILBOOTSZiSuXieLuXiYouQiXi:
+  Id: "chainmail_boots"
+  Display: "<light_purple>紫蘇葉履</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>集藥草精華於一身的套裝</italic></gray>"
+    - "<gray><italic>散發著清涼的自然氣息</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      MovementSpeed: 0.1
+      Health: 4.0
+  Options:
+    Unbreakable: true
+CHAINMAILLEGGINGSChuanBeiZheXiYouQiXi:
+  Id: "chainmail_leggings"
+  Display: "<light_purple>川貝摺</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>集藥草精華於一身的套裝</italic></gray>"
+    - "<gray><italic>散發著清涼的自然氣息</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 6.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+CHAINMAILCHESTPLATEDiHuangPaoXiYouQiXi:
+  Id: "chainmail_chestplate"
+  Display: "<light_purple>地黃袍</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>集藥草精華於一身的套裝</italic></gray>"
+    - "<gray><italic>散發著清涼的自然氣息</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 8.0
+  Options:
+    Unbreakable: true
+CHAINMAILHELMETShaoGuanXiYouQiXi:
+  Id: "chainmail_helmet"
+  Display: "<light_purple>芍冠</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：★★★★</light_purple>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>集藥草精華於一身的套裝</italic></gray>"
+    - "<gray><italic>散發著清涼的自然氣息</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 6.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+CHAINMAILBOOTSHuaTuoShiXiYouFangHu:
+  Id: "chainmail_boots"
+  Display: "<blue>華佗石</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>傳說神醫華佗所設計</italic></gray>"
+    - "<gray><italic>提供濟世醫者全方位的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      KnockbackResistance: 1.0
+  Options:
+    Unbreakable: true
+CHAINMAILLEGGINGSHuaTuoXieXiYouFangHu:
+  Id: "chainmail_leggings"
+  Display: "<blue>華佗葉</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>限制職業：[丹]</gold>"
+    - "<gray><italic>傳說神醫華佗所設計</italic></gray>"
+    - "<gray><italic>提供濟世醫者全方位的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+IRONSWORDJuTongZhanChuiJinZhongXiYouJiTui:
+  Id: "iron_sword"
+  Display: "<blue>巨銅戰鎚[金鐘]</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>非常重的金屬鎚子</italic></gray>"
+    - "<gray><italic>拿著它敵人無法將持有者擊退</italic></gray>"
+  Enchantments:
+    - SMITE:1
+    - BANE_OF_ARTHROPODS:1
+  Attributes:
+    MAINHAND:
+      Damage: 7.0
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.2
+      Health: 0.2
+  Options:
+    Unbreakable: true
+IRONAXEChiTongJianPoJunXiYouLiLiang:
+  Id: "iron_axe"
+  Display: "<blue>赤銅劍[破軍]</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>被朱雀所祝福的青銅寶劍</italic></gray>"
+    - "<gray><italic>擁有灼燒敵人的力量</italic></gray>"
+  Enchantments:
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      Damage: 8.0
+      Health: 0.2
+      MovementSpeed: 15.0%
+  Options:
+    Unbreakable: true
+STONESWORDQingTongJianXiYouShangHai:
+  Id: "stone_sword"
+  Display: "<green>青銅劍</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>使用青銅製成的金屬長劍</italic></gray>"
+    - "<gray><italic>對於節肢動物有不錯的傷害</italic></gray>"
+  Enchantments:
+    - BANE_OF_ARTHROPODS:1
+  Attributes:
+    MAINHAND:
+      Damage: 6.0
+      Health: 0.15
+  Options:
+    Unbreakable: true
+STONEAXEKaiShanDaoXiYouCuoDe:
+  Id: "stone_axe"
+  Display: "<green>開山刀</green>"
+  Lore:
+    - "<green>稀有度：</green><green>★★</green>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>有一點生鏽的開山刀</italic></gray>"
+    - "<gray><italic>不過用來殺出重圍應該是不錯的</italic></gray>"
+  Enchantments:
+    - SHARPNESS:2
+  Attributes:
+    MAINHAND:
+      Damage: 6.5
+      MovementSpeed: 10.0%
+  Options:
+    Unbreakable: true
+IRONSWORDChiTongJianXiYouLiLiang:
+  Id: "iron_sword"
+  Display: "<blue>赤銅劍</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>被朱雀所祝福的青銅寶劍</italic></gray>"
+    - "<gray><italic>擁有灼燒敵人的力量</italic></gray>"
+  Enchantments:
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      Damage: 7.0
+      Health: 0.2
+      MovementSpeed: -15.0%
+  Options:
+    Unbreakable: true
+IRONAXEJuTongZhanChuiXiYouJiFei:
+  Id: "iron_axe"
+  Display: "<blue>巨銅戰鎚</blue>"
+  Lore:
+    - "<blue>稀有度：</blue><blue>★★★</blue>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>非常重的金屬鎚子</italic></gray>"
+    - "<gray><italic>連大型敵人也可以擊飛</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:2
+  Attributes:
+    MAINHAND:
+      Damage: 8.0
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.3
+      Health: 0.2
+  Options:
+    Unbreakable: true
+GOLDSWORDTaiJiJianXiYouShangHai:
+  Id: "gold_sword"
+  Display: "<light_purple>太極劍</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>蘊含了古文化陰陽道法的長劍</italic></gray>"
+    - "<gray><italic>對違背常理的黑暗生物可以造成龐大的傷害</italic></gray>"
+  Enchantments:
+    - SMITE:2
+    - SHARPNESS:2
+  Attributes:
+    MAINHAND:
+      Damage: 9.0
+      Health: 0.3
+      MovementSpeed: -30.0%
+  Options:
+    Unbreakable: true
+GOLDAXEPoKongFuXiYouSangDan:
+  Id: "gold_axe"
+  Display: "<light_purple>破空斧</light_purple>"
+  Lore:
+    - "<light_purple>稀有度：</light_purple><light_purple>★★★★</light_purple>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>劃破空氣的聲音如笛鳴直衝雲霄一般</italic></gray>"
+    - "<gray><italic>讓敵人聞之喪膽</italic></gray>"
+  Enchantments:
+    - SHARPNESS:4
+  Attributes:
+    MAINHAND:
+      Damage: 11.0
+      Health: -0.1
+      MovementSpeed: 15.0%
+  Options:
+    Unbreakable: true
+DIAMONDAXESanBaoYuRuYiXiYouYaoMo:
+  Id: "diamond_axe"
+  Display: "<yellow>三寶玉如意</yellow>"
+  Lore:
+    - "<yellow>稀有度：</yellow><yellow>★★★★★</yellow>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>傳說為上古神祇原始天尊的法器</italic></gray>"
+    - "<gray><italic>可以鎮壓各方神仙妖魔</italic></gray>"
+  Enchantments:
+    - SHARPNESS:5
+  Attributes:
+    MAINHAND:
+      Damage: 15.0
+      Health: -0.2
+      KnockbackResistance: 1.0
+      MovementSpeed: 25.0%
+  Options:
+    Unbreakable: true
+LEATHERHELMETFanLiMaoZiXiYouFangHu:
+  Id: "leather_helmet"
+  Display: "<white>範例帽子</white>"
+  Lore:
+    - "<white>稀有度：★</white>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>初始裝備</italic></gray>"
+    - "<gray><italic>可以提供簡易防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 9.0
+      Health: 1.0
+      KnockbackResistance: 0.0
+      MovementSpeed: -15.0%
+  Options:
+    Unbreakable: true
+CHAINMAILHELMETHuaTuoDingXiYouFangHu:
+  Id: "chainmail_helmet"
+  Display: "<blue>華佗頂</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>傳說神醫華佗所設計</italic></gray>"
+    - "<gray><italic>提供濟世醫者全方位的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      MovementSpeed: -0.05
+  Options:
+    Unbreakable: true
+CHAINMAILCHESTPLATEHuaTuoShangXiYouFangHu:
+  Id: "chainmail_chestplate"
+  Display: "<blue>華佗裳</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>傳說神醫華佗所設計</italic></gray>"
+    - "<gray><italic>提供濟世醫者全方位的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+CHAINMAILBOOTSPoJunXiYouWeiJu:
+  Id: "chainmail_boots"
+  Display: "<yellow>破軍</yellow>"
+  Lore:
+    - "<yellow>稀有度：★★★★★</yellow>"
+    - "<gold>推薦職業：[丹]</gold>"
+    - "<gray><italic>利用隕星的碎片打造的套裝</italic></gray>"
+    - "<gray><italic>表面若隱若現著淡淡的星光</italic></gray>"
+    - "<gray><italic>神聖的力量讓邪惡生物都感到畏懼</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: 15.0%
+  Options:
+    Unbreakable: true
+LEATHERHELMETTaoTieTouShiXiYouTuTeng:
+  Id: "leather_helmet"
+  Display: "<blue>饕餮頭飾</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>附著了上古兇獸饕餮氣息的套裝</italic></gray>"
+    - "<gray><italic>裝甲上繪有帶著肅殺之氣的圖騰</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 6.0
+  Options:
+    Unbreakable: true
+LEATHERCHESTPLATETaoTieZhanJiaXiYouTuTeng:
+  Id: "leather_chestplate"
+  Display: "<blue>饕餮戰甲</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[戰]</gold>"
+    - "<gray><italic>附著了上古兇獸饕餮氣息的套裝</italic></gray>"
+    - "<gray><italic>裝甲上繪有帶著肅殺之氣的圖騰</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Damage: 1.0
+      Health: 8.0
+      MovementSpeed: -0.05
+  Options:
+    Unbreakable: true
+GOLDENCARROTZhanChuiChuXingXiYouZhanChui:
+  Id: "golden_carrot"
+  Display: "<aqua>戰鎚雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將4個精煉土元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的三階武器-巨銅戰鎚</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTTaiJiJianChuXingXiYouJiJian:
+  Id: "golden_carrot"
+  Display: "<aqua>太極劍雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉水元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的四階武器-太極劍</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTPoKongFuChuXingXiYouKongFu:
+  Id: "golden_carrot"
+  Display: "<aqua>破空斧雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將10個精煉水元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的四階武器-破空斧</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTFeiXianJianChuXingXiYouXianJian:
+  Id: "golden_carrot"
+  Display: "<aqua>飛仙劍雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的五階武器-崑崙飛仙劍</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+GOLDENCARROTYuRuYiChuXingXiYouRuYi:
+  Id: "golden_carrot"
+  Display: "<aqua>玉如意雛型</aqua>"
+  Lore:
+    - "<gray><italic>稀有的武器核心</italic></gray>"
+    - "<gray><italic>將20個精煉金元素丟進熔爐後</italic></gray>"
+    - "<gray><italic>加上此核心可以做出戰士的五階武器-三寶玉如意</italic></gray>"
+  Enchantments:
+    - RESPIRATION:1
+FLINTDingHaiShenZhenXiYouWuQi:
+  Id: "flint"
+  Display: "<red>定海神針</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>又名如意金箍棒，可大可小</italic></gray>"
+    - "<gray><italic>傳說中齊天大聖孫悟空使用的武器</italic></gray>"
+    - "<gray><italic>由太上老君所製，重達一萬三千五百斤</italic></gray>"
+    - "<gray><italic>被孫悟空搶去當作稱手武器</italic></gray>"
+  Enchantments:
+    - KNOCKBACK:3
+    - FIRE_ASPECT:1
+  Attributes:
+    MAINHAND:
+      Damage: 25.0
+      Health: 2.0
+      KnockbackResistance: 1.0
+      MovementSpeed: -0.1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoWuQiRuYiJinGuBangXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說武器-[如意金箍棒]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>限制職業：[戰]</gold>"
+    - "<gray><italic>又名如意金箍棒，可大可小</italic></gray>"
+    - "<gray><italic>傳說中齊天大聖孫悟空使用的武器</italic></gray>"
+    - "<gray><italic>由太上老君所製，重達一萬三千五百斤</italic></gray>"
+    - "<gray><italic>被孫悟空搶去當作稱手武器</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+SUGARBeiFengYinDeChuanShuoZhuangBeiZiShaChanXiYouShiYong:
+  Id: "sugar"
+  Display: "<red>被封印的傳說裝備-[紫砂纏]</red>"
+  Lore:
+    - "<red>稀有度：★★★★★★  [唯一]</red>"
+    - "<gold>推薦職業：[戰] [弓] [丹]</gold>"
+    - "<gray><italic>利用北冥之海深處的玄砂打造</italic></gray>"
+    - "<gray><italic>如同大地一樣堅硬的護腿</italic></gray>"
+    - "<gray><italic>賜予穿戴者強大的防禦能力</italic></gray>"
+    - "<gold><italic>請攜至皇城護國殿解封後才能使用</italic></gold>"
+  Enchantments:
+    - RESPIRATION:1
+  Options:
+    Unbreakable: true
+GOLDHELMETHuPiTouShiXiYouFangHu:
+  Id: "gold_helmet"
+  Display: "<blue>虎皮頭飾</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>由堅硬的虎皮製成</italic></gray>"
+    - "<gray><italic>能提供較佳的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 2.0
+      MovementSpeed: 0.03
+  Options:
+    Unbreakable: true
+GOLDCHESTPLATEHuYaXiongJiaXiYouFangHu:
+  Id: "gold_chestplate"
+  Display: "<blue>虎牙胸甲</blue>"
+  Lore:
+    - "<blue>稀有度：★★★</blue>"
+    - "<gold>推薦職業：[弓]</gold>"
+    - "<gray><italic>由堅硬的虎皮製成</italic></gray>"
+    - "<gray><italic>能提供較佳的防護</italic></gray>"
+  Attributes:
+    MAINHAND:
+      Health: 4.0
+      MovementSpeed: 0.05
+  Options:
+    Unbreakable: true
+LIMEDYEZhuangXiaoHeiQingWenXieNin:
+  Id: "lime_dye"
+  Display: "裝小黑："
+  Lore:
+    - "<gray><italic>請問您有看到我的狗嗎？她全身銀白色的毛很蓬聳，</italic></gray>"
+    - "<gray><italic>雙腳站立大概有一米八，有看到告訴我一下，謝謝您。</italic></gray>"
+LIMEDYEZhuangXiaoHeiNinHaoZaiShuo:
+  Id: "lime_dye"
+  Display: "裝小黑："
+  Lore:
+    - "<gray><italic>您好，看你的樣子應該是新來的，</italic></gray>"
+    - "<gray><italic>我可以讓你看看我的狗，小哈，可是先讓我找到牠再說。</italic></gray>"
+LIMEDYEYaoYueNinHaoSuoBa:
+  Id: "lime_dye"
+  Display: "妖玥："
+  Lore:
+    - "<gray><italic>您好阿，您是新來的吧！多多參觀這裡，</italic></gray>"
+    - "<gray><italic>讓您了解習慣這裡的生活，好好去探索吧。</italic></gray>"
+LIMEDYEYaoYueHaLouDeRen:
+  Id: "lime_dye"
+  Display: "妖玥："
+  Lore:
+    - "<gray><italic>哈瞜，新來的族人，真高興你來到這裡，</italic></gray>"
+    - "<gray><italic>希望你可以變成我族最厲害的人。</italic></gray>"
+LIMEDYEDaiYangZhuGeDeMen:
+  Id: "lime_dye"
+  Display: "代陽："
+  Lore:
+    - "<gray><italic>住隔壁的那個傢伙真是莫名奇妙，</italic></gray>"
+    - "<gray><italic>三更半夜了還來敲我的門！</italic></gray>"
+LIMEDYEDaiYangBuGuoQiQu:
+  Id: "lime_dye"
+  Display: "代陽："
+  Lore:
+    - "<gray><italic>不過我沒有理他，</italic></gray>"
+    - "<gray><italic>繼續唱我們的歌、下我們的棋去。</italic></gray>"
+LIMEDYEBaiHaoRuGuoHuiLai:
+  Id: "lime_dye"
+  Display: "白嚎："
+  Lore:
+    - "<gray><italic>如果您要去主城有看到大長老請他快點回來，</italic></gray>"
+    - "<gray><italic>我們很需要他回來。</italic></gray>"
+LIMEDYEBaiHaoKanNiQuLe:
+  Id: "lime_dye"
+  Display: "白嚎："
+  Lore:
+    - "<gray><italic>看你這樣讓我想起以前的我，努力練功，</italic></gray>"
+    - "<gray><italic>有了妻小以前的時光回不去了。</italic></gray>"
+LIMEDYEXiErWoXiYouYong:
+  Id: "lime_dye"
+  Display: "溪兒："
+  Lore:
+    - "<gray><italic>我喜歡在圖書館後方的湖裡游泳。</italic></gray>"
+LIMEDYEXiErTianQiWanDe:
+  Id: "lime_dye"
+  Display: "溪兒："
+  Lore:
+    - "<gray><italic>天氣好的時候還會去釣魚，很好玩的。</italic></gray>"
+LIMEDYEManYiAiZuQingHuaiDeYaoZuZuRenTongBaoZheMo:
+  Id: "lime_dye"
+  Display: "滿溢愛族情懷的妖族族人："
+  Lore:
+    - "<gray><italic>同胞們！族人被關押進鎮妖塔</italic></gray>"
+    - "<gray><italic>每日都受到水深火熱的折磨</italic></gray>"
+LIMEDYEManYiAiZuQingHuaiDeYaoZuZuRenWeiLeBaoBa:
+  Id: "lime_dye"
+  Display: "滿溢愛族情懷的妖族族人："
+  Lore:
+    - "<gray><italic>為了我們珍視的族人們，</italic></gray>"
+    - "<gray><italic>前往智慧之樹樹頂一同拯救同胞吧！</italic></gray>"
+LIMEDYELiXieNinHaoNiA:
+  Id: "lime_dye"
+  Display: "梨葉："
+  Lore:
+    - "<gray><italic>您好壓，聽說最近進來了許多很強的妖族新人，會不會就是你阿？</italic></gray>"
+LIMEDYELiXieHaLouQianLou:
+  Id: "lime_dye"
+  Display: "梨葉："
+  Lore:
+    - "<gray><italic>哈瞜，你想要參觀這裡，可是我現在有點忙抱歉瞜。</italic></gray>"
+LIMEDYEFuWanMeiDouShiRenJia:
+  Id: "lime_dye"
+  Display: "芙丸妹："
+  Lore:
+    - "<gray><italic>都是你們的錯！</italic></gray>"
+    - "<gray><italic>幹嘛一直欺負人家...</italic></gray>"
+LIMEDYEFuWanMeiWoYaoHuaiHuai:
+  Id: "lime_dye"
+  Display: "芙丸妹："
+  Lore:
+    - "<gray><italic>我要去跟金刀桑告狀...你們壞壞！</italic></gray>"
+LIMEDYELinXiangNiYeQuMa:
+  Id: "lime_dye"
+  Display: "鱗祥："
+  Lore:
+    - "<gray><italic>你也對妖族的歷史有興趣嗎?</italic></gray>"
+LIMEDYELinXiangZheLiYiHuo:
+  Id: "lime_dye"
+  Display: "鱗祥："
+  Lore:
+    - "<gray><italic>這裡的藏書還不夠解除我的疑惑...</italic></gray>"
+LIMEDYEAShuNinShiLaiDe:
+  Id: "lime_dye"
+  Display: "阿書："
+  Lore:
+    - "<gray><italic>您是來這裡看書的嗎?</italic></gray>"
+    - "<gray><italic>請您要好好愛惜它們，不然我不會讓你再進來的!</italic></gray>"
+LIMEDYEAShuNinXiangWangLe:
+  Id: "lime_dye"
+  Display: "阿書："
+  Lore:
+    - "<gray><italic>您想要找一本叫妖族之書</italic></gray>"
+    - "<gray><italic>這本書已經遺失很久了，讓您失望了。</italic></gray>"
+LIMEDYEYaoChuJinDaoSangJinChuYouJian:
+  Id: "lime_dye"
+  Display: "妖廚金刀桑："
+  Lore:
+    - "<gray><italic>進廚房不但不要怕熱，</italic></gray>"
+    - "<gray><italic>更要敢靠近油鍋，不怕被油濺。</italic></gray>"
+LIMEDYEYaoChuJinDaoSangWeiLeBiAi:
+  Id: "lime_dye"
+  Display: "妖廚金刀桑："
+  Lore:
+    - "<gray><italic>為了做一道好料理，</italic></gray>"
+    - "<gray><italic>雙手總會被熏得漆黑無比...唉...</italic></gray>"
+LIMEDYEMuLaoWoZuZheLi:
+  Id: "lime_dye"
+  Display: "木老："
+  Lore:
+    - "<gray><italic>我族同伴阿，這裡所有的生靈都是我族，</italic></gray>"
+    - "<gray><italic>你也是從這裡出生的，希望你喜歡這裡。</italic></gray>"
+LIMEDYEMuLaoNinHaoKaiXin:
+  Id: "lime_dye"
+  Display: "木老："
+  Lore:
+    - "<gray><italic>您好，你覺得這裡漂亮嗎？</italic></gray>"
+    - "<gray><italic>你也覺得這裡很漂亮，真讓我很開心。</italic></gray>"
+LIMEDYELingQinWoMenFenZhan:
+  Id: "lime_dye"
+  Display: "凌琴："
+  Lore:
+    - "<gray><italic>我們會繼續奮戰！</italic></gray>"
+LIMEDYELingQinWeiLeJiaYuan:
+  Id: "lime_dye"
+  Display: "凌琴："
+  Lore:
+    - "<gray><italic>為了我們珍視的家園！</italic></gray>"
+LIMEDYEJinDaJiaYouRenZuDe:
+  Id: "lime_dye"
+  Display: "金大賈："
+  Lore:
+    - "<gray><italic>有人的地方就有錢潮，有錢的地方就會有我</italic></gray>"
+    - "<gray><italic>要知道，錢這種東西可是沒有在分種族的。</italic></gray>"
+LIMEDYEJinDaJiaTianXiaLiWang:
+  Id: "lime_dye"
+  Display: "金大賈："
+  Lore:
+    - "<gray><italic>天下熙熙，皆為利來；</italic></gray>"
+    - "<gray><italic>天下攘攘，皆為利往。</italic></gray>"
+LIMEDYEHongXieShenMaGaoBa:
+  Id: "lime_dye"
+  Display: "紅葉："
+  Lore:
+    - "<gray><italic>什麼！ 你要去皇城！ 雖然出去見識是件好事...</italic></gray>"
+    - "<gray><italic>但是我給你一個忠告吧...</italic></gray>"
+LIMEDYEHongXieJiZhuChuMai:
+  Id: "lime_dye"
+  Display: "紅葉："
+  Lore:
+    - "<gray><italic>記住..任何種族都可以相信，就只有人仙兩族要小心...</italic></gray>"
+    - "<gray><italic>因為他們狡猾奸詐，你完全不知道何時就會被他們出賣！</italic></gray>"
+REDSTONETORCHON:
+  Id: "redstone_torch_on"
+HOPPERQingTouRuZhongShengShi:
+  Id: "hopper"
+  Display: "請投入重生石"
+SLIMEBALL:
+  Id: "slime_ball"
+REDSTONEKanShui:
+  Id: "redstone"
+  Display: "坎水"
+SAPLING:
+  Id: "sapling"
+TORCH:
+  Id: "torch"
+YELLOWFLOWER:
+  Id: "yellow_flower"
+WOODSTEP:
+  Id: "wood_step"
+FENCE:
+  Id: "fence"
+WOODSTAIRS:
+  Id: "wood_stairs"
+FLOWERPOTITEM:
+  Id: "flower_pot_item"
+LONGGRASS:
+  Id: "long_grass"
+WOOLWanChengXianZuMiGong:
+  Id: "wool"
+  Display: "完成仙族迷宮"
+WOOLZhaoDaoZhongZuHuiYiShi:
+  Id: "wool"
+  Display: "找到種族會議室"
+WOOLZhaoDaoMiMiXiaoFangJian:
+  Id: "wool"
+  Display: "找到秘密小房間"
+COOKIEMiQiDeBingQian:
+  Id: "cookie"
+  Display: "米琪的餅乾"
+WOOLWanChengXianZuPaoKu:
+  Id: "wool"
+  Display: "完成仙族跑酷"
+LIMEDYEHuaYiKeKeKeKe:
+  Id: "lime_dye"
+  Display: "化義："
+  Lore:
+    - "<gray><italic>咳咳咳 ... 人生吶 ... </italic></gray>"
+    - "<gray><italic>哀 ... 咳咳 ...</italic></gray>"
+LIMEDYEHuaYiLaoLeKeKe:
+  Id: "lime_dye"
+  Display: "化義："
+  Lore:
+    - "<gray><italic>老了身體就一堆病呀 ... 咳咳 ..</italic></gray>"
+LIMEDYESiTuZhongHaHaHaHa:
+  Id: "lime_dye"
+  Display: "司徒鐘："
+  Lore:
+    - "<gray><italic>哈哈哈~小兄弟，要不要一起來喝一杯?</italic></gray>"
+    - "<gray><italic>來來來，喝酒喝酒，哈哈哈哈~</italic></gray>"
+LIMEDYESiTuZhongZhangJianRenJian:
+  Id: "lime_dye"
+  Display: "司徒鐘："
+  Lore:
+    - "<gray><italic>仗劍紅塵已是癲，有酒平步上青天。</italic></gray>"
+    - "<gray><italic>遊星戲鬥弄日月，醉卧雲端笑人間。</italic></gray>"
+APPLEJiangDePinGuo:
+  Id: "apple"
+  Display: "Ken將的蘋果"
+LIMEDYEChenJingChouShiDeBaiLe:
+  Id: "lime_dye"
+  Display: "陳靖仇："
+  Lore:
+    - "<gray><italic>是的，徒...徒兒明白了。</italic></gray>"
+LIMEDYEChenJingChouKeShiYeA:
+  Id: "lime_dye"
+  Display: "陳靖仇："
+  Lore:
+    - "<gray><italic>可是...可是師父!徒兒......徒兒根本</italic></gray>"
+    - "<gray><italic>就不想承擔什麼復興陳國的大業阿!</italic></gray>"
+LIMEDYEChenFuWeiShiYongXin:
+  Id: "lime_dye"
+  Display: "陳輔："
+  Lore:
+    - "<gray><italic>為師一直要你好好學習鬼谷道術，</italic></gray>"
+    - "<gray><italic>但你卻一點也不用心！</italic></gray>"
+LIMEDYEChenFuNiJinFuLe:
+  Id: "lime_dye"
+  Display: "陳輔："
+  Lore:
+    - "<gray><italic>你今日若連底下的妖物也敵不過，</italic></gray>"
+    - "<gray><italic>就甭再叫我師父了！</italic></gray>"
+LIMEDYERongErChuCiRongEr:
+  Id: "lime_dye"
+  Display: "蓉兒："
+  Lore:
+    - "<gray><italic>初次見面，您好，小女名為蓉兒</italic></gray>"
+LIMEDYERongErXiaoNuZhiRen:
+  Id: "lime_dye"
+  Display: "蓉兒："
+  Lore:
+    - "<gray><italic>小女不知大人何去何從，但小女明白處仙族之人必定為正義之人。</italic></gray>"
+LIMEDYEShuoShuRenGuShuShiJian:
+  Id: "lime_dye"
+  Display: "說書人："
+  Lore:
+    - "<gray><italic>古書記載，中原自古便有十大神器流傳世間...</italic></gray>"
+LIMEDYEShuoShuRenFenBieJingShi:
+  Id: "lime_dye"
+  Display: "說書人："
+  Lore:
+    - "<gray><italic>分別是：</italic></gray>"
+    - "<gray><italic>鐘、劍、斧、壺、塔、琴、鼎、印、鏡、石！</italic></gray>"
+LIMEDYEYouYiZheBeiFaMa:
+  Id: "lime_dye"
+  Display: "又易："
+  Lore:
+    - "<gray><italic>這杯茶好苦啊，苦的我舌頭發麻！</italic></gray>"
+LIMEDYEYouYiZheGeZhenZi:
+  Id: "lime_dye"
+  Display: "又易："
+  Lore:
+    - "<gray><italic>這個嘛.......人生就像一杯茶，</italic></gray>"
+    - "<gray><italic>不會苦一輩子，但總會苦一陣子。</italic></gray>"
+LIMEDYETianAnZuoRenDiQi:
+  Id: "lime_dye"
+  Display: "天安："
+  Lore:
+    - "<gray><italic>做人啊，低頭要有勇氣，抬頭要有底氣。</italic></gray>"
+LIMEDYETianAnDaXiaYouA:
+  Id: "lime_dye"
+  Display: "天安："
+  Lore:
+    - "<gray><italic>大俠，我看你好似兩氣都沒有啊！</italic></gray>"
+RAWFISHSiNiangDePinGuoJiu:
+  Id: "pufferfish"
+  Display: "私釀的蘋果酒"
+LIMEDYEZhenYaoTaGongJiangTongBaoYaoTa:
+  Id: "lime_dye"
+  Display: "鎮妖塔工匠："
+  Lore:
+    - "<gray><italic>同胞們，做好萬全的準備!</italic></gray>"
+    - "<gray><italic>等妖族進犯我族鎮妖塔</italic></gray>"
+LIMEDYEZhenYaoTaGongJiangWoMenBeiZeng:
+  Id: "lime_dye"
+  Display: "鎮妖塔工匠："
+  Lore:
+    - "<gray><italic>我們將捕獲更多妖族</italic></gray>"
+    - "<gray><italic>發給各位的補給品將會倍增</italic></gray>"
+LIMEDYEYeXianRenFangXiaQieJi:
+  Id: "lime_dye"
+  Display: "袥野仙人："
+  Lore:
+    - "<gray><italic>放下心中之懸念，走出神櫃之枷鎖...</italic></gray>"
+    - "<gray><italic>此乃幻化飛仙之心訣，切記，切記...</italic></gray>"
+LIMEDYEYeXianRenGaoSuChuanA:
+  Id: "lime_dye"
+  Display: "袥野仙人："
+  Lore:
+    - "<gray><italic>高速真空吸引大法需要多年內功的修為，</italic></gray>"
+    - "<gray><italic>只可意會，不可言傳阿...</italic></gray>"
+LIMEDYEZhiWuShenZuDeFen:
+  Id: "lime_dye"
+  Display: "旨兀："
+  Lore:
+    - "<gray><italic>神族算什麼？一群垃圾...</italic></gray>"
+    - "<gray><italic>遇到我還不是乖乖站著被打的份。</italic></gray>"
+LIMEDYEZhiWuHengPuXiaoZhang:
+  Id: "lime_dye"
+  Display: "旨兀："
+  Lore:
+    - "<gray><italic>哼...普通貨色...</italic></gray>"
+    - "<gray><italic>不要以為有張推薦函，就可以四處囂張！</italic></gray>"
+LIMEDYEReXueDeLaoJianShiZhiYaoWuZi:
+  Id: "lime_dye"
+  Display: "熱血的老劍士："
+  Lore:
+    - "<gray><italic>只要能從供品運送隊伍搶奪幾批供品</italic></gray>"
+    - "<gray><italic>我族就能取得更多戰備物資</italic></gray>"
+LIMEDYEReXueDeLaoJianShiXiangCanMingBa:
+  Id: "lime_dye"
+  Display: "熱血的老劍士："
+  Lore:
+    - "<gray><italic>想參與搶奪供品的熱血族人</italic></gray>"
+    - "<gray><italic>就向我們的軍團參謀報名吧!</italic></gray>"
+LIMEDYEHaiYanTingShuoQuBa:
+  Id: "lime_dye"
+  Display: "亥炎："
+  Lore:
+    - "<gray><italic>聽說岩漿湖的某處有著神秘寶藏，</italic></gray>"
+    - "<gray><italic>不過也只有笨蛋才會跳進去吧?</italic></gray>"
+LIMEDYEHaiYanZheJiDuoAi:
+  Id: "lime_dye"
+  Display: "亥炎："
+  Lore:
+    - "<gray><italic>這幾年笨蛋又特別多，唉...</italic></gray>"
+LIMEDYEWuQiWeiXiuYuanWuQiSongXie:
+  Id: "lime_dye"
+  Display: "武器維修員："
+  Lore:
+    - "<gray><italic>武器的保養一日也不能鬆懈。</italic></gray>"
+LIMEDYEWuQiWeiXiuYuanYangBingYiShi:
+  Id: "lime_dye"
+  Display: "武器維修員："
+  Lore:
+    - "<gray><italic>養兵千日，用在一時。</italic></gray>"
+LIMEDYEWuXianWeiNiZuoKuai:
+  Id: "lime_dye"
+  Display: "無先："
+  Lore:
+    - "<gray><italic>喂!你，沒錯就是你，找幾個人去把</italic></gray>"
+    - "<gray><italic>武器架搬過來，動作快!!</italic></gray>"
+LIMEDYEWuXianWeiYouZuRen:
+  Id: "lime_dye"
+  Display: "無先："
+  Lore:
+    - "<gray><italic>唯有經過鐵與血的洗禮，才能稱的上是我們戰神族的族人。</italic></gray>"
+LIMEDYEWuYouWuWeiErSi:
+  Id: "lime_dye"
+  Display: "兀尤："
+  Lore:
+    - "<gray><italic>吾為戰而生，為戰而死。</italic></gray>"
+LIMEDYEWuYouZhanSiHongYuan:
+  Id: "lime_dye"
+  Display: "兀尤："
+  Lore:
+    - "<gray><italic>戰死沙場，是吾畢生宏願。</italic></gray>"
+LIMEDYEHenSiDanYuanManDi:
+  Id: "lime_dye"
+  Display: "恨絲："
+  Lore:
+    - "<gray><italic>但願朝陽常照我土，莫忘烈士鮮血滿地。</italic></gray>"
+LIMEDYEHenSiDaXiaMianZhi:
+  Id: "lime_dye"
+  Display: "恨絲："
+  Lore:
+    - "<gray><italic>大俠，共勉之。</italic></gray>"
+LIMEDYEQiaoDanWuLunXiangGuan:
+  Id: "lime_dye"
+  Display: "巧丹："
+  Lore:
+    - "<gray><italic>無論好壞，</italic></gray>"
+    - "<gray><italic>註定有人和你的命運相關，</italic></gray>"
+LIMEDYEQiaoDanWoMenQuZuo:
+  Id: "lime_dye"
+  Display: "巧丹："
+  Lore:
+    - "<gray><italic>我們要決定的是在一定時間裏怎麼去做。</italic></gray>"
+LIMEDYEHuoErXiangDangAiZai:
+  Id: "lime_dye"
+  Display: "霍二："
+  Lore:
+    - "<gray><italic>想當年征戰沙場，以己之力擋千</italic></gray>"
+    - "<gray><italic>直到我膝蓋中了一箭，哀哉，哀哉。</italic></gray>"
+LIMEDYEHuoErBuYongLeHu:
+  Id: "lime_dye"
+  Display: "霍二："
+  Lore:
+    - "<gray><italic>不用做事又能喝酒，不亦樂乎~</italic></gray>"
+LIMEDYEXiangQinDangWoMoYe:
+  Id: "lime_dye"
+  Display: "香芹："
+  Lore:
+    - "<gray><italic>當我買本新書，總是先讀最末頁。</italic></gray>"
+LIMEDYEXiangQinRuCiShenMa:
+  Id: "lime_dye"
+  Display: "香芹："
+  Lore:
+    - "<gray><italic>如此，若在我讀完前死去，</italic></gray>"
+    - "<gray><italic>便能知道答案是什麼。</italic></gray>"
+LIMEDYEJingWoJiaWoMa:
+  Id: "lime_dye"
+  Display: "靜："
+  Lore:
+    - "<gray><italic>我家娘生病了，你可以幫一下我嗎？</italic></gray>"
+LIMEDYEJingTianQiBingLe:
+  Id: "lime_dye"
+  Display: "靜："
+  Lore:
+    - "<gray><italic>天氣一直變來變去，大家都生病了…</italic></gray>"
+LIMEDYEZhaiNanWoJiHuiLai:
+  Id: "lime_dye"
+  Display: "翟難："
+  Lore:
+    - "<gray><italic>我即將到一個非常危險的地方，那裏敵人眾多，</italic></gray>"
+    - "<gray><italic>危機重重，不知道這一去還有沒有機會能回來。</italic></gray>"
+LIMEDYEZhaiNanEnNiXiaGu:
+  Id: "lime_dye"
+  Display: "翟難："
+  Lore:
+    - "<gray><italic>恩?你說我要去哪裡?</italic></gray>"
+    - "<gray><italic>我要去......召喚峽谷!</italic></gray>"
+LIMEDYEDuKouGuanLiYuanNiYaoFuWo:
+  Id: "lime_dye"
+  Display: "渡口管理員："
+  Lore:
+    - "<gray><italic>你要到蓬萊嗎？</italic></gray>"
+    - "<gray><italic>要前往蓬萊需要得到命運的祝福喔。</italic></gray>"
+LIMEDYEDuKouGuanLiYuanBeiMingZunShou:
+  Id: "lime_dye"
+  Display: "渡口管理員："
+  Lore:
+    - "<gray><italic>被命運所祝福是什麼意思？</italic></gray>"
+    - "<gray><italic>這我也不知道，這是島主規定的，所有人都要遵守。</italic></gray>"
+LIMEDYEMeiShiJiaXiaoTangBaoNiShuoShiWo:
+  Id: "lime_dye"
+  Display: "<bold>美食家-筱湯褒：</bold>"
+  Lore:
+    - "<gray><italic>你說皇城的御廚筱隆褒？</italic></gray>"
+    - "<gray><italic>那是我哥啦。</italic></gray>"
+    - "<gray><italic>他是天下第一廚師喔！</italic></gray>"
+LIMEDYEMeiShiJiaXiaoTangBaoNiHaoXiaDe:
+  Id: "lime_dye"
+  Display: "<bold>美食家-筱湯褒：</bold>"
+  Lore:
+    - "<gray><italic>你好，我是住在島上的美食家。</italic></gray>"
+    - "<gray><italic>雖然我的料理技術沒我哥好，</italic></gray>"
+    - "<gray><italic>不過拿食材給我，</italic></gray>"
+    - "<gray><italic>我還是可以幫你簡單的料理一下的。</italic></gray>"
+PRISMARINESHARD:
+  Id: "prismarine_shard"
+PRISMARINECRYSTALS:
+  Id: "prismarine_crystals"
+STRING:
+  Id: "string"
+BONE:
+  Id: "bone"
+LIMEDYEYuMinDaWuZuiJinDeShuo:
+  Id: "lime_dye"
+  Display: "<bold>漁民達悟：</bold>"
+  Lore:
+    - "<gray><italic>最近都補不太到鮭魚，</italic></gray>"
+    - "<gray><italic>究竟都游到哪去了呢？</italic></gray>"
+    - "<gray><italic>明明是洄游季的說......</italic></gray>"
+LIMEDYEYuMinDaWuZhiYouXiBa:
+  Id: "lime_dye"
+  Display: "<bold>漁民達悟：</bold>"
+  Lore:
+    - "<gray><italic>只有鮭魚大減產，</italic></gray>"
+    - "<gray><italic>其他的魚類漁獲量都很正常。</italic></gray>"
+    - "<gray><italic>該不會是天有異像，</italic></gray>"
+    - "<gray><italic>預告某些災難來襲吧.....</italic></gray>"
+LIMEDYEFangLianNaXiaoShuoMa:
+  Id: "lime_dye"
+  Display: "芳蓮："
+  Lore:
+    - "<gray><italic>吶，小妹我有件事情困擾了好久...</italic></gray>"
+    - "<gray><italic>你願意聽我說說嗎?</italic></gray>"
+LIMEDYEFangLianWoYiYongA:
+  Id: "lime_dye"
+  Display: "芳蓮："
+  Lore:
+    - "<gray><italic>我一直覺得自己的臉好方啊，請問有什麼改善的...</italic></gray>"
+    - "<gray><italic>算了...總覺得問你也沒什麼用啊...</italic></gray>"
+LIMEDYEDaoJianHeShangRenShengJieTuo:
+  Id: "lime_dye"
+  Display: "道鑑和尚："
+  Lore:
+    - "<gray><italic>人生如夢，但求終有一日能超脫世俗，獲得解脫。</italic></gray>"
+LIMEDYEDaoJianHeShangShanZaiShanZai:
+  Id: "lime_dye"
+  Display: "道鑑和尚："
+  Lore:
+    - "<gray><italic>善哉善哉。</italic></gray>"
+LIMEDYEHuiJuZhenRenDaoJianNianA:
+  Id: "lime_dye"
+  Display: "惠居真人："
+  Lore:
+    - "<gray><italic>道鑑雖有慧根，但一心希望能超凡脫俗，心中尚有執念阿...</italic></gray>"
+LIMEDYEHuiJuZhenRenLaiShiMengZhong:
+  Id: "lime_dye"
+  Display: "惠居真人："
+  Lore:
+    - "<gray><italic>來時無跡去無蹤，去與來時事一同；</italic></gray>"
+    - "<gray><italic>何須更問浮生事，只此浮生是夢中。</italic></gray>"
+LIMEDYECaoMinZheXieQianJing:
+  Id: "lime_dye"
+  Display: "草旻："
+  Lore:
+    - "<gray><italic>這些雜草真是煩人，除了這邊長那邊，</italic></gray>"
+    - "<gray><italic>除了那邊長這邊，到底什麼時候才清的乾淨。</italic></gray>"
+LIMEDYECaoMinYeXuQiLai:
+  Id: "lime_dye"
+  Display: "草旻："
+  Lore:
+    - "<gray><italic>也許做人就是要像這些雜草一樣，有著不怕挫</italic></gray>"
+    - "<gray><italic>折的心理，不管倒下幾次都能一次次的站起來。</italic></gray>"
+LIMEDYEMuQiuWoNiDeLu:
+  Id: "lime_dye"
+  Display: "牧丘："
+  Lore:
+    - "<gray><italic>喔?你好阿，歡迎來到蓬萊島，</italic></gray>"
+    - "<gray><italic>在這裡你可以好好放鬆休息一番，好讓自己走更長遠的路。</italic></gray>"
+LIMEDYEMuQiuNiShuoDuoLe:
+  Id: "lime_dye"
+  Display: "牧丘："
+  Lore:
+    - "<gray><italic>你說這裡跟蓬萊仙山有甚麼關係?你知道的太多了。</italic></gray>"
+LIMEDYEBaiDuLaoSouKanNaRuJin:
+  Id: "lime_dye"
+  Display: "擺渡老叟："
+  Lore:
+    - "<gray><italic>看哪...西方就是那白虎盤據的群山...</italic></gray>"
+    - "<gray><italic>附近有個曾繁榮一時的金礦小鎮，但時過境遷而如今...</italic></gray>"
+LIMEDYEBaiDuLaoSouBeiFangJinA:
+  Id: "lime_dye"
+  Display: "擺渡老叟："
+  Lore:
+    - "<gray><italic>北方那座高塔便是仙人封印群妖之處，此塔日夜妖氣逼人，</italic></gray>"
+    - "<gray><italic>就算活到這歲數老朽還是不敢貿然接近阿...</italic></gray>"
+LIMEDYETianZhanXingJiangJunRuoZeiXieFang:
+  Id: "lime_dye"
+  Display: "天戰星將軍："
+  Lore:
+    - "<gray><italic>若賊人膽敢偷襲供品運送隊</italic></gray>"
+    - "<gray><italic>同胞們可要前往皇宮協防。</italic></gray>"
+LIMEDYETianZhanXingJiangJunRuoChengHuiShao:
+  Id: "lime_dye"
+  Display: "天戰星將軍："
+  Lore:
+    - "<gray><italic>若成功阻擋這群小賊</italic></gray>"
+    - "<gray><italic>我族發給各位的賞賜決不會少。</italic></gray>"
+LIMEDYEBaiHuFenHunShenMiaoYouBa:
+  Id: "lime_dye"
+  Display: "白虎分魂："
+  Lore:
+    - "<gray><italic>神廟的力量應該還足以賦予你祝福</italic></gray>"
+    - "<gray><italic>加油吧。</italic></gray>"
+LIMEDYEBaiHuFenHunGeiNiDiBa:
+  Id: "lime_dye"
+  Display: "白虎分魂："
+  Lore:
+    - "<gray><italic>給你一些提示，白虎掌管速度，請一鼓作氣衝到底吧。</italic></gray>"
