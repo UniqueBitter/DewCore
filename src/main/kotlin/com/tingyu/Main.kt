@@ -22,8 +22,6 @@ object Main : Plugin() {
         §9 ███████    盘古开天，万物始生。朝露承灵，古域重现    ███████
         """
         )
-
-        ItemManager.load()
     }
 
     override fun onDisable() {
