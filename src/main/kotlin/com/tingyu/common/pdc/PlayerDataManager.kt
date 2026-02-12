@@ -16,7 +16,7 @@ import taboolib.common.platform.event.SubscribeEvent
 import java.util.*
 import kotlin.reflect.KProperty
 
-
+@Deprecated(message = "PlayerDataManager 已弃用")
 object PlayerDataManager : Listener {
 
     /**

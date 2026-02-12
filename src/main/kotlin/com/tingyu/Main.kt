@@ -1,6 +1,5 @@
 package com.tingyu
 
-import com.tingyu.item.ItemManager
 import org.bukkit.Bukkit
 import org.bukkit.World
 import taboolib.common.platform.Plugin
