@@ -1,7 +1,6 @@
 package com.tingyu.forge
 
-import com.tingyu.forge.registerAll
-import com.tingyu.item.DewItem
+import com.tingyu.command.DewItem
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
 import taboolib.common.LifeCycle

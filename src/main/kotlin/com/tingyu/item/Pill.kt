@@ -1,10 +1,16 @@
 package com.tingyu.item
 
-import com.tingyu.item.DewItem.Companion.R0
-import com.tingyu.item.DewItem.Companion.R2
-import com.tingyu.item.DewItem.Companion.R4
-import com.tingyu.item.DewItem.Companion.R6
+import com.tingyu.command.DewItem
+import com.tingyu.command.DewItem.Companion.LIMIT_ALCHEMIST
+import com.tingyu.command.DewItem.Companion.R0
+import com.tingyu.command.DewItem.Companion.R2
+import com.tingyu.command.DewItem.Companion.R4
+import com.tingyu.command.DewItem.Companion.R6
+import org.bukkit.Color
 import org.bukkit.Material
+import org.bukkit.inventory.meta.PotionMeta
+import org.bukkit.potion.PotionEffect
+import org.bukkit.potion.PotionEffectType
 import taboolib.common.LifeCycle
 import taboolib.common.platform.Awake
 
@@ -109,10 +115,32 @@ object Pill {
 
 
         // ===== [法]  =====
-        WOOD_THROW_BASIC = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(初级[法])", "wood_throw_basic", R2, "§7§o逢木回春露")
-        WOOD_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(中级[法])", "wood_throw_medium", R4, "§7§o逢木回春露")
-        WOOD_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(高级[法])", "wood_throw_advanced", R6, "§7§o逢木回春露")
+        WOOD_THROW_BASIC = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(初级[法])", "wood_throw_basic", R2, LIMIT_ALCHEMIST).maxStack(99).also {
+            val item = it.itemStack
+            val meta = item.itemMeta as? PotionMeta ?: return@also
+            meta.color = Color.fromRGB(0xF83223)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.INSTANT_HEALTH, 1, 1), true)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.REGENERATION, 100, 1), true)
+            item.itemMeta = meta
+        }
 
+        WOOD_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(中级[法])", "wood_throw_medium", R4, LIMIT_ALCHEMIST).maxStack(99).also {
+            val item = it.itemStack
+            val meta = item.itemMeta as? PotionMeta ?: return@also
+            meta.color = Color.fromRGB(0xF83223)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.INSTANT_HEALTH, 1, 2), true)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.REGENERATION, 100, 2), true)
+            item.itemMeta = meta
+        }
+
+        WOOD_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(高级[法])", "wood_throw_advanced", R6, LIMIT_ALCHEMIST).maxStack(99).also {
+            val item = it.itemStack
+            val meta = item.itemMeta as? PotionMeta ?: return@also
+            meta.color = Color.fromRGB(0xF83223)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.INSTANT_HEALTH, 1, 3), true)
+            meta.addCustomEffect(PotionEffect(PotionEffectType.REGENERATION, 200, 3), true)
+            item.itemMeta = meta
+        }
         DIVINE_THROW_BASIC = DewItem.reg(Material.SPLASH_POTION, "§a天神护体(初级[法])", "divine_throw_basic", R2, "§7§o天神护体")
         DIVINE_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a天神护体(中级[法])", "divine_throw_medium", R4, "§7§o天神护体")
         DIVINE_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§a天神护体(高级[法])", "divine_throw_advanced", R6, "§7§o天神护体")

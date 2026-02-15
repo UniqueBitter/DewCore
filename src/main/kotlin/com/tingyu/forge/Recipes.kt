@@ -1,9 +1,9 @@
 package com.tingyu.forge
 
 import com.tingyu.forge.ForgeRecipe.register
-import com.tingyu.item.DewItem
+import com.tingyu.command.DewItem
 import com.tingyu.item.Element
-import com.tingyu.item.util.ForgeRecipe
+
 
 /**
  * 专门存放配方注册逻辑的文件

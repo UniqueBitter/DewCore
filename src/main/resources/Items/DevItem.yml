@@ -1,9 +1,0 @@
-SummonTicketOfPanda:
-  Id: "dried_kelp"
-  Display: "<yellow>墨魂殘卷</yellow>"
-  Lore:
-    - "<yellow>稀有度：</yellow><yellow>★★★★★★</yellow>"
-    - "<gray><italic>被墨漬浸染的畫作</italic></gray>"
-    - "<gray><italic>傳聞乃畫聖歿前絕筆，僅繪龍虎相爭之勢</italic></gray>"
-    - "<gray><italic>墨跡猶濕，觀之可聞風雷之聲</italic></gray>"
-    - "<gray><italic>展開時，恐有靈物破紙而出，縈繞水墨香氣，萬勿獨自展閱</italic></gray>"
