@@ -17,6 +17,7 @@ com.tingyu/
 │   ├── race/                  # 种族领域
 │   ├── PlayerManager.kt       # 玩家管理器（单例协调者）
 │   └── PlayerSession.kt       # 玩家会话（运行时上下文）
+├── forge/                     # 锻造模块
 ├── ui/                        # 用户界面
 └── Main.kt                    # 插件主入口
 ```
