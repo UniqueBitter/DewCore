@@ -1,10 +1,12 @@
 package com.tingyu.forge
 
 import com.tingyu.item.DewItem
+import com.tingyu.item.util.AddPDC
 import org.bukkit.Material
 import org.bukkit.NamespacedKey
 import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType
+import sun.awt.geom.AreaOp
 import taboolib.common.LifeCycle
 import taboolib.common.platform.Awake
 import taboolib.common.platform.function.info
@@ -15,7 +17,7 @@ data class TempRecipeList(
     val slotAmounts: IntArray = IntArray(6)
 ) {
     companion object {
-        val ITEM_ID =
+        val ITEM_ID = AddPDC.DEW_ID_KEY
         // 统一获取物品标识的方法：优先取 PDC ID，没有则取材质名
         fun getItemId(item: ItemStack?): String? {
             if (item == null || item.type.isAir) return null
