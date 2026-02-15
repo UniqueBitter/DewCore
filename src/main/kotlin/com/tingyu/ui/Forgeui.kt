@@ -13,9 +13,8 @@ import taboolib.platform.util.buildItem
 
 object ForgeUI {
 
-    private val materialSlots = intArrayOf(10, 11, 12, 14, 15, 16) // 对应你图片里的 6 个红框
+    private val materialSlots = intArrayOf(10, 11, 12, 14, 15, 16)
     private const val resultSlot = 22
-
 
     fun openUI(player: Player) {
         player.openMenu<ShulkerBox>("§6              ===锻造台===") {
@@ -27,7 +26,7 @@ object ForgeUI {
             )
 
             set('#', buildItem(Material.BONE_MEAL) {
-                name = "§7§o请按配方放入物品"
+                name = "§7"
                 hideAllCompat()
             }) { isCancelled = true }
 
@@ -37,43 +36,35 @@ object ForgeUI {
             }) {
                 isCancelled = true
 
+                // 1. 检查成品槽
                 if (inventory.getItem(resultSlot)?.type?.isAir == false) {
                     clicker.sendMessage("§c请先取走成品槽中的物品！")
                     return@set
                 }
 
-                // --- 修复点：正确读取当前 UI 上的 6 个物品 ---
+                // 2. 获取当前槽位快照
                 val currentItems = arrayOfNulls<ItemStack>(6)
-                var hasAnyItem = false
                 materialSlots.forEachIndexed { index, slot ->
-                    val item = inventory.getItem(slot)
-                    if (item != null && !item.type.isAir) {
-                        currentItems[index] = item
-                        hasAnyItem = true
-                    }
+                    currentItems[index] = inventory.getItem(slot)
                 }
 
-                if (!hasAnyItem) {
-                    clicker.sendMessage("§7请放入材料...")
-                    return@set
-                }
-
-                // 使用统一的 fromItems 生成匹配用的 Key
-                val temp = TempRecipeList.fromItems(currentItems)
-                val resultItem = ForgeRecipe.getRecipes()[temp]
+                // 3. 生成 Key 并进行严格匹配
+                val currentKey = TempRecipeList.fromItems(currentItems)
+                val resultItem = ForgeRecipe.getRecipes()[currentKey]
 
                 if (resultItem != null) {
-                    // 扣除材料
+                    // 4. 成功匹配：扣除全部材料
+                    // 因为是“严格匹配”，玩家放的数量肯定等于配方要求的数量
                     materialSlots.forEach { slot ->
-                        val item = inventory.getItem(slot) ?: return@forEach
-                        if (item.amount > 1) item.amount -= 1 else inventory.setItem(slot, null)
+                        inventory.setItem(slot, null)
                     }
 
+                    // 5. 产出成品
                     inventory.setItem(resultSlot, resultItem.clone())
                     clicker.sendMessage("§a锻造成功！")
                     clicker.playSound(clicker.location, Sound.BLOCK_ANVIL_USE, 1.0f, 1.0f)
                 } else {
-                    clicker.sendMessage("§c配方错误，无法锻造！")
+                    clicker.sendMessage("§c材料不足、数量不精确或配方错误！")
                     clicker.playSound(clicker.location, Sound.BLOCK_FIRE_EXTINGUISH, 1.0f, 1.0f)
                 }
             }
@@ -90,8 +81,12 @@ object ForgeUI {
                 }
             }
 
-            // 补充：防止玩家点击边框等位置
-            onClick { it.isCancelled = it.rawSlot !in (materialSlots.toList() + resultSlot) && it.rawSlot in 0..26 }
+            onClick {
+                val allowed = materialSlots.toList() + resultSlot
+                if (it.rawSlot in 0..26 && it.rawSlot !in allowed) {
+                    it.isCancelled = true
+                }
+            }
         }
     }
 }

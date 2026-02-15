@@ -1,86 +1,72 @@
 package com.tingyu.forge
 
+import com.tingyu.forge.registerAll
 import com.tingyu.item.DewItem
-import com.tingyu.item.util.AddPDC
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
-import org.bukkit.persistence.PersistentDataType
 import taboolib.common.LifeCycle
 import taboolib.common.platform.Awake
 import taboolib.common.platform.function.info
-
-
-data class TempRecipeList(
-    val slotItems: Array<String?> = arrayOfNulls(6),
-    val slotAmounts: IntArray = IntArray(6)
-) {
-    companion object {
-        val ITEM_ID = AddPDC.DEW_ID_KEY
-        // 统一获取物品标识的方法：优先取 PDC ID，没有则取材质名
-        fun getItemId(item: ItemStack?): String? {
-            if (item == null || item.type.isAir) return null
-            return item.itemMeta?.persistentDataContainer?.get(ITEM_ID, PersistentDataType.STRING)
-                ?: "minecraft:${item.type.name.lowercase()}"
-        }
-
-        // 快速从物品数组生成匹配 Key
-        fun fromItems(items: Array<ItemStack?>): TempRecipeList {
-            val recipe = TempRecipeList()
-            items.forEachIndexed { index, item ->
-                if (index < 6) {
-                    recipe.slotItems[index] = getItemId(item)
-                    recipe.slotAmounts[index] = item?.amount ?: 0
-                }
-            }
-            return recipe
-        }
-    }
-
-    override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (other !is TempRecipeList) return false
-        return slotItems.contentEquals(other.slotItems) && slotAmounts.contentEquals(other.slotAmounts)
-    }
-
-    override fun hashCode(): Int {
-        var result = slotItems.contentHashCode()
-        result = 31 * result + slotAmounts.contentHashCode()
-        return result
-    }
-}
 
 object ForgeRecipe {
     private val recipes = HashMap<TempRecipeList, ItemStack>()
     fun getRecipes(): Map<TempRecipeList, ItemStack> = recipes
 
-    // 你最想要的写法：直接传入 ItemStack 列表
-    fun register(result: ItemStack, vararg materials: ItemStack?) {
-        // 将传入的 materials (vararg 自动转为数组) 转换为 TempRecipeList
-        val key = TempRecipeList.fromItems(materials.toList().toTypedArray())
-        recipes[key] = result
-    }
-
-    // 专门为 DewItem 准备的重载
-    fun register(result: DewItem, vararg materials: Any?) {
-        val itemStacks = materials.map {
-            when (it) {
-                is DewItem -> it.getItem()
-                is ItemStack -> it
-                is Material -> ItemStack(it)
-                else -> null
+    /**
+     * 最通用的注册方法
+     * @param result 成品 (DewItem, ItemStack 或 Material)
+     * @param materials 原料列表 (支持 DewItem, Material, ItemStack 或 Pair)
+     */
+    fun register(result: Any, vararg materials: Any?) {
+        // --- 修复：让成品也支持 Pair (例如 DewItem.GOLD_APPLE to 64) ---
+        val resultStack = when (result) {
+            is Pair<*, *> -> {
+                val base = result.first
+                val amount = (result.second as? Number)?.toInt() ?: 1
+                when (base) {
+                    is DewItem -> base.getItem(amount)
+                    is Material -> ItemStack(base, amount)
+                    is ItemStack -> base.clone().apply { this.amount = amount }
+                    else -> return
+                }
             }
-        }.toTypedArray()
+            is DewItem -> result.getItem()
+            is Material -> ItemStack(result)
+            is ItemStack -> result
+            else -> return
+        }
 
-        register(result.getItem(), *itemStacks)
+        // --- 解析原料 (保持固定长度 6) ---
+        val fixedMaterials = arrayOfNulls<ItemStack>(6)
+        materials.forEachIndexed { index, m ->
+            if (index < 6) {
+                fixedMaterials[index] = when (m) {
+                    is DewItem -> m.getItem()
+                    is Material -> ItemStack(m)
+                    is ItemStack -> m
+                    is Pair<*, *> -> {
+                        val base = m.first
+                        val amt = (m.second as? Number)?.toInt() ?: 1
+                        when (base) {
+                            is DewItem -> base.getItem(amt)
+                            is Material -> ItemStack(base as Material, amt)
+                            is ItemStack -> base.clone().apply { amount = amt }
+                            else -> null
+                        }
+                    }
+                    else -> null
+                }
+            }
+        }
+
+        val key = TempRecipeList.fromItems(fixedMaterials)
+        recipes[key] = resultStack
     }
 
     @Awake(LifeCycle.ENABLE)
     fun init() {
         recipes.clear()
-
-        // 调用刚才在另一个文件里写的扩展函数
         registerAll()
-
-        info("[锻造系统] 已成功加载 ${recipes.size} 个自定义配方")
+        info("[锻造系统] 已成功加载 ${recipes.size} 个严格匹配配方")
     }
 }
