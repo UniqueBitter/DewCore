@@ -2,6 +2,7 @@ package com.tingyu.forge
 
 import com.tingyu.forge.ForgeRecipe.register
 import com.tingyu.item.DewItem
+import com.tingyu.item.Element
 import com.tingyu.item.util.ForgeRecipe
 
 /**
@@ -20,5 +21,11 @@ fun registerAll() {
         DewItem.GOLD_APPLE,
         DewItem.APPLE to 1, null, null, null, null, null
     )
+
+    register(
+        Element.ELEMENT_WOOD_AGAIN_REFINED,
+        Element.ELEMENT_WOOD to 64, null, null, null, null, null
+    )
+
 
 }

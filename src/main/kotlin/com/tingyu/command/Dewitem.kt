@@ -21,7 +21,7 @@ object Dewitem {
             // 物品 ID 参数
             dynamic("id") {
                 suggestion<Player> { _, _ ->
-                    DewItem.entries.map { it.data.id }
+                    DewItem.values().map { it.data.id }
                 }
 
                 // 数量参数 (可选)

@@ -80,13 +80,6 @@ object ForgeUI {
                     }
                 }
             }
-
-            onClick {
-                val allowed = materialSlots.toList() + resultSlot
-                if (it.rawSlot in 0..26 && it.rawSlot !in allowed) {
-                    it.isCancelled = true
-                }
-            }
         }
     }
 }
