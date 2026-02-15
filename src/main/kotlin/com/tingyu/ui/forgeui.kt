@@ -1,8 +1,7 @@
 package com.tingyu.ui
 
-import com.tingyu.item.hideAllCompat
 import com.tingyu.ui.type.ShulkerBox
-import net.minecraft.world.item.Items.NETHERITE_AXE
+import com.tingyu.item.hideAllCompat
 import org.bukkit.Material
 import org.bukkit.entity.Player
 import taboolib.module.ui.buildMenu
