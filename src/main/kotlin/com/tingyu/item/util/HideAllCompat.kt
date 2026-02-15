@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION", "removal")
 
-package com.tingyu.item
+package com.tingyu.item.util
 
 import org.bukkit.attribute.Attribute
 import org.bukkit.attribute.AttributeModifier
