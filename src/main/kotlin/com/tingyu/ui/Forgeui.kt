@@ -2,7 +2,7 @@ package com.tingyu.ui
 
 import com.tingyu.forge.ForgeRecipe
 import com.tingyu.forge.TempRecipeList
-import com.tingyu.item.util.hideAllCompat
+import com.tingyu.item.util.ForgeRecipe.hideAllCompat
 import com.tingyu.ui.type.ShulkerBox
 import org.bukkit.Material
 import org.bukkit.Sound

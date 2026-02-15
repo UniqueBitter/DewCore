@@ -11,7 +11,7 @@ object OpenUi {
     @CommandBody(permission = "panling.admin")
     val OpenUi = mainCommand {
         execute<Player> { player, context, argument ->
-            ForgeUI().openUI(player)
+            ForgeUI.openUI( player)
         }
     }
 }

@@ -9,6 +9,8 @@ import org.bukkit.inventory.ItemStack
 import taboolib.platform.util.ItemBuilder
 import java.util.*
 
+
+object ForgeRecipe{
 /**
  * 兼容 1.21.1 的隐藏工具
  * 用法：
@@ -60,4 +62,5 @@ fun ItemStack.hideAllCompat(): ItemStack {
     } catch (_: Exception) {}
     itemMeta = meta
     return this
+}
 }
