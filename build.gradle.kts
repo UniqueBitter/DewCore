@@ -1,5 +1,6 @@
 import io.izzel.taboolib.gradle.*
 import io.izzel.taboolib.gradle.DatabasePlayer
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -27,23 +28,35 @@ taboolib {
     description {
         name = "DewCore"
         contributors {
-            name("Administrator")
+            name("Unique_Bitter")
         }
     }
     version { taboolib = "6.2.3" }
 }
 
+
 repositories {
     mavenCentral()
     maven("https://repo.tabooproject.org/repository/releases/")
     maven("https://oss.sonatype.org/content/repositories/snapshots")
+    maven("https://nexus.maplex.top/repository/maven-public/")
+    maven("https://repo.purpurmc.org/snapshots")
+    // Purpur 官方仓库 (针对 1.21.1 必须包含)
+    maven("https://repo.purpurmc.org/snapshots")
+    // Paper 官方仓库
+    maven("https://repo.papermc.io/repository/maven-public/")
+    // TabooLib 仓库
+    maven("https://repo.ptms.ink/repository/maven-releases/")
+    // 阿里云镜像 (加速一些基础库的下载)
+    maven("https://maven.aliyun.com/repository/public")
 }
 
 dependencies {
-    compileOnly("ink.ptms.core:v12004:12004:mapped")
-    compileOnly("ink.ptms.core:v12004:12004:universal")
+    compileOnly("org.purpurmc.purpur:purpur-api:1.21.1-R0.1-SNAPSHOT")
+    compileOnly("ink.ptms.core:v12100:12100:universal")
     compileOnly(kotlin("stdlib"))
     compileOnly(fileTree("libs"))
+    compileOnly("com.google.code.gson:gson:2.10.1")
 }
 
 tasks.withType<JavaCompile> {
@@ -52,19 +65,19 @@ tasks.withType<JavaCompile> {
 
 tasks.withType<KotlinCompile> {
     compilerOptions {
-        jvmTarget.set(JVM_1_8)
+        jvmTarget.set(JvmTarget.JVM_21)
         freeCompilerArgs.add("-Xjvm-default=all")
     }
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 
 // 服务器插件目录
-val serverPluginsDir = "C:/Users/Administrator/Desktop/DewTestServer/plugins"
+val serverPluginsDir = "C:/Users/Administrator/Desktop/DewTestServerold/plugins"
 
 // 构建完成后自动复制到服务器
 tasks.build {
