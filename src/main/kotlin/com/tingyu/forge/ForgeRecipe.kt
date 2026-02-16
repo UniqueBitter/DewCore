@@ -66,6 +66,6 @@ object ForgeRecipe {
     fun init() {
         recipes.clear()
         registerAll()
-        info("[锻造系统] 已成功加载 ${recipes.size} 个严格匹配配方")
+        info("[锻造系统] 已成功加载 ${recipes.size} 个锻造配方")
     }
 }

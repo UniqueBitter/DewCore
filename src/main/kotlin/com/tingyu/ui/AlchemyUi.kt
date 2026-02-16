@@ -8,7 +8,7 @@ import org.bukkit.Sound
 import org.bukkit.entity.Player
 import org.bukkit.inventory.ItemStack
 import taboolib.module.ui.openMenu
-import taboolib.module.ui.type.Basic
+import taboolib.module.ui.type.Chest
 import taboolib.platform.util.buildItem
 
 object AlchemyUI {
@@ -23,12 +23,12 @@ object AlchemyUI {
     private val allInputSlots = intArrayOf(catalystSlot) + elementSlots
 
     fun open(player: Player) {
-        player.openMenu<Basic>("§f炼丹炉-§f药引-金木水火土") {
+        player.openMenu<Chest>("§f炼丹炉-§f药引-金木水火土") {
             rows(1)
             map("YEEEEE#RB")
 
             set('#', buildItem(Material.REDSTONE) {
-                name = "§7"
+                name = "§7点此查看配方"
                 lore.add("§7点此查看配方")
                 hideAllCompat()
             }) {

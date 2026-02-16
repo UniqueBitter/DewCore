@@ -54,7 +54,6 @@ object AlchemyRecipe {
             null -> null
             else -> null
         }
-        // 1.21+ : 如果数量超过默认堆叠上限，强制设为64
         if (item != null && item.amount > item.maxStackSize) {
             val meta = item.itemMeta
             if (meta != null) {
