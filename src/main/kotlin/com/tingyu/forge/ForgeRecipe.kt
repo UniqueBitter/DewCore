@@ -62,7 +62,7 @@ object ForgeRecipe {
         recipes[key] = resultStack
     }
 
-    @Awake(LifeCycle.ENABLE)
+    @Awake(LifeCycle.ACTIVE)
     fun init() {
         recipes.clear()
         registerAll()

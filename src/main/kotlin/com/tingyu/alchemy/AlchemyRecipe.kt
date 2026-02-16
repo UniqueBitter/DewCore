@@ -1,6 +1,8 @@
-package com.tingyu.forge
+package com.tingyu.alchemy
 
 import com.tingyu.command.DewItem
+import com.tingyu.forge.TempAlchemyList
+import com.tingyu.forge.registerAllAlchemy
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
 import taboolib.common.LifeCycle
@@ -30,7 +32,7 @@ object AlchemyRecipe {
             }
         }
 
-        val key = TempAlchemyList.fromItems(fixedMaterials)
+        val key = TempAlchemyList.Companion.fromItems(fixedMaterials)
         recipes[key] = resultStack
     }
 
@@ -66,7 +68,7 @@ object AlchemyRecipe {
         return item
     }
 
-    @Awake(LifeCycle.ENABLE)
+    @Awake(LifeCycle.ACTIVE)
     fun init() {
         recipes.clear()
         registerAllAlchemy()

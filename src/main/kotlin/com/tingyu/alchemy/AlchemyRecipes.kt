@@ -1,6 +1,8 @@
 package com.tingyu.forge
 
+import com.tingyu.alchemy.AlchemyRecipe
 import com.tingyu.item.Element
+import com.tingyu.item.Medicine
 import com.tingyu.item.Pill
 
 /**
@@ -22,6 +24,7 @@ fun registerAllAlchemy() {
     // 在这里注册炼丹配方 -药引-金木水火土
     AlchemyRecipe.register(
         Pill.WOOD_THROW_ADVANCED to 64,
-        Element.ELEMENT_WOOD to 5,
+        Medicine.YAO_YIN_3,
+        Element.ELEMENT_WOOD to 60,
     )
 }

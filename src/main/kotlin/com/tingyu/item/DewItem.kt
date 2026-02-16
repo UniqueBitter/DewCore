@@ -62,14 +62,16 @@ class DewItem private constructor(
         const val RECOMMEND_ALL = "§6推荐职业:[战] [弓] [丹]"
 
         // 限制等级常量
-        const val LIMIT_LVL_NONE = "§6限制等级:§e无"            // 对应 pl.lore.limit_lvl_0
+        const val LIMIT_LVL_0  = "§6限制等级:§e无"            // 对应 pl.lore.limit_lvl_0
         const val LIMIT_LVL_10 = "§6限制等级:§e10"              // 对应 pl.lore.limit_lvl_10
         const val LIMIT_LVL_20 = "§6限制等级:§e20"              // 对应 pl.lore.limit_lvl_20
         const val LIMIT_LVL_30 = "§6限制等级:§e30"              // 对应 pl.lore.limit_lvl_30
         const val LIMIT_LVL_40 = "§6限制等级:§e40"              // 对应 pl.lore.limit_lvl_40
         const val LIMIT_LVL_50 = "§6限制等级:§e50"              // 对应 pl.lore.limit_lvl_50
-        val APPLE = reg(Material.APPLE, "§f苹果", "apple", R0, "§7§o普通的苹果")
 
+
+
+        val APPLE = reg(Material.APPLE, "§f苹果", "apple", R0, "§7§o普通的苹果")
         val GOLD_APPLE = register(
             ItemData(
                 material = Material.GOLDEN_APPLE,

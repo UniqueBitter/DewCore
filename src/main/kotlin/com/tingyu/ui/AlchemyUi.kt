@@ -1,6 +1,6 @@
 package com.tingyu.ui
 
-import com.tingyu.forge.AlchemyRecipe
+import com.tingyu.alchemy.AlchemyRecipe
 import com.tingyu.forge.TempAlchemyList
 import com.tingyu.item.util.ForgeRecipe.hideAllCompat
 import org.bukkit.Material
@@ -27,10 +27,14 @@ object AlchemyUI {
             rows(1)
             map("YEEEEE#RB")
 
-            set('#', buildItem(Material.BONE_MEAL) {
+            set('#', buildItem(Material.REDSTONE) {
                 name = "§7"
+                lore.add("§7点此查看配方")
                 hideAllCompat()
-            }) { isCancelled = true }
+            }) {
+                isCancelled = true
+                AlchemyRecipeUI.open(player)
+            }
 
             set('B', buildItem(Material.CAULDRON) {
                 name = "§c点击炼丹"

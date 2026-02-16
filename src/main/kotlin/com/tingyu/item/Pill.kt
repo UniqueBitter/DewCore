@@ -4,6 +4,7 @@ import com.tingyu.command.DewItem
 import com.tingyu.command.DewItem.Companion.LIMIT_ALCHEMIST
 import com.tingyu.command.DewItem.Companion.R0
 import com.tingyu.command.DewItem.Companion.R2
+import com.tingyu.command.DewItem.Companion.R3
 import com.tingyu.command.DewItem.Companion.R4
 import com.tingyu.command.DewItem.Companion.R6
 import org.bukkit.Color
@@ -124,7 +125,7 @@ object Pill {
             item.itemMeta = meta
         }
 
-        WOOD_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(中级[法])", "wood_throw_medium", R4, LIMIT_ALCHEMIST).maxStack(99).also {
+        WOOD_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(中级[法])", "wood_throw_medium", R3, LIMIT_ALCHEMIST).maxStack(99).also {
             val item = it.itemStack
             val meta = item.itemMeta as? PotionMeta ?: return@also
             meta.color = Color.fromRGB(0xF83223)
@@ -133,7 +134,7 @@ object Pill {
             item.itemMeta = meta
         }
 
-        WOOD_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(高级[法])", "wood_throw_advanced", R6, LIMIT_ALCHEMIST).maxStack(99).also {
+        WOOD_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(高级[法])", "wood_throw_advanced", R4, LIMIT_ALCHEMIST).maxStack(99).also {
             val item = it.itemStack
             val meta = item.itemMeta as? PotionMeta ?: return@also
             meta.color = Color.fromRGB(0xF83223)
