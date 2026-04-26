@@ -123,7 +123,6 @@ object Pill {
             meta.addCustomEffect(PotionEffect(PotionEffectType.INSTANT_HEALTH, 1, 1), true)
             meta.addCustomEffect(PotionEffect(PotionEffectType.REGENERATION, 100, 1), true)
             item.itemMeta = meta
-        }
 
         WOOD_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§a逢木回春露(中级[法])", "wood_throw_medium", R3, LIMIT_ALCHEMIST).maxStack(99).also {
             val item = it.itemStack
@@ -158,4 +157,4 @@ object Pill {
         POISON_THROW_MEDIUM = DewItem.reg(Material.SPLASH_POTION, "§c封喉(中级[术])", "poison_throw_medium", R4, "§7§o封喉")
         POISON_THROW_ADVANCED = DewItem.reg(Material.SPLASH_POTION, "§c封喉(高级[术])", "poison_throw_advanced", R6, "§7§o封喉")
     }
-}
+}}

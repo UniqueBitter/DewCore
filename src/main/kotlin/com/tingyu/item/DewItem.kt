@@ -1,6 +1,7 @@
 package com.tingyu.command
 
 import com.tingyu.item.ItemData
+import com.tingyu.item.util.AddPDC.addEquipPDC
 import com.tingyu.item.util.AddPDC.addPDC
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
@@ -20,6 +21,7 @@ class DewItem private constructor(
             name = data.displayName
             this.lore.addAll(data.lore)
             addPDC(data.id)
+            data.equipData?.let { addEquipPDC(it) }
             builder(this)
         }.also { item ->
             val meta = item.itemMeta

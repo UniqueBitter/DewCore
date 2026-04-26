@@ -1,5 +1,6 @@
 package com.tingyu.item
 
+import com.tingyu.item.equip.EquipData
 import org.bukkit.Material
 
 /**
@@ -9,5 +10,6 @@ data class ItemData(
     val material: Material,
     val displayName: String,
     val id: String,
-    val lore: List<String> = emptyList()
+    val lore: List<String> = emptyList(),
+    val equipData: EquipData? = null
 )
