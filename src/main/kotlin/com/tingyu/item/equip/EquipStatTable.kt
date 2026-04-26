@@ -5,60 +5,49 @@ import com.tingyu.player.stat.StatLayer
 import com.tingyu.player.stat.StatType
 import org.bukkit.inventory.EquipmentSlot
 
+/**
+ * 装备属性整合入口。
+ *
+ * 单件最终属性 = 职业底层公式 + 元素单件加成（千炼直接覆盖）
+ * 千炼的"移除"逻辑：如果某 StatType 的 base < -9000，视为移除，对应值置 0。
+ */
 object EquipStatTable {
 
-    private val table = HashMap<Triple<Job?, Int, EquipmentSlot>, Map<StatType, StatLayer>>()
-
     /**
-     * 注册某职业、某等阶、某槽位的属性。
-     *
-     * @param job  null = 全职业通用
-     * @param tier 等阶 (1-6)
-     * @param slot 装备槽位
-     *
-     * 用法：
-     * ```
-     * EquipStatTable.register(Job.WARRIOR, 3, EquipmentSlot.CHEST) {
-     *     base(StatType.HP, 30.0)
-     *     base(StatType.ARMOR, 6.0)
-     *     set(StatType.JOB_POWER, base = 10.0, percent = 0.05)
-     * }
-     * ```
+     * 计算单件装备提供的完整 StatLayer Map。
+     * 不含套装共鸣，套装共鸣由 EquipManager 汇总后调用 ResonanceCalc 计算。
      */
-    fun register(job: Job?, tier: Int, slot: EquipmentSlot, builder: EquipStatBuilder.() -> Unit) {
-        table[Triple(job, tier, slot)] = EquipStatBuilder().apply(builder).build()
+    fun compute(
+        job: Job?,
+        tier: Int,
+        slot: EquipmentSlot,
+        element: FiveElement
+    ): Map<StatType, StatLayer> {
+
+        val result = mutableMapOf<StatType, StatLayer>()
+
+        // 1. 职业底层公式（千炼跳过，千炼有自己的全量属性）
+        if (job != null && element != FiveElement.QIANLIAN) {
+            EquipFormula.compute(job, tier, slot).forEach { (type, layer) ->
+                result[type] = (result[type] ?: StatLayer()) + layer
+            }
+        }
+
+        // 2. 元素单件加成
+        ElementBonus.singlePiece(element, tier, slot).forEach { (type, layer) ->
+            result[type] = (result[type] ?: StatLayer()) + layer
+        }
+
+        // 3. 千炼被动（静态部分）
+        if (element == FiveElement.QIANLIAN) {
+            ElementBonus.qianlianPassive(tier, slot).forEach { (type, layer) ->
+                result[type] = (result[type] ?: StatLayer()) + layer
+            }
+        }
+
+        // 4. 处理"移除"标记（base <= -9000 视为该属性被清除）
+        result.entries.removeIf { (_, v) -> v.base <= -9000.0 }
+
+        return result
     }
-
-    /**
-     * 查询属性表。
-     * 先查职业专属，找不到再查通用（job = null）。
-     */
-    fun getStats(job: Job?, tier: Int, slot: EquipmentSlot): Map<StatType, StatLayer>? =
-        table[Triple(job, tier, slot)] ?: table[Triple(null, tier, slot)]
-
-    fun clear() = table.clear()
-}
-
-/** 属性构建器，提供 DSL 语法 */
-class EquipStatBuilder {
-
-    private val stats = mutableMapOf<StatType, StatLayer>()
-
-    /** 只设置基础值 */
-    fun base(type: StatType, value: Double) {
-        stats[type] = StatLayer(base = value, finalPercent = 1.0)
-    }
-
-    /** 设置完整四层 */
-    fun set(
-        type: StatType,
-        base: Double = 0.0,
-        percent: Double = 0.0,
-        finalPercent: Double = 1.0,
-        finalFlat: Double = 0.0
-    ) {
-        stats[type] = StatLayer(base, percent, finalPercent, finalFlat)
-    }
-
-    internal fun build(): Map<StatType, StatLayer> = stats.toMap()
 }

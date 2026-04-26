@@ -14,5 +14,7 @@ enum class StatType(val displayName: String) {
     ARMOR("护甲值"),
     ARMOR_TOUGHNESS("护甲韧性"),
     RECOVERY("回复效率"),
-    MOVE_SPEED("移动速度")
+    MOVE_SPEED("移动速度"),
+    COOLDOWN_REDUCTION("冷却缩减"),
+    ENCHANT_POWER("附魔能力")
 }

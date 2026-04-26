@@ -25,7 +25,7 @@ object DewitemCommand {
 
                 // 数量参数 (可选)
                 dynamic("amount") {
-                    suggestion<Player> { _, _ -> listOf()}
+                    suggestion<Player>(uncheck = true) { _, _ -> listOf() }
 
                     // 目标玩家参数 (可选)
                     dynamic("target") {

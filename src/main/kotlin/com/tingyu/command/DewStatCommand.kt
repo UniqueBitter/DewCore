@@ -42,7 +42,7 @@ object DewStatCommand {
             dynamic("stat") {
                 suggestion<Player> { _, _ -> StatType.entries.map { it.name.lowercase() } }
                 dynamic("value") {
-                    suggestion<Player> { _, _ -> listOf("0", "10", "50", "100") }
+                    suggestion<Player>(uncheck = true) { _, _ -> listOf("0", "1", "10", "100", "0.5", "1.5") }
                     dynamic("target") {
                         suggestion<Player> { _, _ -> Bukkit.getOnlinePlayers().map { it.name } }
                         execute<Player> { sender, context, _ ->
@@ -62,7 +62,7 @@ object DewStatCommand {
             dynamic("stat") {
                 suggestion<Player> { _, _ -> StatType.entries.map { it.name.lowercase() } }
                 dynamic("value") {
-                    suggestion<Player> { _, _ -> listOf("-10", "-1", "1", "10", "50") }
+                    suggestion<Player>(uncheck = true) { _, _ -> listOf("-10", "-1", "-0.5", "0.5", "1", "10") }
                     dynamic("target") {
                         suggestion<Player> { _, _ -> Bukkit.getOnlinePlayers().map { it.name } }
                         execute<Player> { sender, context, _ ->
