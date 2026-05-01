@@ -8,16 +8,21 @@ import com.tingyu.player.stat.StatLayer
 import com.tingyu.player.stat.StatType
 import org.bukkit.NamespacedKey
 import org.bukkit.entity.Player
+import org.bukkit.event.player.PlayerQuitEvent
 import org.bukkit.inventory.EquipmentSlot
 import org.bukkit.inventory.ItemStack
 import org.bukkit.persistence.PersistentDataType
 import taboolib.common.platform.event.SubscribeEvent
+import java.util.UUID
+import java.util.concurrent.ConcurrentHashMap
 
 object EquipManager {
 
     val EQUIP_JOB_KEY     = NamespacedKey("dew", "equip_job")
     val EQUIP_TIER_KEY    = NamespacedKey("dew", "equip_tier")
     val EQUIP_ELEMENT_KEY = NamespacedKey("dew", "equip_element")
+
+    private val equipStatCache = ConcurrentHashMap<UUID, Map<StatType, StatLayer>>()
 
     private val ARMOR_SLOTS = listOf(
         EquipmentSlot.HEAD,
@@ -45,10 +50,11 @@ object EquipManager {
                 equippedElements.add(null)
                 continue
             }
-            val meta = readEquipMeta(item, playerJob) ?: run {
+            val meta = readEquipMeta(item, playerJob)
+            if (meta == null) {
                 equippedElements.add(null)
-                return@run
-            } ?: continue
+                continue
+            }
 
             val (job, tier, element) = meta
             equippedElements.add(element to tier)
@@ -65,8 +71,13 @@ object EquipManager {
             perPiece[type] = (perPiece[type] ?: StatLayer()) + layer
         }
 
+        equipStatCache[player.uniqueId] = perPiece
         StatApplier.apply(player, perPiece)
     }
+
+    /** 获取玩家当前装备贡献的属性层（用于战斗计算），每次 recalculate 后自动更新 */
+    fun getEquipStats(player: Player): Map<StatType, StatLayer> =
+        equipStatCache[player.uniqueId] ?: emptyMap()
 
     fun isEquip(item: ItemStack): Boolean =
         item.itemMeta?.persistentDataContainer?.has(EQUIP_TIER_KEY, PersistentDataType.INTEGER) == true
@@ -75,7 +86,25 @@ object EquipManager {
 
     @SubscribeEvent
     fun onArmorChange(event: PlayerArmorChangeEvent) {
+        val newItem = event.newItem
+        if (newItem != null && !newItem.type.isAir) {
+            val pdc = newItem.itemMeta?.persistentDataContainer
+            val jobName = pdc?.get(EQUIP_JOB_KEY, PersistentDataType.STRING)
+            if (jobName != null && jobName != "ALL") {
+                val requiredJob = runCatching { Job.valueOf(jobName) }.getOrNull()
+                if (requiredJob != null && requiredJob != PlayerManager.get(event.player).job) {
+                    event.player.sendMessage(
+                        "§c⚠ 该装备需要 ${requiredJob.displayColor}${requiredJob.displayName}§c 职业，当前属性不生效。"
+                    )
+                }
+            }
+        }
         recalculate(event.player)
+    }
+
+    @SubscribeEvent
+    fun onQuit(event: PlayerQuitEvent) {
+        equipStatCache.remove(event.player.uniqueId)
     }
 
     // ======================== 内部 ========================

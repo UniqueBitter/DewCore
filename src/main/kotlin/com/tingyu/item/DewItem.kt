@@ -102,6 +102,10 @@ class DewItem private constructor(
             return register(DewItem(data))
         }
 
+        fun register(data: ItemData, builder: ItemBuilder.() -> Unit): DewItem {
+            return register(DewItem(data, builder))
+        }
+
         fun fromId(id: String): DewItem? = REGISTRY[id.lowercase()]
 
         fun values(): Collection<DewItem> = REGISTRY.values
