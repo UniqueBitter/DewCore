@@ -1,5 +1,6 @@
 package com.tingyu.mob
 
+import com.tingyu.player.PlayerManager
 import com.tingyu.player.stat.StatCalculator
 import com.tingyu.player.stat.StatType
 import org.bukkit.NamespacedKey
@@ -48,6 +49,12 @@ object MobManager {
     fun apply(entity: LivingEntity, profile: MobProfile) {
         entity.persistentDataContainer.set(MOB_ID_KEY, PersistentDataType.STRING, profile.id)
 
+        if (profile.displayName.isNotBlank()) {
+            entity.customName(net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer
+                .legacySection().deserialize(profile.displayName))
+            entity.isCustomNameVisible = true
+        }
+
         for ((statType, attribute) in VANILLA_MAP) {
             val instance = entity.getAttribute(attribute) ?: continue
             instance.baseValue = StatCalculator.compute(statType, profile.buildLayer(statType))
@@ -84,6 +91,27 @@ object MobManager {
     @SubscribeEvent
     fun onDeath(event: EntityDeathEvent) {
         cache.remove(event.entity.uniqueId)
+
+        val mobId = getMobId(event.entity) ?: return
+        val profile = MobRegistry.fromId(mobId) ?: return
+
+        // 清除原版掉落，改用自定义掉落表
+        event.drops.clear()
+
+        val loc = event.entity.location
+        for (drop in profile.drops()) {
+            if (Math.random() < drop.chance) {
+                val item = drop.supplier() ?: continue
+                item.amount = drop.amount.random()
+                loc.world?.dropItemNaturally(loc, item)
+            }
+        }
+
+        // 经验奖励（仅玩家击杀）
+        val killer = event.entity.killer ?: return
+        if (profile.xpReward > 0) {
+            PlayerManager.gainExp(killer, profile.xpReward.toLong())
+        }
     }
 
     @SubscribeEvent

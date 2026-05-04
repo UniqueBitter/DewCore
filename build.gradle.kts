@@ -77,7 +77,7 @@ java {
 
 
 // 服务器插件目录
-val serverPluginsDir = "C:/Users/Administrator/Desktop/DewTestServerold/plugins"
+val serverPluginsDir = "C:\\Users\\Administrator\\Desktop\\DewTestServer\\plugins"
 
 // 构建完成后自动复制到服务器
 tasks.build {

@@ -28,6 +28,7 @@ object PlayerManager {
     @SubscribeEvent
     fun onJoin(event: PlayerJoinEvent) {
         load(event.player)
+        LevelManager.rebuildBaseStats(get(event.player))
         com.tingyu.item.equip.EquipManager.recalculate(event.player)
     }
 
@@ -55,6 +56,9 @@ object PlayerManager {
 
     /** 重新计算并应用玩家属性（含装备加成，修改 baseStats 或职业后调用） */
     fun refresh(player: Player) = com.tingyu.item.equip.EquipManager.recalculate(player)
+
+    /** 给予经验，自动处理升级 */
+    fun gainExp(player: Player, amount: Long) = LevelManager.gainExp(player, amount)
 
     /**
      * 计算玩家某属性的最终值。
@@ -96,6 +100,7 @@ object PlayerManager {
             "race" to profile.race.name,
             "level" to profile.level,
             "jobPromotion" to profile.jobPromotion,
+            "exp" to profile.exp,
             "baseStats" to profile.baseStats.entries.associate { (k, v) -> k.name to v }
         )
         return gson.toJson(map)
@@ -111,6 +116,7 @@ object PlayerManager {
             (map["race"] as? String)?.let { runCatching { profile.race = Race.valueOf(it) } }
             (map["level"] as? Double)?.let { profile.level = it.toInt() }
             (map["jobPromotion"] as? Double)?.let { profile.jobPromotion = it.toInt() }
+            (map["exp"] as? Double)?.let { profile.exp = it.toLong() }
 
             @Suppress("UNCHECKED_CAST")
             (map["baseStats"] as? Map<String, Double>)?.forEach { (k, v) ->

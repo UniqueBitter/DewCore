@@ -17,6 +17,7 @@ data class PlayerProfile(
     var race: Race = Race.NONE,
     var level: Int = 1,
     var jobPromotion: Int = 0,
+    var exp: Long = 0,
     val baseStats: MutableMap<StatType, Double> = mutableMapOf()
 ) {
     fun getBase(type: StatType): Double = baseStats.getOrDefault(type, 0.0)

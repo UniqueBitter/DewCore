@@ -13,6 +13,7 @@ object StatApplier {
         StatType.HP               to Attribute.GENERIC_MAX_HEALTH,
         StatType.ARMOR            to Attribute.GENERIC_ARMOR,
         StatType.ARMOR_TOUGHNESS  to Attribute.GENERIC_ARMOR_TOUGHNESS,
+        StatType.ATTACK           to Attribute.GENERIC_ATTACK_DAMAGE,
         StatType.MOVE_SPEED       to Attribute.GENERIC_MOVEMENT_SPEED,
         StatType.KNOCKBACK_RESIST to Attribute.GENERIC_KNOCKBACK_RESISTANCE,
     )
